@@ -10,6 +10,7 @@
   * [V1](api-documentation/v1.md)
   * [V2](api-documentation/v2/README.md)
     * [Invoices](api-documentation/v2/invoices.md)
+    * [Futures](api-documentation/v2/futures.md)
   * [Client libraries](api-documentation/client-libraries.md)
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Crosschain recovery policy](crosschain-recovery-policy.md)

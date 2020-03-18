@@ -2,7 +2,7 @@
 
 
 
-CoinsPaid is an organisation providing Cryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
+CoinsPaid is an organisation providing сryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
 
 What makes us better than others?
 
@@ -37,7 +37,7 @@ Supported crypto currencies:
 * BNB - Binance Coin
 * BSV - Bitcoin SV
 
-Supported Fiat currencies
+Supported fiat currencies
 
 EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH
 
