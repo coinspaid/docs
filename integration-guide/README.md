@@ -26,7 +26,10 @@ Even if you show the users new addresses every time, they can always make the de
 
 The most common ****scenario for receiving cryptocurrency is "deposit with exchange". Coinspaid provides web-services with on-the-fly exchange solution. It means that all funds that were received from the users can be automatically converted into fiat currencies in order to avoid cryptocurrency fluctuations and exchange rate inconsistencies.
 
-In case of regular deposits without exchange the workflow there will be the same but the conversion option will be skipped.
+In case of regular deposits without exchange the workflow there will be the same but the conversion option will be skipped.  
+
+
+![](../.gitbook/assets/image%20%284%29.png)
 
 > #### Algorithm
 >
@@ -102,6 +105,8 @@ To the opposite of deposits, sending cryptocurrencies to the users is similar to
 The most common scenario for sending crypto is "withdrawal with exchange". Coinspaid provides web-services with on-the-fly exchange solution. This means that the funds that are stored on a merchant's fiat balance can be automatically converted into cryptocurrencies before being sent to the user's crypto wallet.
 
 In case of regular withdrawals without exchange the workflow will be the same except of conversion operation.
+
+![](../.gitbook/assets/image%20%2812%29.png)
 
 > #### Algorithm
 >
