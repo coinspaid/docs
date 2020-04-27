@@ -15,4 +15,12 @@
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Crosschain recovery policy](crosschain-recovery-policy.md)
 * [FAQ](faq.md)
+* [How to start](untitled/README.md)
+  * [Introduction](untitled/introduction.md)
+  * [API Set Up Stage](untitled/api-set-up-stage.md)
+  * [User Permissions](untitled/user-permissions.md)
+  * [Limits and Cold Addresses](untitled/limits-and-cold-addresses.md)
+  * [Bank Accounts](untitled/bank-accounts.md)
+  * [Account Balance and Addresses](untitled/account-balance-and-addresses.md)
+  * [Starting Point of API Testing](untitled/starting-point-of-api-testing.md)
 
