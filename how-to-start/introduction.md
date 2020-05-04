@@ -1,11 +1,5 @@
 # Introduction
 
-## Introduction
-
-Hello,  
-  
-Thank you for choosing CoinsPaid cryptoprocessing solution.
-
 By following these instructions, you can easily set up your profile for tests and production.
 
 We can provide you accesses to the following environments during your integration period:
