@@ -815,6 +815,14 @@ Example of response with errors
 | not\_confirmed | Transaction is not yet confirmed. |
 | cancelled | **Final**. This transaction is a double spend or cancelled withdrawal. Pay attention to this transaction. |
 
+## Transaction types
+
+| Type | Description |
+| :--- | :--- |
+| Blockchain | A standard type of the blockchain transaction, such transactions can be tracked via according explorer for suitable blockchain. |
+| Internal | Type of transaction that occurs within our processing \(between separate merchant accounts or between different addresses of the single merchant\),  such transactions can be tracked via our internal explorer - [https://explorer.coinspaid.com/](https://explorer.coinspaid.com/) |
+| Exchange | Type of transactions that requires exchange between crypto-fiat or crypto-crypto pairs. |
+
 ## Transitions
 
 | Transaction | Transition |
