@@ -819,8 +819,8 @@ Example of response with errors
 
 | Type | Description |
 | :--- | :--- |
-| Blockchain | A standard type of the blockchain transaction, such transactions can be tracked via according explorer for suitable blockchain. |
-| Internal | Type of transaction that occurs within our processing \(between separate merchant accounts or between different addresses of the single merchant\),  such transactions can be tracked via our internal explorer - [https://explorer.coinspaid.com/](https://explorer.coinspaid.com/) |
+| Blockchain | Type of transactions that are written into blockchain. Such transactions \(deposits and withdrawals\) can be tracked via according explorer for suitable blockchain. This is the most common type of transactions. |
+| Internal | Type of transactions between two addresses within our processing \(between separate merchant accounts or different addresses of the single merchant\). Such transactions are not written in blockchain, but still can be tracked via our internal explorer - [https://explorer.coinspaid.com/](https://explorer.coinspaid.com/) |
 | Exchange | Type of transactions that requires exchange between crypto-fiat or crypto-crypto pairs. |
 
 ## Transitions
