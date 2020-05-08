@@ -815,7 +815,7 @@ Example of response with errors
 | not\_confirmed | Transaction is not yet confirmed. |
 | cancelled | **Final**. This transaction is a double spend or cancelled withdrawal. Pay attention to this transaction. |
 
-## Transaction types
+## "transaction\_type" parameter values
 
 | Type | Description |
 | :--- | :--- |
