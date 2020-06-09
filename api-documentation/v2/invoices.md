@@ -78,7 +78,7 @@ URL on which we redirect the user in case of a successful invoice payment, examp
 URL on which we redirect the user in case of an unsuccessful invoice payment, example: **“https://merchant.name.com/url\_failed“**
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="email\_user" type="string" required=false %}
+{% api-method-parameter name="email\_user" type="string" required=true %}
 In case the payment amount does not match the amount stated above, we will send an email to the stated address with instructions on funds recovery. In case of underpayment, the whole amount will be refunded. In case of overpayment, user will be able to recover the difference by following the instructions.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -145,6 +145,7 @@ By following the link the user will see the information about the invoice and al
  "foreign_id": 196,
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
+ "email_user": "email@address.com"
 ```
 {% endcode %}
 
@@ -192,6 +193,7 @@ By following the link the user will see the information about the invoice, timer
  "foreign_id": 196,
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
+ "email_user": "email@address.com"
 ```
 {% endcode %}
 
@@ -240,6 +242,7 @@ By following the link the user will see the information about the invoice, 15 mi
  "foreign_id": 196,
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
+ "email_user": "email@address.com"
 ```
 {% endcode %}
 
