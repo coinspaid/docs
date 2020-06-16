@@ -287,37 +287,42 @@ If the invoice payment is paid by installments, you will receive a callback for 
 
 ```javascript
 {
-  "id": 12,
+  "id": 588,
+  "foreign_id": "8FW1KI7LesB9yxWcK1K",
   "type": "invoice",
   "crypto_address": {
-    "id": 1824,
+    "id": 386897,
     "currency": "BTC",
-    "address": "2NFoFNtWHNa8EF9RdQ5nzMFtfR48QmzRLz5",
+    "address": "2Mvo6FMduhHz1BTDHsQ5GyRoifcG3y4ycpk",
     "tag": null
   },
-  "foreign_id": "8FW1KI7LesB9yxWcK1K",
-  "status": "pending",
-  "sender_amount": "0.01000000",
-  "sender_currency": "BTC",
-  "remaining_amount": "0.00900000",
-  "amount": "0.01000000",
-  "currency": "BTC",
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.02000000",
+    "remaining_amount": "0.01000000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.02000000"
+  },
   "transactions": [
     {
-      "id": 1484,
+      "id": 750294,
       "currency": "BTC",
       "transaction_type": "blockchain",
       "type": "deposit",
-      "address": "2NFoFNtWHNa8EF9RdQ5nzMFtfR48QmzRLz5",
+      "address": "2Mvo6FMduhHz1BTDHsQ5GyRoifcG3y4ycpk",
       "tag": null,
-      "amount": "0.00100000",
+      "amount": "0.01000000",
       "txid": "528dcda13270f8590853405600bf5634d53aa66d2ce5d3a873006a670f9da788",
       "confirmations": "0"
     }
   ],
   "fees": [],
-  "fixed_at": 1591961330,
-  "release_at": 1591962230
+  "error": null,
+  "status": "pending",
+  "fixed_at": 1592307241,
+  "expires_at": 1592308141
 }
 ```
 
@@ -325,56 +330,43 @@ You will receive a callback about the successful transaction creation after it a
 
 ```javascript
 {
-   "id":2688874,
-   "type":"deposit_exchange",
-   "crypto_address":{
-      "id":384709,
-      "currency":"BTC",
-      "convert_to":"EUR",
-      "address":"0x4b41a526d3d12de36bdf969e7b70fd0bd2e0d264",
-      "tag":null,
-      "foreign_id":"8FW1KI7LesB9yxWcK1K"
-   },
-   "currency_sent":{
-      "currency":"EUR",
-      "amount":"500"
-   },
-   "currency_received":{
-      "currency":"BTC",
-      "amount":"0.05075",
-      "amount_minus_fee":"0.05"
-   },
-   "transactions":[
-      {
-         "id":717556,
-         "currency":"BTC",
-         "transaction_type":"blockchain",
-         "type":"deposit",
-         "address":"0x4b41a526d3d12de36bdf969e7b70fd0bd2e0d264",
-         "tag":null,
-         "amount":"0.05075",
-         "txid":"0x19f9094e12dfc6cb14910d6057269d10f39dfdc7c8b0d0e22b789c3e5d03b9e6",
-         "confirmations":"1"
-      }
-   ],
-   "fees":[
-      {
-         "type":"fee_crypto_deposit_to_fiat",
-         "currency":"BTC",
-         "amount":"0.00075"
-      }
-   ],
-   "invoice":{
-      "id":167,
-      "foreign_id":11,
-      "status":"pending",
-      "currency":"EUR",
-      "sender_currency":"BTC",
-      "amount":"500",
-      "amount_to_pay":"0"
-   },
-   "error":"",
-   "status":"processing"
+  "id": 22,
+  "foreign_id": "229-hdsa",
+  "type": "invoice",
+  "crypto_address": {
+    "id": 1845,
+    "currency": "BTC",
+    "convert_to": "EUR",
+    "address": "2N8pvnVKEFjVCP4TteJVCPTbg9Aqibfws8C",
+    "tag": null
+  },
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.00309556",
+    "remaining_amount": "0.00000000"
+  },
+  "currency_received": {
+    "currency": "EUR",
+    "amount": "26.00000000"
+  },
+  "transactions": [
+    {
+      "id": 1504,
+      "currency": "BTC",
+      "transaction_type": "blockchain",
+      "type": "deposit",
+      "address": "2N8pvnVKEFjVCP4TteJVCPTbg9Aqibfws8C",
+      "tag": null,
+      "amount": "0.00309556",
+      "txid": "3e68744626ba23d591dc1b548b8b9b126ab0f49e6da020958f66ee64c38ec7ed",
+      "confirmations": "0"
+    }
+  ],
+  "fees": [],
+  "error": null,
+  "status": "processing",
+  "fixed_at": 1592308917,
+  "expires_at": 1592395375
 }
 ```
 
@@ -382,48 +374,59 @@ In case of a successful invoice payment you will receive the following callback:
 
 ```javascript
 {
-  "id": 8,
+  "id": 588,
+  "foreign_id": "8FW1KI7LesB9yxWcK1K",
   "type": "invoice",
   "crypto_address": {
-    "id": 1817,
+    "id": 386897,
     "currency": "BTC",
-    "address": "2N3VtKiAfdNLvdwDSm7CGrTmMzQ7uPeJjRC",
+    "address": "2Mvo6FMduhHz1BTDHsQ5GyRoifcG3y4ycpk",
     "tag": null
   },
-  "foreign_id": "sd21782",
-  "status": "confirmed",
-  "sender_amount": "0.10000000",
-  "sender_currency": "BTC",
-  "remaining_amount": "0.00000000",
-  "amount": "0.10000000",
-  "currency": "BTC",
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.02000000",
+    "remaining_amount": "0.00000000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.02000000"
+  },
   "transactions": [
     {
-      "id": 1472,
+      "id": 750294,
       "currency": "BTC",
       "transaction_type": "blockchain",
       "type": "deposit",
-      "address": "2N3VtKiAfdNLvdwDSm7CGrTmMzQ7uPeJjRC",
+      "address": "2Mvo6FMduhHz1BTDHsQ5GyRoifcG3y4ycpk",
       "tag": null,
-      "amount": "0.02000000",
-      "txid": "3f83227ca92e115087f11128e846199b6a6dcfea31efed0a4fa6b95cc1be4bd6",
+      "amount": "0.01000000",
+      "txid": "6647cf5cae701507b7076b32ca12f19d8e9fe037407c02e09b04abdaede99fd0",
       "confirmations": "1"
     },
     {
-      "id": 1473,
+      "id": 750384,
       "currency": "BTC",
       "transaction_type": "blockchain",
       "type": "deposit",
-      "address": "2N3VtKiAfdNLvdwDSm7CGrTmMzQ7uPeJjRC",
+      "address": "2Mvo6FMduhHz1BTDHsQ5GyRoifcG3y4ycpk",
       "tag": null,
-      "amount": "0.08000000",
-      "txid": "86cabb22b7ef4387a996365924a2862815fd66e14b37a119b5a3dfd215f0f4d3",
-      "confirmations": "2"
+      "amount": "0.01000000",
+      "txid": "528dcda13270f8590853405600bf5634d53aa66d2ce5d3a873006a670f9da788",
+      "confirmations": "1"
     }
   ],
-  "fees": [],
-  "fixed_at": 1591959019,
-  "release_at": 1592045719
+  "fees": [
+    {
+      "type": "fee_crypto_deposit",
+      "currency": "BTC",
+      "amount": "0.0008"
+    }
+  ],
+  "error": null,
+  "status": "confirmed",
+  "fixed_at": 1592307241,
+  "expires_at": 1592394104
 }
 ```
 
@@ -433,26 +436,42 @@ In case of an unsuccessful invoice payment you will receive the following callba
 
 ```javascript
 {
-  "id": 11,
+  "id": 21,
+  "foreign_id": "88smaan2",
   "type": "invoice",
   "crypto_address": {
-    "id": 1820,
+    "id": 1844,
     "currency": "BTC",
-    "address": "2NAUbNpHgRzQx1Kc8bhX7WLHS2Lk152BKS8",
+    "address": "2NCfH4keMq2SZj3H73VeQYtb8yBgTuUrACf",
     "tag": null
   },
-  "foreign_id": "7021lka",
-  "status": "failed",
-  "error": "Timer expired. User not paid.",
-  "sender_amount": "0.01000000",
-  "sender_currency": "BTC",
-  "remaining_amount": "0.01000000",
-  "amount": "0.01000000",
-  "currency": "BTC",
-  "transactions": [],
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.01000000",
+    "remaining_amount": "0.00990000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.01000000"
+  },
+  "transactions": [
+    {
+      "id": 1505,
+      "currency": "BTC",
+      "transaction_type": "blockchain",
+      "type": "deposit",
+      "address": "2NCfH4keMq2SZj3H73VeQYtb8yBgTuUrACf",
+      "tag": null,
+      "amount": "0.00010000",
+      "txid": "6dd68265eb2b3a1be0dd4a40975345155d0fbbe244c84efcc7f6b910629a38f9",
+      "confirmations": "2"
+    }
+  ],
   "fees": [],
-  "fixed_at": 1591959792,
-  "release_at": 1591960692
+  "error": "Timer expired. User paid less than requested.",
+  "status": "failed",
+  "fixed_at": 1592308709,
+  "expires_at": 1592309609
 }
 ```
 
@@ -497,38 +516,30 @@ The user paid an amount less than was requested. In this case the transaction wi
 
 ```javascript
 {
-  "id": 12,
+  "id": 23,
+  "foreign_id": "77xa2pd",
   "type": "invoice",
   "crypto_address": {
-    "id": 1824,
+    "id": 1846,
     "currency": "BTC",
-    "address": "2NFoFNtWHNa8EF9RdQ5nzMFtfR48QmzRLz5",
+    "address": "2MyL2ftBdNsmpsx1EKggPzNVuoiZCWdVaLX",
     "tag": null
   },
-  "foreign_id": "28319sdxx",
-  "status": "failed",
-  "error": "Timer expired. User paid less than requested.",
-  "sender_amount": "0.01000000",
-  "sender_currency": "BTC",
-  "remaining_amount": "0.00900000",
-  "amount": "0.01000000",
-  "currency": "BTC",
-  "transactions": [
-    {
-      "id": 1484,
-      "currency": "BTC",
-      "transaction_type": "blockchain",
-      "type": "deposit",
-      "address": "2NFoFNtWHNa8EF9RdQ5nzMFtfR48QmzRLz5",
-      "tag": null,
-      "amount": "0.00100000",
-      "txid": "528dcda13270f8590853405600bf5634d53aa66d2ce5d3a873006a670f9da788",
-      "confirmations": "4"
-    }
-  ],
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.02000000",
+    "remaining_amount": "0.02000000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.02000000"
+  },
+  "transactions": [],
   "fees": [],
-  "fixed_at": 1591961330,
-  "release_at": 1591962230
+  "error": "Timer expired. User not paid.",
+  "status": "failed",
+  "fixed_at": 1592309817,
+  "expires_at": 1592310717
 }
 ```
 
