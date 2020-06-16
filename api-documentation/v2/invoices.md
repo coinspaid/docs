@@ -46,8 +46,8 @@ Create invoice for the client for a specified amount.
 Time on the rate is fixed for invoice payment \(15 minutes\). During this time the user has to pay an invoice.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="name" type="string" required=true %}
-Invoice name that will be displayed to the user
+{% api-method-parameter name="title" type="string" required=true %}
+Invoice title that will be displayed to the user
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="description" type="string" required=false %}
@@ -139,10 +139,10 @@ By following the link the user will see the information about the invoice and al
 {% code title="Request example:" %}
 ```javascript
  "timer": false,
- "name": "Invoice Title",
+ "title": "Invoice Title",
  "currency": "EUR",
  "amount": 106.75,
- "foreign_id": 196,
+ "foreign_id": "196",
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
  "email_user": "email@address.com"
@@ -153,28 +153,29 @@ By following the link the user will see the information about the invoice and al
 ```javascript
 {
    "data":{
-      "id":127,
-      "url":"https://wallet.coinspaid.com/invoice/iEU3uh",
-      "foreign_id":205,
-      "address":null,
-      "name":"Invoice Title",
-      "status":"created",
-      "currency":"EUR",
-      "amount":"106.75000000",
-      "sender_currency":null,
-      "sender_amount":null,
-      "fixed_at":null,
-      "release_at":null
+      "id": 127,
+      "url": "https://wallet.coinspaid.com/invoice/iEU3uh",
+      "foreign_id": "196",
+      "address": null,
+      "title": "Invoice Title",
+      "status": "created",
+      "currency": "EUR",
+      "amount": "106.75000000",
+      "sender_currency": null,
+      "sender_amount": null,
+      "fixed_at": null,
+      "release_at": null,
+      "seconds_left": null
    }
 }
 ```
 {% endcode %}
 
-![](../../.gitbook/assets/desktop.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 After confirming the currency and putting email, the rate will be fixed for 15 minutes. During this period of time the user has to pay the invoice using the specified address.
 
-![](../../.gitbook/assets/004.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 ### **2nd Type**
 
@@ -187,10 +188,10 @@ By following the link the user will see the information about the invoice, timer
 {% code title="Request example:" %}
 ```javascript
  "timer": true,
- "name": "Invoice Title",
- "currency": "EUR",
- "amount": 106.75,
- "foreign_id": 196,
+ "title": "Invoice Title",
+ "currency": "BTC",
+ "amount": 0.02,
+ "foreign_id": "197",
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
  "email_user": "email@address.com"
@@ -200,29 +201,30 @@ By following the link the user will see the information about the invoice, timer
 {% code title="Response example:" %}
 ```javascript
 {
-   "data":{
-      "id":130,
-      "url":"https://wallet.coinspaid.com/invoice/XJrbOG",
-      "foreign_id":208,
-      "address":null,
-      "name":"Invoice Title",
-      "status":"created",
-      "currency":"EUR",
-      "amount":"106.75000000",
-      "sender_currency":null,
-      "sender_amount":null,
-      "fixed_at":1582815161,
-      "release_at":1582816061
-   }
+    "data": {
+        "id": 26,
+        "url": "https://wallet.coinspaid.com/invoice/XJrbOG",
+        "foreign_id": "197",
+        "address": null,
+        "title": "Invoice Title",
+        "status": "pending",
+        "currency": "BTC",
+        "amount": "0.01000000",
+        "sender_currency": null,
+        "sender_amount": null,
+        "fixed_at": 1592315493,
+        "release_at": 1592316393,
+        "seconds_left": 899
+    }
 }
 ```
 {% endcode %}
 
-![](../../.gitbook/assets/002.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 After confirming the currency and inputting the email, the user has to pay the invoice using the specified address before the expiry of the timer.
 
-![](../../.gitbook/assets/004%20%282%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ###  **3rd Type** 
 
@@ -235,11 +237,12 @@ By following the link the user will see the information about the invoice, 15 mi
 {% code title="Request example:" %}
 ```javascript
  "timer": true,
- "name": "Invoice Title",
+ "title": "Invoice Title",
+ "description": "Invoice description",
  "currency": "EUR",
  "sender_currency": "BTC",
- "amount": 106.75,
- "foreign_id": 196,
+ "amount": 35,
+ "foreign_id": "200",
  "url_success": "http://success.test",
  "url_failed": "http://failed.test",
  "email_user": "email@address.com"
@@ -250,28 +253,27 @@ By following the link the user will see the information about the invoice, 15 mi
 ```javascript
 {
    "data":{
-      "id":131,
-      "url":"https://wallet.coinspaid.com/invoice/8ppbsV",
-      "foreign_id":209,
-      "address":"91TESTBTCADDRESS",
-      "name":"Invoice Title",
-      "status":"created",
-      "currency":"EUR",
-      "amount":"106.75000000",
-      "sender_currency":"BTC",
-      "sender_amount":"0.01060080",
-      "fixed_at":1582815352,
-      "release_at":1582816252
+       "id": 28,
+       "url": "https://wallet.coinspaid.com/invoice/zeUBm1",
+       "foreign_id": "200",
+       "address": "2NCMFo2k7S8HSDWp6qwQ2wiAMwz3XwEC4Gp",
+       "title": "Invoice Title",
+       "status": "pending",
+       "currency": "EUR",
+       "amount": "35.00000000",
+       "sender_currency": "BTC",
+       "sender_amount": "0.00413945",
+       "fixed_at": 1592316313,
+       "release_at": 1592317213,
+       "seconds_left": 899
    }
 }
 ```
 {% endcode %}
 
-![](../../.gitbook/assets/003.png)
+The user has to pay the invoice using the specified address before the expiry of the timer.
 
-After inputting the email, the user has to pay the invoice using the specified address before the expiry of the timer.
-
-![](../../.gitbook/assets/004%20%284%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ## Invoice failed
 
