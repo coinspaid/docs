@@ -432,7 +432,81 @@ In case of a successful invoice payment you will receive the following callback:
 
 In case of an unsuccessful invoice payment you will receive the following callback:
 
-15 minutes timer expired:
+a\) 15 minutes timer expired:
+
+```javascript
+{
+  "id": 23,
+  "foreign_id": "77xa2pd",
+  "type": "invoice",
+  "crypto_address": {
+    "id": 1846,
+    "currency": "BTC",
+    "address": "2MyL2ftBdNsmpsx1EKggPzNVuoiZCWdVaLX",
+    "tag": null
+  },
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.02000000",
+    "remaining_amount": "0.02000000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.02000000"
+  },
+  "transactions": [],
+  "fees": [],
+  "error": "Timer expired. User not paid.",
+  "status": "failed",
+  "fixed_at": 1592309817,
+  "expires_at": 1592310717
+}
+```
+
+b\) transaction has processing status for more than 24 hours**:**
+
+```javascript
+{
+  "id": 21,
+  "foreign_id": "88smaan2",
+  "type": "invoice",
+  "crypto_address": {
+    "id": 1844,
+    "currency": "BTC",
+    "address": "2NCfH4keMq2SZj3H73VeQYtb8yBgTuUrACf",
+    "tag": null
+  },
+  "currency_sent": {
+    "currency": "BTC",
+    "amount": "0.01000000",
+    "remaining_amount": "0.00990000"
+  },
+  "currency_received": {
+    "currency": "BTC",
+    "amount": "0.01000000"
+  },
+  "transactions": [
+    {
+      "id": 1505,
+      "currency": "BTC",
+      "transaction_type": "blockchain",
+      "type": "deposit",
+      "address": "2NCfH4keMq2SZj3H73VeQYtb8yBgTuUrACf",
+      "tag": null,
+      "amount": "0.00010000",
+      "txid": "6dd68265eb2b3a1be0dd4a40975345155d0fbbe244c84efcc7f6b910629a38f9",
+      "confirmations": "0"
+    }
+  ],
+  "fees": [],
+  "error": "Timer expired. User not paid.",
+  "status": "failed",
+  "fixed_at": 1592308709,
+  "expires_at": 1592309609
+}
+```
+
+c\) the user paid an amount less than was requested. In this case the transaction will have a confirmed status but the invoice will have a failed status:
 
 ```javascript
 {
@@ -472,74 +546,6 @@ In case of an unsuccessful invoice payment you will receive the following callba
   "status": "failed",
   "fixed_at": 1592308709,
   "expires_at": 1592309609
-}
-```
-
-Transaction has processing status for more than 24 hours**:**
-
-```javascript
-{
-   "id":167,
-   "foreign_id":11,
-   "status":"failed",
-   "reason":"not_confirmed",
-   "currency":"EUR",
-   "sender_currency":"BTC",
-   "amount":"500",
-   "amount_to_pay":"500",
-   "transactions":[
-      {
-         "id":717556,
-         "currency":"BTC",
-         "transaction_type":"blockchain",
-         "type":"deposit_exchange",
-         "address":"0x4b41a526d3d12de36bdf969e7b70fd0bd2e0d264",
-         "tag":null,
-         "amount":"0.05075",
-         "txid":"0x19f9094e12dfc6cb14910d6057269d10f39dfdc7c8b0d0e22b789c3e5d03b9e6",
-         "confirmations":"1"
-      }
-   ],
-   "fees":[
-      {
-         "type":"fee_crypto_deposit_to_fiat",
-         "currency":"BTC",
-         "amount":"0.00075"
-      }
-   ],
-   "fixed_at":1582620928,
-   "release_at":1582621828
-}
-```
-
-The user paid an amount less than was requested. In this case the transaction will have a confirmed status but the invoice will have a failed status:
-
-```javascript
-{
-  "id": 23,
-  "foreign_id": "77xa2pd",
-  "type": "invoice",
-  "crypto_address": {
-    "id": 1846,
-    "currency": "BTC",
-    "address": "2MyL2ftBdNsmpsx1EKggPzNVuoiZCWdVaLX",
-    "tag": null
-  },
-  "currency_sent": {
-    "currency": "BTC",
-    "amount": "0.02000000",
-    "remaining_amount": "0.02000000"
-  },
-  "currency_received": {
-    "currency": "BTC",
-    "amount": "0.02000000"
-  },
-  "transactions": [],
-  "fees": [],
-  "error": "Timer expired. User not paid.",
-  "status": "failed",
-  "fixed_at": 1592309817,
-  "expires_at": 1592310717
 }
 ```
 
