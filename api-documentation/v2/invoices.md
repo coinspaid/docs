@@ -319,7 +319,7 @@ If the invoice payment is paid by installments, you will receive a callback for 
     }
   ],
   "fees": [],
-  "error": null,
+  "error": "",
   "status": "pending",
   "fixed_at": 1592307241,
   "expires_at": 1592308141
@@ -363,7 +363,7 @@ You will receive a callback about the successful transaction creation after it a
     }
   ],
   "fees": [],
-  "error": null,
+  "error": "",
   "status": "processing",
   "fixed_at": 1592308917,
   "expires_at": 1592395375
@@ -423,7 +423,7 @@ In case of a successful invoice payment you will receive the following callback:
       "amount": "0.0008"
     }
   ],
-  "error": null,
+  "error": "",
   "status": "confirmed",
   "fixed_at": 1592307241,
   "expires_at": 1592394104
