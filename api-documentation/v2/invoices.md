@@ -501,7 +501,7 @@ b\) transaction has processing status for more than 24 hours**:**
     }
   ],
   "fees": [],
-  "error": "Timer expired. User not paid.",
+  "error": "Timer expired. Transactions were in status processing too long.",
   "status": "failed",
   "fixed_at": 1592308709,
   "expires_at": 1592309609
