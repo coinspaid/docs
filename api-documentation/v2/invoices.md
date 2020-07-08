@@ -28,6 +28,10 @@ After the successful confirmation of the transaction, funds will be exchanged in
 
 If the user sends an amount of funds that is more or less than specified one we will send a payback guideline to their email.
 
+## Invoice statuses
+
+![](../../.gitbook/assets/image-1-.png)
+
 ## API Endpoint
 
 {% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/invoices/create" %}
