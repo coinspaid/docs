@@ -30,7 +30,7 @@ If the user sends an amount of funds that is more or less than specified one we 
 
 ## Invoice statuses
 
-![](../../.gitbook/assets/image-1-.png)
+![](../../.gitbook/assets/witdrawal-flow.png)
 
 ## API Endpoint
 
