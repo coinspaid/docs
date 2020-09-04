@@ -24,7 +24,6 @@ Supported crypto currencies:
 * BCH - Bitcoin cash
 * ADA - Cardano
 * ETH - Ethereum
-* ETC - Ethereum classic
 * DOGE - Dogecoin
 * NEO - Neo
 * XRP - Ripple
@@ -41,13 +40,15 @@ Supported crypto currencies:
 
 Supported fiat currencies
 
-EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH
+EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL.
 
 Available trading Pairs:
 
-* all fiat currencies with BTC, LTC, ETH, XRP and BCH
-* USDTE with BTC, LTC, BCH, ETH and EUR, 
-* LTC, ETH, BCH, XRP and DOGE with BTC
+* all fiat currencies with BTC, LTC, ETH, XRP, BCH and DOGE \(except IDR, VDN - BTC\)
+* USDTE with BTC, LTC, BCH, ETH, EUR, USD, CNY
+* USDT with BTC, EUR
+* ETH with BTC, USDTE, BCH, XRP, LTC
+* LTC, ETH, BCH, XRP, DOGE, USDT with BTC
 
-You can obtain all supported currency pairs via [api call](https://docs.coinspaid.com/docs/api-documentation/v2#get-list-of-exchangeable-currency-pairs).
+You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
 

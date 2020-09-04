@@ -6,8 +6,6 @@ Please navigate to your Merchant dashboard, find the section called â€œAPI keysâ
 
 In order to activate your API key and see your secret enter 2FA code and click "Activate".
 
-![](../.gitbook/assets/image%20%2810%29.png)
-
 After the activation you will see your secret.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
@@ -17,4 +15,6 @@ Please note that after closing the "Activate API key" window, you **won't be abl
 {% endhint %}
 
 ![](../.gitbook/assets/image.png)
+
+For more detailed information check [the following section](../how-to-start/api-set-up-stage.md) of the documentation 
 

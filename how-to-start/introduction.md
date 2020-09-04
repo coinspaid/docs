@@ -4,7 +4,7 @@ By following these instructions, you can easily set up your profile for tests an
 
 We can provide you accesses to the following environments during your integration period:
 
-[https://sandbox.coinspaid.com/](https://sandbox.coinspaid.com/) – the introductory environment for testing the basic functionality of our API.
+[https://app.sandbox.cryptoprocessing.com/](https://app.sandbox.cryptoprocessing.com/)– the introductory environment for testing the basic functionality of our API.
 
 [https://app.coinspaid.com/](https://app.coinspaid.com/) – the actual environment with real transactions. Intended for use in production.
 
