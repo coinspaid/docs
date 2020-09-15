@@ -10,7 +10,7 @@ Example: you set “Keep on Hot” to 1 BTC and “Min transaction Amount” to 
 
 ![](../.gitbook/assets/9.png)
 
-You can see the external addresses you’ve set up via the “Cold Addresses” tab. You can set up a Cold Address for each active currency.
+You can set up any addresses that you want to use as a cold one via the “Cold Addresses” tab. You can set up a Cold Address for each active currency.
 
 ![](../.gitbook/assets/10.png)
 

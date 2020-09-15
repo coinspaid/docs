@@ -39,7 +39,9 @@ Also, you can change the API version here, although **v2 is used by default and 
 
 ![](../.gitbook/assets/7.png)
 
-Congratulations! You’ve successfully set up your profile for testing our API.
+Make sure that all necessary currencies are enabled on your merchant account, for that you need to access the “Currencies Info" tab. Here you can enable the currencies that you want to use \(either crypto or fiat\) by pressing the “Add New Currency” button and picking the desirable currencies from the list
+
+![](../.gitbook/assets/12%20%281%29.png)
 
 
 
