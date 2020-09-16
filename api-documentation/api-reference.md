@@ -11,7 +11,7 @@ description: >-
 API endpoint for all requests in production environment is:
 
 ```text
-https://app.coinspaid.com/api/v2
+https://app.cryptoprocessing.com/api/v2
 ```
 
 API endpoint for all requests in test environment is:
@@ -67,7 +67,7 @@ Detailed information can be found [here](../integration-guide/invoices.md).
 
 ## API Endpoints
 
-{% api-method method="get" host="https://app.coinspaid.com/api" path="/v2/ping" %}
+{% api-method method="get" host="https://app.cryptoprocessing.com/api" path="/v2/ping" %}
 {% api-method-summary %}
 Ping
 {% endapi-method-summary %}
@@ -97,7 +97,7 @@ OK
 Body must be a valid json object or array, example: {}
 {% endhint %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/currencies/list" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/currencies/list" %}
 {% api-method-summary %}
 Get list of supported currencies
 {% endapi-method-summary %}
@@ -135,7 +135,7 @@ Get all supported currencies
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/currencies/pairs" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/currencies/pairs" %}
 {% api-method-summary %}
 Get list of exchangeable currency pairs
 {% endapi-method-summary %}
@@ -244,7 +244,7 @@ Example of response with errors
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/accounts/list" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/accounts/list" %}
 {% api-method-summary %}
 Get list of balances
 {% endapi-method-summary %}
@@ -293,7 +293,7 @@ Get list of all the balances \(including zero balances\).
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/addresses/take" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/addresses/take" %}
 {% api-method-summary %}
 Receive cryptocurrency
 {% endapi-method-summary %}
@@ -368,7 +368,7 @@ You are willing to let your customer fund his EUR balance on your platform or we
 * We do recommend making this QR clickable as customers may have a wallet set up on their computer or mobile phone.
 * We recommend specifying approximate current exchange rate.
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/withdrawal/crypto" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/withdrawal/crypto" %}
 {% api-method-summary %}
 Withdraw cryptocurrency
 {% endapi-method-summary %}
@@ -456,7 +456,7 @@ Your customer requests a payout in Cryptocurrency from his EUR balance on your p
 Example of such request &lt;_Send 3500 EUR to Bitcoin  3D2V3tushw7VLJYnK6vZVDpNcNmEG2a7QK_"&gt;.
 {% endhint %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/exchange/calculate" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/exchange/calculate" %}
 {% api-method-summary %}
 Calculate exchange rates
 {% endapi-method-summary %}
@@ -543,7 +543,7 @@ Example of response with errors
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/exchange/fixed" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/exchange/fixed" %}
 {% api-method-summary %}
 Exchange on fixed exchange rate
 {% endapi-method-summary %}
@@ -605,7 +605,7 @@ Example of success response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/exchange/now" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/exchange/now" %}
 {% api-method-summary %}
 Exchange regardless the exchange rate 
 {% endapi-method-summary %}
@@ -677,7 +677,7 @@ Example of response with errors
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/futures/rates" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/futures/rates" %}
 {% api-method-summary %}
 Calculate rates for futures
 {% endapi-method-summary %}
@@ -749,7 +749,7 @@ Example of response with errors
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/futures/confirm" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/futures/confirm" %}
 {% api-method-summary %}
 Confirm futures transaction
 {% endapi-method-summary %}
@@ -828,7 +828,7 @@ Example of response with errors
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://app.coinspaid.com/api" path="/v2/invoices/create" %}
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/invoices/create" %}
 {% api-method-summary %}
 Create Invoice
 {% endapi-method-summary %}

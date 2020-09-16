@@ -6,7 +6,7 @@ We can provide you accesses to the following environments during your integratio
 
 [https://app.sandbox.cryptoprocessing.com/](https://app.sandbox.cryptoprocessing.com/)– the introductory environment for testing the basic functionality of our API.
 
-[https://app.coinspaid.com/](https://app.coinspaid.com/) – the actual environment with real transactions. Intended for use in production.
+[https://app.cryptoprocessing.com/ ](https://app.cryptoprocessing.com/)– the actual environment with real transactions. Intended for use in production.
 
 Your master merchant account has the “Owner” role assigned to it by default. For more information, [see the “Team” tab instructions](user-permissions.md).
 

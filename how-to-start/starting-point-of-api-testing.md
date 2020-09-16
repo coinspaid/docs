@@ -7,7 +7,7 @@ At this point you should have familiarized yourself with [the previous sections]
 A good place to start is to generate new addresses. You can do this by using this request request - 
 
 ```text
-https://app.coinspaid.com/api/v2/addresses/take
+https://app.cryptoprocessing.com/api/v2/addresses/take
 ```
 
 In order to test the depositing function, you can send some currency to these addresses. You can transfer some test currency from any testnet faucet, for example - a BTC [testnet faucet](https://testnet-faucet.mempool.co/) or ETH from a[ Ropsten Ethereum Faucet](https://faucet.ropsten.be/). Once the test funds are obtained you can send a part of it back to an address specified on the faucet's page using [API request](../api-documentation/api-reference.md#withdraw-cryptocurrency) in order to test a withdrawal flow to an external address.
@@ -15,7 +15,7 @@ In order to test the depositing function, you can send some currency to these ad
 Please note, you will be able to test the exchange function with testnet currency only in our Sandbox environment, you won’t be able to do that with your account in the production environment. Please make sure to test the feature at this stage. You will still be able to use the exchange feature in the production environment, but only with real funds.
 
 {% hint style="danger" %}
-Since you are not in our production environment, for your request you should use sandbox.coinspaid.com as well. For example, instead of **https://app.coinspaid.com**/api/v2/addresses/take you should use the following format – **https://app.sandbox.cryptoprocessing.com**/api/v2/addresses/take**.**
+Since you are not in our production environment, for your request you should use sandbox.coinspaid.com as well. For example, instead of **https://app.cryptoprocessing.com**/api/v2/addresses/take you should use the following format – **https://app.sandbox.cryptoprocessing.com**/api/v2/addresses/take**.**
 {% endhint %}
 
 By this time, if you followed the steps above and already set your callback URL, you should start receiving them from our system. Make sure that the callbacks are processed correctly on your end and you receive them for all ongoing transactions. In case you haven’t received the callback when you should have, you can press “Repeat callback” and our API will send it to you again. If the issue persists or you have any further questions about API, don’t hesitate to contact us via [support@cryptoprocessing.com](mailto:support@cryptoprocessing.com).
