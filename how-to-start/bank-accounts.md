@@ -1,6 +1,15 @@
+---
+description: >-
+  It's possible to conduct fiat transactions by using our business solution, you
+  can top up your merchant account balance in fiat via bank transfer and add a
+  bank account, in case you want to withdraw t
+---
+
 # Bank Accounts and Fiat Transactions
 
-Let’s address the “Bank accounts” tab. It's possible to conduct fiat transactions by using our business solution, you can top up your merchant account balance in fiat via bank transfer and add a bank account, in case you want to withdraw the fiat funds to it.  
+### Fiat Withdrawal
+
+First step in order to withdraw fiat funds would be addition of a new bank account to your merchant account, it can be done via the "Bank accounts" tab.  
   
 You can add a bank account by pressing the “Add Bank Account” button, but it needs to be approved by our team first.
 
@@ -9,8 +18,6 @@ You can add a bank account by pressing the “Add Bank Account” button, but it
 ![](../.gitbook/assets/9%20%281%29.png)
 
 Once it’s done, you will be able to use this account to withdraw your fiat funds from the merchant account. At the moment fiat transactions in EUR and USD are available.
-
-### Fiat Withdrawal
 
 To withdraw fiat funds you need to press the “Withdrawal” button near the corresponding fiat currency on the tab[ “Balances”](account-balance-and-addresses.md). Once it’s done you will need to choose the bank account that you’ve added and specify the withdrawal amount.  
 
