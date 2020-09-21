@@ -17,7 +17,7 @@ By pressing the “Send” button you can access the menu that allows you to wit
 
 ![](../.gitbook/assets/2%20%282%29.png)
 
-More detailed information about fiat transactions can be found [here](bank-accounts.md).
+More detailed information about fiat transactions can be found [here](bank-accounts-and-fiat-transactions.md).
 
 You can exchange your cryptocurrency to fiat, vice versa or exchange cryptocurrencies between each other \(you can see the available trading pairs [here](../)\) by pressing the “Exchange” button.
 

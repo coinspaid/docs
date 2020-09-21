@@ -19,7 +19,7 @@ You can add a bank account by pressing the “Add Bank Account” button, but it
 
 Once it’s done, you will be able to use this account to withdraw your fiat funds from the merchant account. At the moment fiat transactions in EUR and USD are available.
 
-To withdraw fiat funds you need to press the “Withdrawal” button near the corresponding fiat currency on the tab[ “Balances”](account-balance-and-addresses.md). Once it’s done you will need to choose the bank account that you’ve added and specify the withdrawal amount.  
+To withdraw fiat funds you need to press the “Withdrawal” button near the corresponding fiat currency on the tab[ “Balances”](balance-management.md). Once it’s done you will need to choose the bank account that you’ve added and specify the withdrawal amount.  
 
 
 ![](../.gitbook/assets/11%20%281%29.png)
