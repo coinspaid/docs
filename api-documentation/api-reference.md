@@ -103,11 +103,17 @@ Get list of supported currencies
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get all supported currencies
+Get a list of all supported currencies
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="visible" type="boolean" required=false %}
+Allows to get a list of currently enabled/disabled currencies 
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
