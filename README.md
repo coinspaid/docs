@@ -40,11 +40,11 @@ Supported crypto currencies:
 
 Supported fiat currencies
 
-EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL.
+EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL, IDR, VND
 
 Available trading Pairs:
 
-* all fiat currencies with BTC, LTC, ETH, XRP, BCH and DOGE \(except IDR, VDN - BTC\)
+* all fiat currencies with BTC, LTC, ETH, XRP, BCH and DOGE \(except IDR, VND - BTC\)
 * USDTE with BTC, LTC, BCH, ETH, EUR, USD, CNY
 * USDT with BTC, EUR
 * ETH with BTC, USDTE, BCH, XRP, LTC
