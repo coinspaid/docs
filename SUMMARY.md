@@ -13,7 +13,7 @@
 * [API Documentation](api-documentation/README.md)
   * [Obtaining API Keys](api-documentation/obtaining-api-keys.md)
   * [Authorization](api-documentation/authorization.md)
-  * [API reference](api-documentation/api-reference.md)
+  * [API Reference](api-documentation/api-reference.md)
   * [Callback Examples](api-documentation/callbacks.md)
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Crosschain recovery policy](crosschain-recovery-policy.md)

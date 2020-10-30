@@ -4,7 +4,7 @@ description: >-
   fiat and vice versa abilities.
 ---
 
-# API reference
+# API Reference
 
 ## General information
 
@@ -951,6 +951,7 @@ A set of parameter included in URL that will allow to redirect a user to Payment
 | confirmed | **Final**. You are safe to process this transaction |
 | not\_confirmed | Transaction is not yet confirmed. |
 | cancelled | **Final**. This transaction is a double spend or cancelled withdrawal. Pay attention to this transaction. |
+| pending | This status may occur only after enabling withdrawal limits. Transaction exceeds set withdrawal limit, you need to confirm or decline it via backoffice of your merchant account. |
 
 ## "transaction\_type" parameter values
 
