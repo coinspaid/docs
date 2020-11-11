@@ -391,15 +391,15 @@ Unique foreign ID in your system, example: "**122929**"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="amount" type="string" required=true %}
-Amount of funds to withdraw, example: "**3500**"
+Amount of funds to withdraw, example: **"1"**
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="currency" type="string" required=true %}
-Currency ISO to be withdrawn, example: "**EUR**"
+Currency ISO to be withdrawn, example: "**BTC**"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="convert\_to" type="string" required=false %}
-If you want to auto convert for example EUR to BTC, specify this param as **BTC** or any other currency supported \(see list of exchangeable pairs API method\).
+If you want to auto convert for example EUR to BTC, specify this param as **ETH** or any other currency supported \(see list of exchangeable pairs API method\).
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="address" type="string" required=true %}
