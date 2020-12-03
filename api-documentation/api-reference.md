@@ -338,7 +338,7 @@ Example of success response
     "currency": "BTC",
     "convert_to": "EUR",
     "address": "12983h13ro1hrt24it432t",
-    "tag": "tag-123",
+    "tag": tag-123,
     "foreign_id": "user-id:2048"
   }
 }
