@@ -147,8 +147,7 @@ Get list of exchangeable currency pairs
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get list of currency pairs if no parameters passed.  
-Get particular pair and its price if currency parameters are passed.
+Get list of currency exchange pairs.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -244,6 +243,45 @@ Example of response with errors
         "currency_to": "The selected currency to is invalid."
     }
 }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+
+{% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/currencies/rates" %}
+{% api-method-summary %}
+Get list of currencies rates
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get a particular pair and its price.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="currency\_from" type="string" required=false %}
+Filter by currency ISO that exchanges from,  
+example: **BTC**
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="currency\_to" type="string" required=false %}
+Filter by currency ISO that can be converted to, example: **EUR**
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
