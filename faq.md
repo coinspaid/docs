@@ -6,9 +6,7 @@ description: Advice and answers from the CoinsPaid team
 
 ### **What is CoinsPaid?**
 
-CoinsPaid is a business service and software product created to solve topical problems connected with payments, cryptocurrency exchange and storage for both businesses and individuals. CoinsPaid products include cryptocurrency processing \(accepting payments in cryptocurrency\) and a personal wallet\*  
-  
-\*CoinsPaid personal wallet will be released in Q4 2019
+CoinsPaid is a business service and software product created to solve topical problems connected with payments, cryptocurrency exchange and storage for both businesses and individuals. CoinsPaid products include cryptocurrency processing \(accepting payments in cryptocurrency\) and a personal wallet\*
 
 ### Is CoinsPaid a regulated service provider?
 
