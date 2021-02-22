@@ -31,12 +31,14 @@ Supported crypto currencies:
 * USDT - Tether. Most popular "stablecoin", price fluctuating around 1 USD.
 * USDTE - Tether USD ERC20 token
 * EURTE - Tether EUR ERC20 token
+* USDTT - Tether USD TRC20 token
 * ERC20 token\(s\) can be added by request
 * XIN - Infinity Economics
 * BNB - Binance Coin
 * BSV - Bitcoin SV
 * EURS - STASIS EURS
 * USDC - USD Coin
+* TRX - TRON
 
 Supported fiat currencies
 
