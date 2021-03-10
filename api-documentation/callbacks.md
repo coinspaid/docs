@@ -772,7 +772,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 ### Invoice payment callbacks
 
 {% tabs %}
-{% tab title="Invoice payment by installemts" %}
+{% tab title="Successful payment" %}
 ```javascript
 {
   "id": 588,
@@ -859,7 +859,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 ```
 {% endtab %}
 
-{% tab title="Successful payment" %}
+{% tab title=" Invoice payment by installments" %}
 ```javascript
 {
   "id": 588,
