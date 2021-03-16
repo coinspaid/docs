@@ -30,8 +30,8 @@ Supported crypto currencies:
 * REP - Augur
 * USDT - Tether\* USD Omni layer token \(Based on BTC blockchain network\) 
 * USDTE - Tether USD ERC20 token
-* EURTE - Tether EUR ERC20 token
 * USDTT - Tether USD TRC20 token
+* EURTE - Tether EUR ERC20 token
 * ERC20 token\(s\) can be added by request
 * XIN - Infinity Economics
 * BNB - Binance Coin
@@ -42,13 +42,13 @@ Supported crypto currencies:
 
 Supported fiat currencies
 
-EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL, IDR, VND
+EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL, IDR, VND, HUF, ARS
 
 Available trading Pairs:
 
 * all fiat currencies with BTC, LTC, ETH, BCH and DOGE \(except IDR, VND - BTC\)
-* USDTE with BTC, LTC, BCH, ETH, EUR, USD, CNY, CAD, SEK, AUD, RUB, MXN, BRL, INR, THB, MYR, KZT, UAH, CZK, PLN, TJS, AZN, KGS, NGN, MDL, IDR, VND
-* USDT with BTC, EUR
+* USDTE/USDTT with BTC, LTC, BCH, ETH, EUR, USD, CNY, CAD, SEK, AUD, RUB, MXN, BRL, INR, THB, MYR, KZT, UAH, CZK, PLN, TJS, AZN, KGS, NGN, MDL, IDR, VND
+* USDT with BTC, EUR, ARS, HUF
 * ETH with BTC, USDTE, BCH, LTC
 * LTC, ETH, BCH, DOGE, USDT with BTC
 
