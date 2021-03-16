@@ -28,7 +28,7 @@ Supported crypto currencies:
 * NEO - Neo
 * XRP - Ripple
 * REP - Augur
-* USDT - Tether. Most popular "stablecoin", price fluctuating around 1 USD.
+* USDT - Tether\* USD Omni layer token \(Based on BTC blockchain network\) 
 * USDTE - Tether USD ERC20 token
 * EURTE - Tether EUR ERC20 token
 * USDTT - Tether USD TRC20 token
@@ -38,7 +38,7 @@ Supported crypto currencies:
 * BSV - Bitcoin SV
 * EURS - STASIS EURS
 * USDC - USD Coin
-* TRX - TRON
+* TRX - TRON  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._
 
 Supported fiat currencies
 
@@ -46,11 +46,11 @@ EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, 
 
 Available trading Pairs:
 
-* all fiat currencies with BTC, LTC, ETH, XRP, BCH and DOGE \(except IDR, VND - BTC\)
-* USDTE with BTC, LTC, BCH, ETH, EUR, USD, CNY
+* all fiat currencies with BTC, LTC, ETH, BCH and DOGE \(except IDR, VND - BTC\)
+* USDTE with BTC, LTC, BCH, ETH, EUR, USD, CNY, CAD, SEK, AUD, RUB, MXN, BRL, INR, THB, MYR, KZT, UAH, CZK, PLN, TJS, AZN, KGS, NGN, MDL, IDR, VND
 * USDT with BTC, EUR
-* ETH with BTC, USDTE, BCH, XRP, LTC
-* LTC, ETH, BCH, XRP, DOGE, USDT with BTC
+* ETH with BTC, USDTE, BCH, LTC
+* LTC, ETH, BCH, DOGE, USDT with BTC
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
 
