@@ -281,6 +281,21 @@ Filter by currency ISO that can be converted to, example: **EUR**
 {% endapi-method-response-example-description %}
 
 ```
+{
+    "data": [
+        {
+          currency_from: {
+            currency: 'BTC',
+            type: 'crypto',
+            min_amount: '0.00200000',
+            min_amount_deposit_with_exchange: '0.00010000'
+          },
+          currency_to: { currency: 'USD', type: 'fiat' },
+          rate_from: '1',
+          rate_to: '57427.72900000'
+        }
+      ]
+}
 
 ```
 {% endapi-method-response-example %}
