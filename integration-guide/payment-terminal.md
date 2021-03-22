@@ -29,13 +29,10 @@ You need to form JSON with [the following parameters](../api-documentation/api-r
 **Example:**
 
 ```php
-{
-  "client_id":1 ,
-  "url_back":"https:\/\/coinspaid.com\/?1588146480",
-  "amount":0.0005,
-  "foreign_id":"15881464801588146480",
-  "currency":"BTC",
-  "convert_to":"EUR"
+{	
+  "client_id"=>11,
+  "currency"=>"BTC",
+  "foreign_id" =>111,
 }
 ```
 
@@ -44,10 +41,8 @@ You need to convert the resulting represented code in JSON to base64 format.
 **Example:**
 
 ```text
-eyJhZGRpdGlvbmFsX3BhcmFtZXRlcnMiOnsiY2xpZW50X2lkIjoxfSwidXJsX2JhY2siOiJodHRwczpcL1wvY29pbnNwYWlkLmNvbVwvPzE1ODgxNDY0ODAiLCJhbW91bnQiOjAuMDAwNSwiZm9yZWlnbl9pZCI6IjE1ODgxNDY0ODAxNTg4MTQ2NDgwIiwiY3VycmVuY3kiOiJCVEMiLCJjb252ZXJ0X3RvIjoiRVVSIn0=
+eyJjbGllbnRfaWQiOjExLCJjdXJyZW5jeSI6IkJUQyIsImZvcmVpZ25faWQiOjExMX0
 ```
-
-### **Signature parameter generation**
 
 You need to:
 
@@ -56,12 +51,11 @@ You need to:
 **Example:**
 
 ```php
-{
-  "pay_method":"method_x",
-  "user":"user1",
-  "amount":32.44,
-  "currency":"USD"
-  }
+{	
+  "client_id"=>11,
+  "currency"=>"BTC",
+  "foreign_id" =>111,
+}
   ObPvxgtazKCkQ7ifz3qzocbv9TVXeB1LUIbCsYk2WUt5agvyt1n1MhQnnCBlcwhY
 ```
 
@@ -70,12 +64,12 @@ You need to:
 **Example:**
 
 ```text
-9e4c091dbcc9e2eca21e2e3bd6300ebec225dd0d80f4c309da9ace88000bf6da804262c1415a0b956d1d9411e05f55a547b234ce86338bc55ba58c9962ca0dad
+fbd85d7769b05ee170486e1b294047707ad1c7cb55c3be2b1516339e8cdf900d76657074d7105797f0361d28b768ad01b62d44a48b52b8d2581bf5e63f72ca3a
 ```
 
 As a result, the request will have the following look:
 
 ```text
-GET https://terminal.coinspaid.com/?data=eyJjbGllbnRfaWQiOjEsImN1cnJlbmN5IjoiQlRDIiwiZm9yZWlnbl9pZCI6MTU4OTI2ODI1N30=&signature=9e4c091dbcc9e2eca21e2e3bd6300ebec225dd0d80f4c309da9ace88000bf6da804262c1415a0b956d1d9411e05f55a547b234ce86338bc55ba58c9962ca0dad
+https://terminal.coinspaid.com/?data=eyJjbGllbnRfaWQiOjExLCJjdXJyZW5jeSI6IkJUQyIsImZvcmVpZ25faWQiOjExMX0=&signature=fbd85d7769b05ee170486e1b294047707ad1c7cb55c3be2b1516339e8cdf900d76657074d7105797f0361d28b768ad01b62d44a48b52b8d2581bf5e63f72ca3a
 ```
 
