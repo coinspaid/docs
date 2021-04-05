@@ -12,7 +12,7 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | BTC | 0/1 | 0.00006 | 0.0002 | [explorer](https://www.blockchain.com/explorer) |
 | BCH | 0/6 | 0.001 | 0.001 | [explorer](https://explorer.bitcoin.com/bch) |
 | LTC | 6 | 0.01 | 0.01 | [explorer](https://live.blockcypher.com/ltc/) |
-| DOGE | 6 | 0.01 | 0.01 | [explorer](https://live.blockcypher.com/doge/) |
+| DOGE | 6 | 1 | 1 | [explorer](https://live.blockcypher.com/doge/) |
 | ETH | 10 | 0.005 | 0.005 | [explorer](http://etherscan.io/) |
 | XRP | 3 | 0.001 | 0.001 | [explorer](https://xrpcharts.ripple.com/#/) |
 | NEO | 10 | 1 | 1 | [explorer](https://neotracker.io/) |
