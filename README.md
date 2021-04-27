@@ -46,7 +46,7 @@ EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, 
 
 Available trading Pairs:
 
-* all fiat currencies with BTC, LTC, ETH, BCH and DOGE \(except IDR, VND - BTC\)
+* all fiat currencies with BTC, LTC, ETH, BCH, TRX and DOGE \(except IDR, VND - BTC\)
 * USDTE/USDTT with BTC, LTC, BCH, ETH, EUR, USD, CNY, CAD, SEK, AUD, RUB, MXN, BRL, INR, THB, MYR, KZT, UAH, CZK, PLN, TJS, AZN, KGS, NGN, MDL, IDR, VND
 * USDT with BTC, EUR, ARS, HUF
 * ETH with BTC, USDTE, BCH, LTC
