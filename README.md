@@ -38,7 +38,9 @@ Supported crypto currencies:
 * BSV - Bitcoin SV
 * EURS - STASIS EURS
 * USDC - USD Coin
-* TRX - TRON  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._
+* TRX - TRON
+* XED - Exeedme ERC20 token
+* DAI - Dai ERC20 Stablecoin  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._
 
 Supported fiat currencies
 
