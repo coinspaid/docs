@@ -28,9 +28,9 @@ At this point you need to install the Google Authenticator app to your [Android]
   
 Set up the application either by using the provided Masterkey or scanning the QR code and entering the generated 2FA code. You will need to use the Authenticator every time our system requires you to enter such a code.
 
-![](../.gitbook/assets/1.png)
+![](https://lh4.googleusercontent.com/f2VikeqaDfZ7u7b96VlovJpFFRPtFzlnwa04b2Sx5n6a-5bYDqcHZ3oml9ORfGSkldsHx5URkHajRj6g_XOmFzdExJL-uUHYs9Q_p6v1hfpqPHaodr9wqLFWBuHilG5qY4IeXvLM)
 
 Once you’re logged in, you’ll need to reset the temporary password and create a new one.
 
-![](../.gitbook/assets/2.png)
+![](https://lh4.googleusercontent.com/xnCAeZeilLJdhImeEHqZ8pnm6JGiAkB44I5GVIgZiIgO8dR9JvKXkastF5pHqoPrQifKddDbRWHCX5ae6MayJoSTqv42J_G53qDzOCEmw4hFp_On-5Pr3tNXRJBCr9ngfkhBsbzp)
 

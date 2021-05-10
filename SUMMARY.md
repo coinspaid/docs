@@ -22,9 +22,12 @@
   * [Introduction](how-to-start/introduction.md)
   * [API Set Up Stage](how-to-start/api-set-up-stage.md)
   * [User Permissions](how-to-start/user-permissions.md)
+  * [Addresses](how-to-start/addresses.md)
   * [Limits and Cold Addresses](how-to-start/limits-and-cold-addresses.md)
   * [Balance management](how-to-start/balance-management.md)
+  * [Notifications](how-to-start/notifications.md)
   * [Bank Accounts and Fiat Transactions](how-to-start/bank-accounts-and-fiat-transactions.md)
   * [Transaction and address tracking](how-to-start/transaction-and-address-tracking.md)
+  * [Withdrawal Limits](how-to-start/withdrawal-limits.md)
   * [Starting Point of API Testing](how-to-start/starting-point-of-api-testing.md)
 

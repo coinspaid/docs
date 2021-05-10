@@ -20,7 +20,7 @@ Since you are not in our production environment, for your request you should use
 
 By this time, if you followed the steps above and already set your callback URL, you should start receiving them from our system. Make sure that the callbacks are processed correctly on your end and you receive them for all ongoing transactions. In case you haven’t received the callback when you should have, you can press “Repeat callback” and our API will send it to you again. If the issue persists or you have any further questions about API, don’t hesitate to contact us via [support@cryptoprocessing.com](mailto:support@cryptoprocessing.com).
 
-![](../.gitbook/assets/15.png)
+![](../.gitbook/assets/snimok-ekrana-2021-05-04-v-18.45.28.png)
 
 [This documentation section](./) was aimed to cover the basics and help you to understand how our API functions.  
 We hope that the information was helpful to you and we are looking forward to building a strong business relationship in the future!

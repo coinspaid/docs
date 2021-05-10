@@ -10,7 +10,5 @@ You can share this role with other users or transfer it to another account if yo
 **Please, make sure the “Owner” role is only provided to the appropriate staff members as they will have the ability to access sensitive information.**
 {% endhint %}
 
-![](../.gitbook/assets/8.png)
-
-
+![](https://lh6.googleusercontent.com/H0oT4rEOQuKI8eP5hLcKLWSrS8mUdubLgSvduVYzZMLWH75kK2btQwaaRdDgAaziEUkKk1Efa-OM_NXe43jUfjwjNaryqkPsRO2Ime4kg8n1NAtkdIOGMVm4Sv1f7sacvc1n0WXy)
 

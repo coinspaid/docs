@@ -454,7 +454,7 @@ Currency ISO to be withdrawn, example: "**BTC**"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="convert\_to" type="string" required=false %}
-If you want to auto convert for example EUR to BTC, specify this param as **ETH** or any other currency supported \(see list of exchangeable pairs API method\).
+If you want to auto convert for example EUR to BTC, specify this param as **BTC** or any other currency supported \(see list of exchangeable pairs API method\).
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="address" type="string" required=true %}
@@ -462,7 +462,8 @@ Cryptocurrency address where you want to send funds.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="tag" type="string" required=false %}
-Tag \(if it's Ripple or BNB\) or memo \(if it's Bitshares or EOS\)
+Tag \(if it's Ripple or BNB\) or memo \(if it's Bitshares or   
+EOS\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -506,16 +507,6 @@ Example of response with errors
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-{% hint style="info" %}
-Recommendation: ask customer to specify his payout address even before allowing him to deposit, this will improve experience and help to avoid mistakes with withdrawals in future.
-{% endhint %}
-
-{% hint style="info" %}
-Business logic for using cryptocurrency as a withdrawal method:   
-Your customer requests a payout in Cryptocurrency from his EUR balance on your platform. You have to specify withdrawal **amount in EUR** and **specify Cryptocurrency and its destination** \(sometimes it is not only Address\).   
-Example of such request &lt;_Send 3500 EUR to Bitcoin  3D2V3tushw7VLJYnK6vZVDpNcNmEG2a7QK_"&gt;.
-{% endhint %}
 
 {% api-method method="post" host="https://app.cryptoprocessing.com/api" path="/v2/exchange/calculate" %}
 {% api-method-summary %}
