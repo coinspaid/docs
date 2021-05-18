@@ -40,19 +40,158 @@ Supported crypto currencies:
 * USDC - USD Coin
 * TRX - TRON
 * XED - Exeedme ERC20 token
-* DAI - Dai ERC20 Stablecoin  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._
+* DAI - Dai ERC20 Stablecoin  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._ 
 
-Supported fiat currencies
+### Supported Fiat currencies
 
-EUR, USD, CAD, SEK, AUD, NOK, CHF, RUB, CNY, JPY, NZD, MXN, ARS, BRL, GBP, INR, KRW, THB, MYR, PEN, CLP, KZT, UAH, CZK, PLN, ZAR, TJS, AZN, KGS, NGN, MDL, IDR, VND, HUF, ARS
+|  | **Supported fiat currencies** |  |
+| ---: | :---: | :--- |
+| EUR | BRL | TJS |
+| USD | VND | AZN |
+| GBP | IDR | KGS |
+| CAD | INR | NGN |
+| SEK | KRW | MDL |
+| AUD | THB | BYN |
+| NOK | MYR | TRY |
+| CHF | PEN | ILS |
+| RUB | CLP | GEL |
+| CNY | KZT | HUF |
+| JPY | UAH | BDT |
+| NZD | CZK | NPR |
+| MXN | PLN | LKR |
+| ARS | ZAR |  |
 
-Available trading Pairs:
+### Available trading Pairs
 
-* all fiat currencies with BTC, LTC, ETH, BCH, TRX and DOGE \(except IDR, VND - BTC\)
-* USDTE/USDTT with BTC, LTC, BCH, ETH, EUR, USD, CNY, CAD, SEK, AUD, RUB, MXN, BRL, INR, THB, MYR, KZT, UAH, CZK, PLN, TJS, AZN, KGS, NGN, MDL, IDR, VND
-* USDT with BTC, EUR, ARS, HUF
-* ETH with BTC, USDTE, BCH, LTC
-* LTC, ETH, BCH, DOGE, USDT with BTC
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center"><b>Convert from</b>
+      </th>
+      <th style="text-align:center"><b>Convert to Crypto</b>
+      </th>
+      <th style="text-align:center"><b>Convert to Fiat</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">BTC</td>
+      <td style="text-align:center">
+        <p>USDTE</p>
+        <p>ETH</p>
+        <p>LTC</p>
+        <p>BCH</p>
+        <p>DOGE</p>
+        <p>USDT</p>
+        <p>USDTT</p>
+        <p>USDC</p>
+      </td>
+      <td style="text-align:center">
+        <p>all fiat currencies</p>
+        <p>except IDR, VND</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">ETH</td>
+      <td style="text-align:center">
+        <p>BCH</p>
+        <p>LTC</p>
+        <p>BCH</p>
+        <p>LTC</p>
+        <p>USDTT</p>
+        <p>USDC</p>
+      </td>
+      <td style="text-align:center">all fiat currencies</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">USDTE</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>BCH</p>
+        <p>LTC</p>
+        <p>ETH</p>
+      </td>
+      <td style="text-align:center">
+        <p>all fiat currencies</p>
+        <p>except BDT, NPR, LKR
+          <br />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">USDTT</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>BCH</p>
+        <p>LTC</p>
+        <p>ETH</p>
+      </td>
+      <td style="text-align:center">
+        <p>all fiat currencies</p>
+        <p>except BDT, NPR, LKR</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">USDC</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>BCH</p>
+        <p>LTC</p>
+        <p>ETH</p>
+      </td>
+      <td style="text-align:center">ARS, EUR, USD</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">DOGE</td>
+      <td style="text-align:center">BTC</td>
+      <td style="text-align:center">
+        <p>all fiat currencies</p>
+        <p>except AZN, BRL, GEL,</p>
+        <p>ILS, KGS, MDL,</p>
+        <p>NGN, TJS, TRY,</p>
+        <p>BDT, NPR, LKR</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">USDT</td>
+      <td style="text-align:center">BTC</td>
+      <td style="text-align:center">ARS, EUR, HUF</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">BCH</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>USDTE</p>
+        <p>ETH</p>
+        <p>USDC</p>
+        <p>USDTT</p>
+      </td>
+      <td style="text-align:center">all fiat currencies</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">LTC</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>USDTE</p>
+        <p>ETH</p>
+        <p>USDC</p>
+        <p>USDTT</p>
+      </td>
+      <td style="text-align:center">all fiat currencies</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">ADA</td>
+      <td style="text-align:center">-</td>
+      <td style="text-align:center">all fiat currencies</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">TRX</td>
+      <td style="text-align:center">-</td>
+      <td style="text-align:center">all fiat currencies</td>
+    </tr>
+  </tbody>
+</table>
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
 
