@@ -17,7 +17,7 @@ What makes us better than others?
 * Loyalty program 
 * Blockchain-based risk score
 
-Supported crypto currencies:
+### Supported crypto currencies:
 
 * BTC - Bitcoin
 * LTC - Litecoin
