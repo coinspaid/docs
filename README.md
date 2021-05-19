@@ -4,7 +4,7 @@
 
 CoinsPaid is an organisation providing сryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
 
-What makes us better than others?
+### What makes us better than others?
 
 * Simple and quick API for all operations 
 * Competitive pricing 
@@ -17,7 +17,7 @@ What makes us better than others?
 * Loyalty program 
 * Blockchain-based risk score
 
-### Supported crypto currencies:
+### Supported crypto currencies
 
 * BTC - Bitcoin
 * LTC - Litecoin
