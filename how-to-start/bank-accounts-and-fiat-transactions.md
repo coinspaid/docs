@@ -1,10 +1,3 @@
----
-description: >-
-  It's possible to conduct fiat transactions by using our business solution, you
-  can top up your merchant account balance in fiat via bank transfer and add a
-  bank account, in case you want to withdraw t
----
-
 # Bank Accounts and Fiat Transactions
 
 ### Fiat Withdrawal
