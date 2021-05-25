@@ -95,7 +95,7 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
     <tr>
       <td style="text-align:center">ETH</td>
       <td style="text-align:center">
-        <p>BCH</p>
+        <p>BTC</p>
         <p>LTC</p>
         <p>BCH</p>
         <p>LTC</p>
