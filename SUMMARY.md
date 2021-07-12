@@ -17,6 +17,7 @@
   * [Callback Examples](api-documentation/callbacks.md)
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Crosschain recovery policy](crosschain-recovery-policy.md)
+* [Dynamic BTC min deposit fee](dynamic-btc-min-deposit-fee.md)
 * [FAQ](faq.md)
 * [How to start](how-to-start/README.md)
   * [Introduction](how-to-start/introduction.md)
