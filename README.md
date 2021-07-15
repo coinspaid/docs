@@ -4,7 +4,7 @@
 
 CoinsPaid is an organisation providing сryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
 
-What makes us better than others?
+### What makes us better than others?
 
 * Simple and quick API for all operations 
 * Competitive pricing 
@@ -17,7 +17,7 @@ What makes us better than others?
 * Loyalty program 
 * Blockchain-based risk score
 
-### Supported crypto currencies:
+### Supported crypto currencies
 
 * BTC - Bitcoin
 * LTC - Litecoin
@@ -86,6 +86,9 @@ What makes us better than others?
         <p>USDT</p>
         <p>USDTT</p>
         <p>USDC</p>
+        <p>ADA</p>
+        <p>TRX</p>
+        <p>XRP</p>
       </td>
       <td style="text-align:center">
         <p>all fiat currencies</p>
@@ -95,7 +98,7 @@ What makes us better than others?
     <tr>
       <td style="text-align:center">ETH</td>
       <td style="text-align:center">
-        <p>BCH</p>
+        <p>BTC</p>
         <p>LTC</p>
         <p>BCH</p>
         <p>LTC</p>
@@ -182,13 +185,20 @@ What makes us better than others?
     </tr>
     <tr>
       <td style="text-align:center">ADA</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:center">BTC</td>
       <td style="text-align:center">all fiat currencies</td>
     </tr>
     <tr>
       <td style="text-align:center">TRX</td>
-      <td style="text-align:center">-</td>
+      <td style="text-align:center">BTC</td>
       <td style="text-align:center">all fiat currencies</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">XRP</td>
+      <td style="text-align:center">BTC</td>
+      <td style="text-align:center">all fiat currencies
+        <br />except BDT, HUF,
+        <br />NPR, LKR</td>
     </tr>
   </tbody>
 </table>
