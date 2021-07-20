@@ -808,7 +808,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
   ],
   "fees": [],
   "error": "",
-  "status": "pending",
+  "status": "confirmed",
   "fixed_at": 1592307241,
   "expires_at": 1592308141
 }
