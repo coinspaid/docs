@@ -200,6 +200,15 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
         <br />except BDT, HUF,
         <br />NPR, LKR</td>
     </tr>
+    <tr>
+      <td style="text-align:center">BNB</td>
+      <td style="text-align:center">
+        <p>BTC</p>
+        <p>USDTE</p>
+        <p>USDTT</p>
+      </td>
+      <td style="text-align:center">EUR</td>
+    </tr>
   </tbody>
 </table>
 
