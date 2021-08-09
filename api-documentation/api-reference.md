@@ -912,7 +912,7 @@ ISO invoice currency that you want to receive from the user, for example: **“E
 Currency of user invoice payment \(3rd type invoice will be externalized at the time of sending this parameter with timer= true\), example: **“BTC“**
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="amount" type="integer" required=true %}
+{% api-method-parameter name="amount" type="string" required=true %}
 Invoice amount that you want to receive from the user, example: **“106.75“**
 {% endapi-method-parameter %}
 
