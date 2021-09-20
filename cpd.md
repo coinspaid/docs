@@ -1,2 +1,2 @@
-# Discount
+# Discount system
 
