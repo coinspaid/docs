@@ -4,8 +4,11 @@ description: Discount For Staking CPD Token
 
 # Discount system
 
-CryptoProcessing application provides an opportunity to cut up to 20% of your costs for paying processing fees. In order to participate in a discount program, it’s required to keep CPD tokens on a merchant's balance. The discount that will be applied to the merchant’s operations is based on an Operations Volume over the last 30 days \(further: the 30D Volume\) and CPD Balance amount of this merchant.  
+CryptoProcessing application provides an opportunity to cut up to 20% of your costs for paying processing fees. In order to participate in a discount program, it’s required to keep CPD tokens on a merchant's balance. The discount that will be applied to the merchant’s operations is based on an Operations Volume over the last 30 days \(further: the 30D Volume\) and CPD Balance amount of this merchant.
 
+{% hint style="info" %}
+Should you wish to benefit from our discounting system linked to the use of CPD and staking please contact your account manager for more information.
+{% endhint %}
 
 **Available Discount Levels:**  
 
