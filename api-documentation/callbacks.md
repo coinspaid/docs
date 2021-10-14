@@ -9,7 +9,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 
 {% tabs %}
 {% tab title="BTC" %}
-```text
+```
 {
     "id": 1,
     "type": "deposit",
@@ -57,7 +57,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="ETH" %}
-```text
+```
 {
     "id": 2686563,
     "type": "deposit",
@@ -109,7 +109,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="ERC20" %}
-```text
+```
 {
     "id": 2686567,
     "type": "deposit",
@@ -161,7 +161,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="Deposit BTC with exchange to EUR" %}
-```text
+```
 {
     "id": 2686510,
     "type": "deposit_exchange",
@@ -227,7 +227,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 
 {% tabs %}
 {% tab title="BTC" %}
-```text
+```
 {
     "id": 1,
     "foreign_id": "10",
@@ -278,7 +278,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="ETH" %}
-```text
+```
 {
     "id": 2686565,
     "foreign_id": "23",
@@ -329,7 +329,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="ERC20" %}
-```text
+```
 {
     "id": 2686572,
     "foreign_id": "5",
@@ -380,7 +380,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="Withdraw EUR with exchange to BTC" %}
-```text
+```
 {
     "id": 1,
     "foreign_id": "20",
@@ -445,7 +445,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 
 {% tabs %}
 {% tab title="Buy BTC for EUR" %}
-```text
+```
 {
     "id": 2686900,
     "type": "exchange",
@@ -482,7 +482,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="Sell BTC for USD" %}
-```text
+```
 {
     "id": 2686901,
     "type": "exchange",
@@ -523,7 +523,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 
 {% tabs %}
 {% tab title="Calculate rates for futures" %}
-```text
+```
 {
     "data": {
         "addresses": [
@@ -591,7 +591,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 {% endtab %}
 
 {% tab title="Buy BTC for ETH future example" %}
-```text
+```
 {
    "id":2688873,
    "type":"deposit_exchange",
@@ -1041,7 +1041,7 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 
 {% tabs %}
 {% tab title="Not confirmed" %}
-```text
+```
 {
     "id": 2686579,
     "type": "deposit",
@@ -1113,4 +1113,3 @@ To provide authentication for the callback, coinspaid API signs the POST your ap
 ```
 {% endtab %}
 {% endtabs %}
-

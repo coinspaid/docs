@@ -10,9 +10,7 @@ Notifications will be sent to the addresses specified in the list of emails in c
 
 To add a new email address, click the “Add email” button. To add a new rule, click the «Add rule» button and fill in the data and 2FA code in the window below.
 
-![](https://lh3.googleusercontent.com/9hZF-i94ZWj4Nt_xkLtD7asrcm6Q7Mx0bCLLHqfngdgmdYms-nRn6IRTNIRZu9ZSJR7_FuGIW-AdRxmOMsyyiCLxEwddU5jNMRcjKdrkHj8x8w-8-KHbuFEZdO6XxzkQ0yKNue2W)
+![](https://lh3.googleusercontent.com/9hZF-i94ZWj4Nt_xkLtD7asrcm6Q7Mx0bCLLHqfngdgmdYms-nRn6IRTNIRZu9ZSJR7\_FuGIW-AdRxmOMsyyiCLxEwddU5jNMRcjKdrkHj8x8w-8-KHbuFEZdO6XxzkQ0yKNue2W)
 
-  
-  
-
-
+\
+\

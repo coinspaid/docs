@@ -28,11 +28,11 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * NEO - Neo
 * XRP - Ripple
 * REP - Augur
-* USDT - Tether\* USD Omni layer token \(Based on BTC blockchain network\) 
+* USDT - Tether\* USD Omni layer token (Based on BTC blockchain network) 
 * USDTE - Tether USD ERC20 token
 * USDTT - Tether USD TRC20 token
 * EURTE - Tether EUR ERC20 token
-* ERC20 token\(s\) can be added by request
+* ERC20 token(s) can be added by request
 * XIN - Infinity Economics
 * BNB - Binance Coin
 * BSV - Bitcoin SV
@@ -40,177 +40,46 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * USDC - USD Coin
 * TRX - TRON
 * XED - Exeedme ERC20 token
-* DAI - Dai ERC20 Stablecoin  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._ 
+* DAI - Dai ERC20 Stablecoin\
+  \
+  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
+
 
 ### Supported Fiat currencies
 
-|  | **Supported fiat currencies** |  |
-| ---: | :---: | :--- |
-| EUR | BRL | TJS |
-| USD | VND | AZN |
-| GBP | IDR | KGS |
-| CAD | INR | NGN |
-| SEK | KRW | MDL |
-| AUD | THB | BYN |
-| NOK | MYR | TRY |
-| CHF | PEN | ILS |
-| RUB | CLP | GEL |
-| CNY | KZT | HUF |
-| JPY | UAH | BDT |
-| NZD | CZK | NPR |
-| MXN | PLN | LKR |
-| ARS | ZAR |  |
+|     | **Supported fiat currencies** |     |
+| --: | :---------------------------: | --- |
+| EUR |              BRL              | TJS |
+| USD |              VND              | AZN |
+| GBP |              IDR              | KGS |
+| CAD |              INR              | NGN |
+| SEK |              KRW              | MDL |
+| AUD |              THB              | BYN |
+| NOK |              MYR              | TRY |
+| CHF |              PEN              | ILS |
+| RUB |              CLP              | GEL |
+| CNY |              KZT              | HUF |
+| JPY |              UAH              | BDT |
+| NZD |              CZK              | NPR |
+| MXN |              PLN              | LKR |
+| ARS |              ZAR              |     |
 
 ### Available trading Pairs
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:center"><b>Convert from</b>
-      </th>
-      <th style="text-align:center"><b>Convert to Crypto</b>
-      </th>
-      <th style="text-align:center"><b>Convert to Fiat</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">
-        <p>USDTE</p>
-        <p>ETH</p>
-        <p>LTC</p>
-        <p>BCH</p>
-        <p>DOGE</p>
-        <p>USDT</p>
-        <p>USDTT</p>
-        <p>USDC</p>
-        <p>ADA</p>
-        <p>TRX</p>
-        <p>XRP</p>
-      </td>
-      <td style="text-align:center">
-        <p>all fiat currencies</p>
-        <p>except IDR, VND</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center">ETH</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>LTC</p>
-        <p>BCH</p>
-        <p>LTC</p>
-        <p>USDTT</p>
-        <p>USDC</p>
-      </td>
-      <td style="text-align:center">all fiat currencies</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">USDTE</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>BCH</p>
-        <p>LTC</p>
-        <p>ETH</p>
-      </td>
-      <td style="text-align:center">
-        <p>all fiat currencies</p>
-        <p>except BDT, NPR, LKR
-          <br />
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center">USDTT</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>BCH</p>
-        <p>LTC</p>
-        <p>ETH</p>
-      </td>
-      <td style="text-align:center">
-        <p>all fiat currencies</p>
-        <p>except BDT, NPR, LKR</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center">USDC</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>BCH</p>
-        <p>LTC</p>
-        <p>ETH</p>
-      </td>
-      <td style="text-align:center">ARS, EUR, USD</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">DOGE</td>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">
-        <p>all fiat currencies</p>
-        <p>except AZN, BRL, GEL,</p>
-        <p>ILS, KGS, MDL,</p>
-        <p>NGN, TJS, TRY,</p>
-        <p>BDT, NPR, LKR</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center">USDT</td>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">ARS, EUR, HUF</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">BCH</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>USDTE</p>
-        <p>ETH</p>
-        <p>USDC</p>
-        <p>USDTT</p>
-      </td>
-      <td style="text-align:center">all fiat currencies</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">LTC</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>USDTE</p>
-        <p>ETH</p>
-        <p>USDC</p>
-        <p>USDTT</p>
-      </td>
-      <td style="text-align:center">all fiat currencies</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">ADA</td>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">all fiat currencies</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">TRX</td>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">all fiat currencies</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">XRP</td>
-      <td style="text-align:center">BTC</td>
-      <td style="text-align:center">all fiat currencies
-        <br />except BDT, HUF,
-        <br />NPR, LKR</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">BNB</td>
-      <td style="text-align:center">
-        <p>BTC</p>
-        <p>USDTE</p>
-        <p>USDTT</p>
-      </td>
-      <td style="text-align:center">EUR</td>
-    </tr>
-  </tbody>
-</table>
+| **Convert from** |                                                 **Convert to Crypto**                                                 |                                                    **Convert to Fiat**                                                   |
+| :--------------: | :-------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+|        BTC       | <p>USDTE</p><p>ETH</p><p>LTC</p><p>BCH</p><p>DOGE</p><p>USDT</p><p>USDTT</p><p>USDC</p><p>ADA</p><p>TRX</p><p>XRP</p> |                                     <p>all fiat currencies</p><p>except IDR, VND</p>                                     |
+|        ETH       |                            <p>BTC</p><p>LTC</p><p>BCH</p><p>LTC</p><p>USDTT</p><p>USDC</p>                            |                                                    all fiat currencies                                                   |
+|       USDTE      |                                        <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p>                                       |                                <p>all fiat currencies </p><p>except BDT, NPR, LKR<br></p>                                |
+|       USDTT      |                                        <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p>                                       |                                  <p>all fiat currencies </p><p>except BDT, NPR, LKR</p>                                  |
+|       USDC       |                                        <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p>                                       |                                                       ARS, EUR, USD                                                      |
+|       DOGE       |                                                          BTC                                                          | <p>all fiat currencies </p><p>except AZN, BRL, GEL, </p><p>ILS, KGS, MDL, </p><p>NGN, TJS, TRY, </p><p>BDT, NPR, LKR</p> |
+|       USDT       |                                                          BTC                                                          |                                                       ARS, EUR, HUF                                                      |
+|        BCH       |                                <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT</p>                                |                                                    all fiat currencies                                                   |
+|        LTC       |                                <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT</p>                                |                                                    all fiat currencies                                                   |
+|        ADA       |                                                          BTC                                                          |                                                    all fiat currencies                                                   |
+|        TRX       |                                                          BTC                                                          |                                                    all fiat currencies                                                   |
+|        XRP       |                                                          BTC                                                          |                               <p>all fiat currencies<br> except BDT, HUF,<br> NPR, LKR</p>                               |
+|        BNB       |                                           <p>BTC</p><p>USDTE</p><p>USDTT</p>                                          |                                                            EUR                                                           |
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
-

@@ -6,11 +6,11 @@ description: Advice and answers from the CoinsPaid team
 
 ### **What is CoinsPaid?**
 
-CoinsPaid is a business service and software product created to solve topical problems connected with payments, cryptocurrency exchange and storage for both businesses and individuals. CoinsPaid products include cryptocurrency processing \(accepting payments in cryptocurrency\) and a personal wallet\*
+CoinsPaid is a business service and software product created to solve topical problems connected with payments, cryptocurrency exchange and storage for both businesses and individuals. CoinsPaid products include cryptocurrency processing (accepting payments in cryptocurrency) and a personal wallet\*
 
 ### Is CoinsPaid a regulated service provider?
 
-Dream Finance OÜ, our company that provides CoinsPaid services, is licensed to provide cryptocurrency exchange and wallet services by the Financial Intelligence Unit of Estonia. As a licensed institution, we are obliged to identify our customers, and verify their identity using reliable sources \(the process known as “Know-Your-Customer”\) and maintain robust risk management procedures. This gives our clients peace of mind that their funds will not be commingled with illicit proceeds of bad actors.
+Dream Finance OÜ, our company that provides CoinsPaid services, is licensed to provide cryptocurrency exchange and wallet services by the Financial Intelligence Unit of Estonia. As a licensed institution, we are obliged to identify our customers, and verify their identity using reliable sources (the process known as “Know-Your-Customer”) and maintain robust risk management procedures. This gives our clients peace of mind that their funds will not be commingled with illicit proceeds of bad actors.
 
 ### **How can I test your service?**
 
@@ -26,7 +26,7 @@ We can provide you with a trial account at CoinsPaid, where you can familiarise 
 
 ### **How do I get a merchant account with CoinsPaid?**
 
-Please apply by filling in the contact form on[ coinspaid.com](http://coinspaid.com/) or send an email to get@coinspaid.com. Our sales managers will contact you as soon as possible.
+Please apply by filling in the contact form on[ coinspaid.com](http://coinspaid.com) or send an email to get@coinspaid.com. Our sales managers will contact you as soon as possible.
 
 ### **Does CoinsPaid provide a personal account?**
 
@@ -38,7 +38,7 @@ Integration is free. We only charge transaction fees. Transaction types are: dep
 
 ### **What alternative payments do you support?**
 
-At the moment we accept more than 50 altcoins \(BTC, BCH, LTC, ETH, ETC, XRP, NEO, ADA, DOGE, USDT\) and ERC20 tokens. Also, we have direct bank wire for deposits and withdrawals in EUR.
+At the moment we accept more than 50 altcoins (BTC, BCH, LTC, ETH, ETC, XRP, NEO, ADA, DOGE, USDT) and ERC20 tokens. Also, we have direct bank wire for deposits and withdrawals in EUR.
 
 We are working on adding more currencies and alternative payment methods like credit cards, SWIFT and popular e-money services.
 
@@ -64,5 +64,4 @@ Absolutely. Customer funds are stored in an offline cold wallet, which is protec
 
 Operational, or “hot” wallet, holds funds required for automated operations, such as multiple payments to your clients. This wallet holds the CoinsPaid operational funds. So we have you covered.
 
-Prior to integration, the operator decides how much money he wants to keep in our system, thereby setting storage limits. All funds exceeding these limits \(bankroll\) will be automatically transferred to the operator's external address.
-
+Prior to integration, the operator decides how much money he wants to keep in our system, thereby setting storage limits. All funds exceeding these limits (bankroll) will be automatically transferred to the operator's external address.

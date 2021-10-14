@@ -8,10 +8,10 @@ Asynchronous payments are very popular with cryptocurrencies. In such deposit fl
 
 Owner of the merchant can set up callback URL manually in merchant's settings, and upon processing payments, CoinsPaid will send you notifications in JSON format with all required information about transaction such as amount and status.
 
-Callback retry schedule:  
-  
-1, 5, 10, 15, 20, 30, 60, 90, 120, 150, 180, 210, 240 minutes.  
-  
+Callback retry schedule:\
+\
+1, 5, 10, 15, 20, 30, 60, 90, 120, 150, 180, 210, 240 minutes.\
+\
 Every time a user makes a deposit or our system sends a withdrawal into the blockchain, you will receive the callback. Callbacks contains all the important information about the transaction:
 
 * status
@@ -26,9 +26,9 @@ Every time a user makes a deposit or our system sends a withdrawal into the bloc
 {% hint style="warning" %}
 #### Attention
 
-As our system supports instant confirmations it means that some deposits will be confirmed in our system without confirmations in the blockchain. In this case you will receive only one callback for the transaction. The parameter **"status**" will have the value  **"confirmed".** When we confirm the transaction we are ready to manage all the risks concerning accepting real funds later. You should not be concerned about it.
+As our system supports instant confirmations it means that some deposits will be confirmed in our system without confirmations in the blockchain. In this case you will receive only one callback for the transaction. The parameter **"status**" will have the value  **"confirmed". **When we confirm the transaction we are ready to manage all the risks concerning accepting real funds later. You should not be concerned about it.
 
-In other cases you will first receive the callback with the **"not\_confirmed"** status. It will mean that we found the transaction in the mempool but we are not ready to guarantee that it will be received. When this happens you can create the transaction on your side but assign it the status of **"pending"**. After that you should wait for the second callback where the value of **"status"** will be **"confirmed".**
+In other cases you will first receive the callback with the **"not_confirmed"** status. It will mean that we found the transaction in the mempool but we are not ready to guarantee that it will be received. When this happens you can create the transaction on your side but assign it the status of **"pending"**. After that you should wait for the second callback where the value of **"status" **will be **"confirmed".**
 {% endhint %}
 
 {% hint style="warning" %}
@@ -37,7 +37,7 @@ In other cases you will first receive the callback with the **"not\_confirmed"**
 You have to validate a signature of the callback and values of known parameters in order to avoid fraudulent activity.
 {% endhint %}
 
-In the case of a successful validation of the callback, your system has to respond with **HTTP Code: 200 OK.** No additional parameters are required in the response body. 
+In the case of a successful validation of the callback, your system has to respond with **HTTP Code: 200 OK. **No additional parameters are required in the response body. 
 
 Otherwise we will keep the callback in our sending queue and will continue the attempts according to schedule mentioned above.
 
@@ -54,15 +54,15 @@ If you had some technical issues with your callback handler or long maintenance 
 
 There is a difference between deposit and withdrawal callbacks.
 
-For the deposits, if the user makes all the deposits to the same address, you will receive the same values of **"foreign\_id"** and **"address"** parameters every time. Parameter **"address"** will show which address received funds from the user. It is the address from our system.
+For the deposits, if the user makes all the deposits to the same address, you will receive the same values of **"foreign_id"** and **"address"** parameters every time. Parameter **"address"** will show which address received funds from the user. It is the address from our system.
 
-For withdrawals, you will receive different values of **"foreign\_id"** and **"address"** parameters in every callback. Parameter **"address"** in this case will show the user's address where we sent funds.
+For withdrawals, you will receive different values of **"foreign_id"** and **"address"** parameters in every callback. Parameter **"address"** in this case will show the user's address where we sent funds.
 {% endhint %}
 
 {% hint style="info" %}
 #### Hint 2
 
-When a user sends you the same amount on the same address you will receive very similar callbacks. In order to understand whether you see several callbacks for the one transaction or if there was more than one transaction, you can use the **"ID"** parameter from the root element in the callback JSON. This parameter is unique for all transactions from our end.
+When a user sends you the same amount on the same address you will receive very similar callbacks. In order to understand whether you see several callbacks for the one transaction or if there was more than one transaction, you can use the **"ID" **parameter from the root element in the callback JSON. This parameter is unique for all transactions from our end.
 {% endhint %}
 
 {% hint style="info" %}
@@ -83,4 +83,3 @@ Here you can find the information about the minimum number of confirmations for 
 {% endhint %}
 
 [Here](../api-documentation/callbacks.md#deposit-callbacks) you can find the examples of the specific callback for each type of operation.
-

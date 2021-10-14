@@ -12,4 +12,3 @@ This policy DOES apply to any deposits sent to an address of another coin on ano
 * Sending ETH to an ETC address
 
 Note: We WILL NOT recover coins or tokens we do not support. Nor will we recover funds that were distributed as part of an ICO.
-

@@ -4,7 +4,7 @@ description: How to increase the payment form conversion rate and total turnover
 
 # What is crypto payment form?
 
-## Introduction <a id="QRcodeimplementation-Introduction"></a>
+## Introduction <a href="qrcodeimplementation-introduction" id="qrcodeimplementation-introduction"></a>
 
 Among the best practices of working with cryptocurrencies there are some recommendations on how to increase the payment form conversion rate and total turnover.
 
@@ -23,11 +23,11 @@ Optional features are:
 
 In this section you will learn how to provide the user with all the necessary information, how to implement QR codes to your payment form and what best practices exist in order to make the payment form user friendly, to increase its conversion rate and to avoid user mistakes.
 
-## What is a crypto wallet URI format? <a id="QRcodeimplementation-WhatisacryptowalletURIformat?"></a>
+## What is a crypto wallet URI format? <a href="qrcodeimplementation-whatisacryptowalleturiformat" id="qrcodeimplementation-whatisacryptowalleturiformat"></a>
 
 Almost every PC user uses email links on websites. Usually such links have the following format:
 
-[address@email.com](mailto:address@email.com)\*\*\*\*
+[address@email.com](mailto:address@email.com)****
 
 {% hint style="info" %}
 **mailto**:address@email.com
@@ -51,7 +51,7 @@ BTC URI has a special standard "BIP-0021" described here:
 [https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)
 {% endhint %}
 
-## Why should you present a crypto address as a clickable link instead of text string? <a id="QRcodeimplementation-WhyshouldIpresentacryptoaddressasaclickablelinkinsteadoftextstring?"></a>
+## Why should you present a crypto address as a clickable link instead of text string? <a href="qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring" id="qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring"></a>
 
 The most common way to provide a crypto address for a user is to show their the address as a text string:
 
@@ -68,18 +68,18 @@ If the user has the crypto wallet application on the same device, they should:
 5. Click a "Send" button to transfer their funds
 
 {% hint style="danger" %}
-The more actions a user has to ****make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format \(see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section\).
+The more actions a user has to** **make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format (see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section).
 {% endhint %}
 
-## What is a QR code? <a id="QRcodeimplementation-WhatisaQRcode?"></a>
+## What is a QR code? <a href="qrcodeimplementation-whatisaqrcode" id="qrcodeimplementation-whatisaqrcode"></a>
 
-A QR code \(Quick Response code\) is a special visual method of data encoding and transferring that is usually used for simple and fast semi-automatic interaction with users' mobile devices. It can contain any text data, including URL links. When the user uses their phone to scan the QR code, the data inside the QR code will be decoded. If it is a link associated with a special application, the user's smartphone will react in a predefined way. For example, it can suggest to the user to follow the URL using a web browser or to send the funds using their crypto wallet application.
+A QR code (Quick Response code) is a special visual method of data encoding and transferring that is usually used for simple and fast semi-automatic interaction with users' mobile devices. It can contain any text data, including URL links. When the user uses their phone to scan the QR code, the data inside the QR code will be decoded. If it is a link associated with a special application, the user's smartphone will react in a predefined way. For example, it can suggest to the user to follow the URL using a web browser or to send the funds using their crypto wallet application.
 
 An example of QR code:
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image.png)
 
-## Why should I use QR codes on my payment form? <a id="QRcodeimplementation-WhyshouldIuseQRcodesonmypaymentform?"></a>
+## Why should I use QR codes on my payment form? <a href="qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform" id="qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform"></a>
 
 As it was described above, the user has to follow the 5 steps in order to make a deposit if they use a web browser and a crypto wallet on the same device. That is why the address should be presented as a link instead of a text string.
 
@@ -89,44 +89,44 @@ But imagine now that a user gets to a page with the payment form using their lap
 At worst, the only way for the user to pay is to type every symbol from the address manually; the most likely outcome is that the user will leave the form without the deposit. **That is why the QR code with the crypto address should be used at the same time as a link.**
 {% endhint %}
 
-## How to create QR code <a id="QRcodeimplementation-HowtocreateQRcode"></a>
+## How to create QR code <a href="qrcodeimplementation-howtocreateqrcode" id="qrcodeimplementation-howtocreateqrcode"></a>
 
 In order to provide the best user experience you only need to encode into the QR code a simple URI with the crypto address inside.
 
 The simplest way to create a QR code is to use Google Chart Service. It is a special service that generates universal QR codes and has a very simple API to manage it. According to the request parameters the QR code will contain the necessary data and it will have defined size dimensions.
 
-A minimum set of parameters is:  
-**chs** - chart image size  
-**cht** - chart type \(**"qr" is necessary for QR code**\)  
-**chl** - the data encoded in your QR code  
+A minimum set of parameters is:\
+**chs** - chart image size\
+**cht** - chart type (**"qr" is necessary for QR code**)\
+**chl** - the data encoded in your QR code\
 **choe** - encoding type of the QR code data
 
 {% hint style="info" %}
-Detailed description can be found here:  
-[https://developers.google.com/chart/infographics/docs/qr\_codes](https://developers.google.com/chart/infographics/docs/qr_codes)
+Detailed description can be found here:\
+[https://developers.google.com/chart/infographics/docs/qr_codes](https://developers.google.com/chart/infographics/docs/qr_codes)
 {% endhint %}
 
 In order to create the QR code you can use Google Chart Service and encode the URI described in [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section.
 
-To create simple QR codes including the link to the bitcoin address the following parameters should be used:  
-[https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W&choe=UTF-8](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W&choe=UTF-8)
+To create simple QR codes including the link to the bitcoin address the following parameters should be used:\
+[https://chart.googleapis.com/chart?chs=150x150\&cht=qr\&chl=bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W\&choe=UTF-8](https://chart.googleapis.com/chart?chs=150x150\&cht=qr\&chl=bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W\&choe=UTF-8)
 
-You can use this link directly inside the &lt;img&gt; tag:
+You can use this link directly inside the \<img> tag:
 
 ```markup
 <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W&choe=UTF-8">
 ```
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
-**chs** - QR code size \("150x150" size is used as an example\)  
-**cht** - chart type \(**"qr" is necessary for QR code**\)  
-**chl** - the data encoded in the QR code \("bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W" has been used in the example above, but additional parameters can be used according to "BIP-0021" standard documentation: [https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)\)  
-**choe** - encoding type of the QR code data \("UTF-8" is required by "BIP-0021" standard\)
+**chs** - QR code size ("150x150" size is used as an example)\
+**cht** - chart type (**"qr" is necessary for QR code**)\
+**chl** - the data encoded in the QR code ("bitcoin:3AFaCnqriLNxj15kqtp5Pxn8puHfuqbX7W" has been used in the example above, but additional parameters can be used according to "BIP-0021" standard documentation: [https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki))\
+**choe** - encoding type of the QR code data ("UTF-8" is required by "BIP-0021" standard)
 
 When the user scans this QR code they will be able to open the wallet application and to make the deposit in one click.
 
-## Best practice as a result <a id="QRcodeimplementation-Bestpracticeasaresult"></a>
+## Best practice as a result <a href="qrcodeimplementation-bestpracticeasaresult" id="qrcodeimplementation-bestpracticeasaresult"></a>
 
 This article described how to increase the conversion rate and as a result total turnover of the payment form for two scenarios. To be sure that the users will have a good experience in both cases all you need is to combine these two methods and use them on the payment form at the same time.
 
@@ -150,7 +150,5 @@ To make this experience even better, it will be a good idea to provide the payme
 
 As a result created form may look like this:
 
-![](../.gitbook/assets/deposit-or-bitstarz.com-2019-10-04-15-31-35.png)
-
-
+![](<../.gitbook/assets/Deposit  Bitstarz.com 2019-10-04 15-31-35.png>)
 

@@ -32,4 +32,3 @@ Request body in JSON format:
 With such data you should receive the following signature:
 
 > 03c25fcf7cd35e7d995e402cd5d51edd72d48e1471e865907967809a0c189ba55b90815f20e2bb10f82c7a9e9d865546fda58989c2ae9e8e2ff7bc29195fa1ec
-

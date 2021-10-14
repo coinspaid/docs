@@ -14,7 +14,7 @@ The most common scenario for sending crypto is "withdrawal with exchange". Coins
 
 In case of regular withdrawals without exchange the workflow will be the same except of conversion operation.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](<../.gitbook/assets/image (19).png>)
 
 > #### Algorithm
 >
@@ -28,13 +28,12 @@ In case of regular withdrawals without exchange the workflow will be the same ex
 {% hint style="info" %}
 #### Hint 
 
-In order to make a withdrawal you should use the **"/v2/withdrawal/crypto"** method from our API.  
+In order to make a withdrawal you should use the **"/v2/withdrawal/crypto"** method from our API.\
 You can define what currency should be used to send the funds, and, if necessary, from what fiat currency the funds should be converted before sending to the user.
 {% endhint %}
 
 {% hint style="warning" %}
 #### Attention
 
-Unlike the "**/v2/addresses/take**" method, you should use the unique "foreign\_id" every time you make a withdrawal request to our system. 
+Unlike the "**/v2/addresses/take**" method, you should use the unique "foreign_id" every time you make a withdrawal request to our system. 
 {% endhint %}
-

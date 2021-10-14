@@ -18,6 +18,7 @@
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Crosschain recovery policy](crosschain-recovery-policy.md)
 * [Dynamic BTC min deposit fee](dynamic-btc-min-deposit-fee.md)
+* [Discount system](discount-system.md)
 * [FAQ](faq.md)
 * [How to start](how-to-start/README.md)
   * [Introduction](how-to-start/introduction.md)
@@ -31,5 +32,3 @@
   * [Transaction and address tracking](how-to-start/transaction-and-address-tracking.md)
   * [Withdrawal Limits](how-to-start/withdrawal-limits.md)
   * [Starting Point of API Testing](how-to-start/starting-point-of-api-testing.md)
-* [Discount system](discount-system.md)
-

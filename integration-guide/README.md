@@ -6,19 +6,34 @@ When we are talking about cryptocurrencies as a payment method, we should keep i
 
 In this section we would like to share our knowledge of how to work with cryptocurrencies efficiently. We will also describe the most important information about implementation scenarios of Coinspaid API.
 
-{% page-ref page="deposits.md" %}
+{% content-ref url="deposits.md" %}
+[deposits.md](deposits.md)
+{% endcontent-ref %}
 
-{% page-ref page="crypto-payment-form.md" %}
+{% content-ref url="crypto-payment-form.md" %}
+[crypto-payment-form.md](crypto-payment-form.md)
+{% endcontent-ref %}
 
-{% page-ref page="withdrawals.md" %}
+{% content-ref url="withdrawals.md" %}
+[withdrawals.md](withdrawals.md)
+{% endcontent-ref %}
 
-{% page-ref page="exchanges.md" %}
+{% content-ref url="exchanges.md" %}
+[exchanges.md](exchanges.md)
+{% endcontent-ref %}
 
-{% page-ref page="callbacks.md" %}
+{% content-ref url="callbacks.md" %}
+[callbacks.md](callbacks.md)
+{% endcontent-ref %}
 
-{% page-ref page="payment-terminal.md" %}
+{% content-ref url="payment-terminal.md" %}
+[payment-terminal.md](payment-terminal.md)
+{% endcontent-ref %}
 
-{% page-ref page="futures.md" %}
+{% content-ref url="futures.md" %}
+[futures.md](futures.md)
+{% endcontent-ref %}
 
-{% page-ref page="invoices.md" %}
-
+{% content-ref url="invoices.md" %}
+[invoices.md](invoices.md)
+{% endcontent-ref %}
