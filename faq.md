@@ -38,7 +38,7 @@ Integration is free. We only charge transaction fees. Transaction types are: dep
 
 ### **What alternative payments do you support?**
 
-At the moment we accept more than 50 altcoins (BTC, BCH, LTC, ETH, ETC, XRP, NEO, ADA, DOGE, USDT) and ERC20 tokens. Also, we have direct bank wire for deposits and withdrawals in EUR.
+At the moment we accept more than 50 altcoins (BTC, BCH, LTC, ETH, XRP, NEO, ADA, DOGE, USDT) and ERC20 tokens. Also, we have direct bank wire for deposits and withdrawals in EUR.
 
 We are working on adding more currencies and alternative payment methods like credit cards, SWIFT and popular e-money services.
 
