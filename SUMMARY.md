@@ -20,6 +20,7 @@
 * [Dynamic BTC min deposit fee](dynamic-btc-min-deposit-fee.md)
 * [Discount system](discount-system.md)
 * [FAQ](faq.md)
+* [Mining fees concept](mining-fees-concept.md)
 * [How to start](how-to-start/README.md)
   * [Introduction](how-to-start/introduction.md)
   * [API Set Up Stage](how-to-start/api-set-up-stage.md)

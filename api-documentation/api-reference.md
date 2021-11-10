@@ -23,7 +23,7 @@ https://app.sandbox.cryptoprocessing.com/api/v2
 #### Deposit flow
 
 1. You obtain new address from CoinsPaid API (for some currencies it may be address and tag) and store it somewhere on your side. After that you show this address to your customer in order to make a deposit.
-2. Customer sends some funds to this address.  
+2. Customer sends some funds to this address. &#x20;
 3. When transaction is sent by a customer - CoinsPaid sends a callback to your callback url with transaction details. It contains status, address, currency, amount and fees. \
    If status is successful, you should deposit respective amount to customer balance on your side.
 
@@ -33,11 +33,15 @@ https://app.sandbox.cryptoprocessing.com/api/v2
 2. Your request is validated on our side. If signature is correct, address is valid and you have enough balance - CoinsPaid responds you with the transaction object.
 3. You will receive a callback when transaction status is updated.
 
+{% hint style="warning" %}
+Please note that the final status and all calculations on your side shall be applied only after receiving a final callback from Cryptoprocessing's side, hence in case a connection disruption takes place and you do not see a transaction on your side, kindly wait for a final callback or check a transaction in the back-office.
+{% endhint %}
+
 **Deposit with exchange flow**
 
 You don't want to touch or store cryptocurrency, but only use it as a payment method. Your customer deposits **BTC**,** **Coinspaid instantly converts it to** EUR **so that **you would receive EUR on your CoinsPaid account.**
 
-1. You obtain new address from CoinsPaid API same as in deposit flow, but additionally pass another parameter "convert_to" in your request specifying resulting currency.
+1. You obtain new address from CoinsPaid API same as in deposit flow, but additionally pass another parameter "convert\_to" in your request specifying resulting currency.
 2. When new deposit is arriving, CoinsPaid converts all arriving funds to destination funds, and sends notifications as in regular deposit
 
 **Withdrawal with exchange flow**
@@ -50,11 +54,11 @@ You wish to send Cryptocurrency from your Fiat currency balance. For example you
 
 **Futures flow**
 
-In order to guarantee receiving amount, rates should be fixed. 
+In order to guarantee receiving amount, rates should be fixed.&#x20;
 
 1. You send address for exchange (If it is not necessary to receive exchange rates you can skip this step)
-2. You receive rates and their fixation time 
-3. To confirm futures You have to send exchange pair and amount due. 
+2. You receive rates and their fixation time&#x20;
+3. To confirm futures You have to send exchange pair and amount due.&#x20;
 4. When new deposit is arriving, CoinsPaid converts all arriving funds to destination funds, and sends notifications as in regular deposit.
 
 In case if received and sent amounts don't equal, CP converts it like normal deposit with exchange.
@@ -340,11 +344,11 @@ If you need auto exchange all incoming funds for example to
 
 {% hint style="info" %}
 Business logic for using cryptocurrency as a deposit method: \
-You are willing to let your customer fund his EUR balance on your platform or website. You will have to generate an address in the desired cryptocurrency and specify EUR as a "convert_to" currency. This will allow you to let your Customer pay if his favorite currency and fund his balance in EUR. At the same time you will see respective EUR amount in your CoinsPaid merchant account.\
+You are willing to let your customer fund his EUR balance on your platform or website. You will have to generate an address in the desired cryptocurrency and specify EUR as a "convert\_to" currency. This will allow you to let your Customer pay if his favorite currency and fund his balance in EUR. At the same time you will see respective EUR amount in your CoinsPaid merchant account.\
 **Hint:** you don't have to generate new address for this customer anymore, address can be reused unlimited amount of times.
 {% endhint %}
 
-![Example of the customer facing interface for Deposits. ](../.gitbook/assets/QR_API\_2.png)
+![Example of the customer facing interface for Deposits. ](../.gitbook/assets/QR\_API\_2.png)
 
 * Make sure to use Bitcoin URI format bitcoin: in QR. Works the same way as "mailto:".
 * We do recommend making this QR clickable as customers may have a wallet set up on their computer or mobile phone.
@@ -352,7 +356,7 @@ You are willing to let your customer fund his EUR balance on your platform or we
 
 {% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/withdrawal/crypto" method="post" summary="Withdraw cryptocurrency" %}
 {% swagger-description %}
-Withdraw in crypto to any specified address. You can send Cryptocurrency from your Fiat currency balance by using "convert_to" parameter.
+Withdraw in crypto to any specified address. You can send Cryptocurrency from your Fiat currency balance by using "convert_to" parameter. 
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
@@ -839,26 +843,26 @@ In case the payment amount does not match the amount stated above, we will send 
 
 A set of parameter included in URL that will allow to redirect a user to Payment Terminal. For more info navigate through [this section of documentation](../integration-guide/payment-terminal.md).
 
-| **Name**   | **Description**                                                                                                                                                                                       | **Optionality** | **Type** |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | -------- |
-| client_id  | This is a unique ID that’s generated on the side of CoinsPaid                                                                                                                                         | Required        | int      |
-| currency   | ISO of a currency to receive funds in, example: **BTC**                                                                                                                                               | Required        | string   |
-| amount     | Amount of funds to withdraw, example: "**3500**"                                                                                                                                                      | Optional        | numeric  |
-| convert_to | In case you need on-the-fly exchange of all incoming funds (e.g. to EUR) specify this parameter as EUR or any other supported currency ISO, to see the list of available pairs check the method above | Optional        | string   |
-| is_iframe  | The parameter that allows you to get an iframe-link (false by default).                                                                                                                               | Optional        | boolean  |
-| foreign_id | Unique foreign ID in your system, example: "**164**"                                                                                                                                                  | Required        | string   |
-| url_back   | A link that allows you to get a user back to your system                                                                                                                                              | Optional        | url      |
+| **Name**    | **Description**                                                                                                                                                                                       | **Optionality** | **Type** |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | -------- |
+| client\_id  | This is a unique ID that’s generated on the side of CoinsPaid                                                                                                                                         | Required        | int      |
+| currency    | ISO of a currency to receive funds in, example: **BTC**                                                                                                                                               | Required        | string   |
+| amount      | Amount of funds to withdraw, example: "**3500**"                                                                                                                                                      | Optional        | numeric  |
+| convert\_to | In case you need on-the-fly exchange of all incoming funds (e.g. to EUR) specify this parameter as EUR or any other supported currency ISO, to see the list of available pairs check the method above | Optional        | string   |
+| is\_iframe  | The parameter that allows you to get an iframe-link (false by default).                                                                                                                               | Optional        | boolean  |
+| foreign\_id | Unique foreign ID in your system, example: "**164**"                                                                                                                                                  | Required        | string   |
+| url\_back   | A link that allows you to get a user back to your system                                                                                                                                              | Optional        | url      |
 
 ## Transaction statuses
 
-| Status        | Meaning                                                                                                                                                                           |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| confirmed     | **Final**. You are safe to process this transaction                                                                                                                               |
-| not_confirmed | Transaction is not yet confirmed.                                                                                                                                                 |
-| cancelled     | **Final**. This transaction is a double spend or cancelled withdrawal. Pay attention to this transaction.                                                                         |
-| pending       | This status may occur only after enabling withdrawal limits. Transaction exceeds set withdrawal limit, you need to confirm or decline it via backoffice of your merchant account. |
+| Status         | Meaning                                                                                                                                                                           |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| confirmed      | **Final**. You are safe to process this transaction                                                                                                                               |
+| not\_confirmed | Transaction is not yet confirmed.                                                                                                                                                 |
+| cancelled      | **Final**. This transaction is a double spend or cancelled withdrawal. Pay attention to this transaction.                                                                         |
+| pending        | This status may occur only after enabling withdrawal limits. Transaction exceeds set withdrawal limit, you need to confirm or decline it via backoffice of your merchant account. |
 
-## "transaction_type" parameter values
+## "transaction\_type" parameter values
 
 | Type       | Description                                                                                                                                                                                                                                                                                                                  |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -868,9 +872,9 @@ A set of parameter included in URL that will allow to redirect a user to Payment
 
 ## Transitions
 
-| Transaction             | Transition                 |
-| ----------------------- | -------------------------- |
-| Successful deposit      | not_confirmed -> confirmed |
-| Unsuccessful deposit    | not_confirmed -> cancelled |
-| Successful withdrawal   | confirmed                  |
-| Unsuccessful withdrawal | cancelled                  |
+| Transaction             | Transition                  |
+| ----------------------- | --------------------------- |
+| Successful deposit      | not\_confirmed -> confirmed |
+| Unsuccessful deposit    | not\_confirmed -> cancelled |
+| Successful withdrawal   | confirmed                   |
+| Unsuccessful withdrawal | cancelled                   |
