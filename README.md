@@ -6,15 +6,15 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 
 ### What makes us better than others?
 
-* Simple and quick API for all operations 
-* Competitive pricing 
-* Yearly security audits from independent third party 
-* Turnkey business solutions 24/7 technical support 
-* Comprehensive financial reporting for ease of reconciliation 
-* Tiered access levels for your employees 
-* Training material for team education 
+* Simple and quick API for all operations&#x20;
+* Competitive pricing&#x20;
+* Yearly security audits from independent third party&#x20;
+* Turnkey business solutions 24/7 technical support&#x20;
+* Comprehensive financial reporting for ease of reconciliation&#x20;
+* Tiered access levels for your employees&#x20;
+* Training material for team education&#x20;
 * Instant transaction confirmations for popular currencies
-* Loyalty program 
+* Loyalty program&#x20;
 * Blockchain-based risk score
 
 ### Supported crypto currencies
@@ -28,14 +28,13 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * NEO - Neo
 * XRP - Ripple
 * REP - Augur
-* USDT - Tether\* USD Omni layer token (Based on BTC blockchain network) 
+* USDT - Tether\* USD Omni layer token (Based on BTC blockchain network)&#x20;
 * USDTE - Tether USD ERC20 token
 * USDTT - Tether USD TRC20 token
 * EURTE - Tether EUR ERC20 token
 * ERC20 token(s) can be added by request
 * XIN - Infinity Economics
 * BNB - Binance Coin
-* BSV - Bitcoin SV
 * EURS - STASIS EURS
 * USDC - USD Coin
 * TRX - TRON
