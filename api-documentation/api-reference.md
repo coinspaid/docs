@@ -828,12 +828,18 @@ In case the payment amount does not match the amount stated above, we will send 
 ```
 {% endswagger-response %}
 
-{% swagger-response status="400" description="Example of a response with errors" %}
+{% swagger-response status="400" description="Examples of a responses with errors" %}
 ```
 {
    "errors":{
       "foreign_id":"The foreign id has already been taken."
    }
+};
+
+{
+    "errors": {
+        "amount": "The amount is too small. The minimum amount is 10.00 EUR."
+    }
 }
 ```
 {% endswagger-response %}
