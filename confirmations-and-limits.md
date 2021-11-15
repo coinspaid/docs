@@ -22,7 +22,6 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | ERC20         | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io)                 |
 | XIN           | 9              | 10          | 10             | [explorer](https://explorer.optimusway.io)      |
 | BNB           | almost instant | 0.01        | 0.01           | [explorer](https://explorer.binance.org)        |
-| BSV           | 6              | 0.001       | 0.001          | [explorer](https://blockchair.com)              |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org)                |
 
 {% hint style="info" %}
