@@ -27,13 +27,10 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * DOGE - Dogecoin
 * NEO - Neo
 * XRP - Ripple
-* REP - Augur
 * USDT - Tether\* USD Omni layer token (Based on BTC blockchain network)&#x20;
 * USDTE - Tether USD ERC20 token
 * USDTT - Tether USD TRC20 token
-* EURTE - Tether EUR ERC20 token
 * ERC20 token(s) can be added by request
-* XIN - Infinity Economics
 * BNB - Binance Coin
 * EURS - STASIS EURS
 * USDC - USD Coin
