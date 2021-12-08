@@ -37,6 +37,7 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * TRX - TRON
 * XED - Exeedme ERC20 token
 * DAI - Dai ERC20 Stablecoin
+* MRX - Metrix Coin
 * WBTC - Wrapped Bitcoin
 * CPD - CoinsPaid token\
   \
