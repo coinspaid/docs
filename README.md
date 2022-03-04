@@ -28,18 +28,20 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * NEO - Neo
 * XRP - Ripple
 * USDT - Tether\* USD Omni layer token (based on BTC blockchain network)&#x20;
-* USDTE - Tether USD ERC20 token (based on Ethereum network)
-* USDTT - Tether USD TRC20 token (based on Tron network)
+* USDTE - Tether USD ERC-20 token (based on Ethereum network)
+* USDTT - Tether USD TRC-20 token (based on Tron network)
 * _ERC20 token(s) can be added by request_
-* BNB - Binance Coin
+* BNB - Binance BEP-2 coin  (based on Binance Chain)
+* BNB-BSC - Binance BEP-20 coin (based on Binance Smart Chain network)
+* BUSD-BSC - Binance USD BEP-20 token (based on Binance Smart Chain network)
 * EURS - STASIS EURS
 * USDC - USD Coin
 * TRX - TRON
-* XED - Exeedme ERC20 token
-* DAI - Dai ERC20 Stablecoin
+* XED - Exeedme ERC-20 token
+* DAI - Dai ERC-20 Stablecoin
 * MRX - Metrix Coin
 * WBTC - Wrapped Bitcoin
-* CPD - CoinsPaid token\
+* CPD - CoinsPaid ERC-20 token\
   \
   _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
 
@@ -69,8 +71,8 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 | :--------------: | :-----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
 |        BTC       | <p>USDTE</p><p>ETH</p><p>LTC</p><p>BCH</p><p>DOGE</p><p>USDT</p><p>USDTT</p><p>USDC</p><p>ADA</p><p>TRX</p><p>XRP</p><p>BNB</p> |                                     <p>all fiat currencies</p><p>except IDR, VND</p>                                     |
 |        ETH       |                           <p>BTC</p><p>LTC</p><p>BCH</p><p>LTC</p><p>USDTT</p><p>USDTE</p><p>USDC</p>                           |                                                    all fiat currencies                                                   |
-|       USDTE      |                                   <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB</p><p>CPD</p>                                  |                                <p>all fiat currencies </p><p>except BDT, NPR, LKR<br></p>                                |
-|       USDTT      |                                  <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB </p><p>CPD</p>                                  |                                  <p>all fiat currencies </p><p>except BDT, NPR, LKR</p>                                  |
+|       USDTE      |                           <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB<br>BNB-BSC</p><p>CPD<br></p>                           |                                <p>all fiat currencies </p><p>except BDT, NPR, LKR<br></p>                                |
+|       USDTT      |                             <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB <br>BNB-BSC</p><p>CPD</p>                            |                                  <p>all fiat currencies </p><p>except BDT, NPR, LKR</p>                                  |
 |       USDC       |                                             <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p>                                            |                                                       ARS, EUR, USD                                                      |
 |       DOGE       |                                                               BTC                                                               | <p>all fiat currencies </p><p>except AZN, BRL, GEL, </p><p>ILS, KGS, MDL, </p><p>NGN, TJS, TRY, </p><p>BDT, NPR, LKR</p> |
 |       USDT       |                                                               BTC                                                               |                                                       ARS, EUR, HUF                                                      |
@@ -80,6 +82,7 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 |        TRX       |                                                               BTC                                                               |                                                    all fiat currencies                                                   |
 |        XRP       |                                                               BTC                                                               |                               <p>all fiat currencies<br> except BDT, HUF,<br> NPR, LKR</p>                               |
 |        BNB       |                                                <p>BTC</p><p>USDTE</p><p>USDTT</p>                                               |                                                            EUR                                                           |
+|      BNB-BSC     |                                                      <p>USDTE<br>USDTT</p>                                                      |                                                            EUR                                                           |
 |        CPD       |                                                     <p>USDTE</p><p>USDTT</p>                                                    |                                                                                                                          |
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
