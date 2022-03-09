@@ -33,7 +33,7 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * _ERC20 token(s) can be added by request_
 * BNB - Binance BEP-2 coin  (based on Binance Chain)
 * BNB-BSC - Binance BEP-20 coin (based on Binance Smart Chain network)
-* BUSD-BSC - Binance USD BEP-20 token (based on Binance Smart Chain network)
+* BUSD - Binance USD BEP-20 token (based on Binance Smart Chain network)
 * EURS - STASIS EURS
 * USDC - USD Coin
 * TRX - TRON
