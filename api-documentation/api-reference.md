@@ -39,14 +39,14 @@ Please note that the final status and all calculations on your side shall be app
 
 **Deposit with exchange flow**
 
-You don't want to touch or store cryptocurrency, but only use it as a payment method. Your customer deposits **BTC**,** **Coinspaid instantly converts it to** EUR **so that **you would receive EUR on your CoinsPaid account.**
+You don't want to touch or store cryptocurrency, but only use it as a payment method. Your customer deposits **BTC**, **** Coinspaid instantly converts it to **EUR** so that **you would receive EUR on your CoinsPaid account.**
 
 1. You obtain new address from CoinsPaid API same as in deposit flow, but additionally pass another parameter "convert\_to" in your request specifying resulting currency.
 2. When new deposit is arriving, CoinsPaid converts all arriving funds to destination funds, and sends notifications as in regular deposit
 
 **Withdrawal with exchange flow**
 
-You wish to send Cryptocurrency from your Fiat currency balance. For example you want to **send EUR amount **but your customer** **receives** **money** in BTC.**
+You wish to send Cryptocurrency from your Fiat currency balance. For example you want to **send EUR amount** but your customer **** receives **** money **in BTC.**
 
 1. You do exactly same as in withdrawals, but you specify 2 currencies. One is a currency of your **sending balance** and Second is a **cryptocurrency your Customer wishes to receive**.
 2. Your request is validated on our side. If signature is correct, address is valid and you have enough balance - CoinsPaid responds you with the transaction object.
@@ -368,9 +368,9 @@ Unique foreign ID in your system, example: "
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="amount" type="string" %}
-Amount of funds to withdraw, example:
+Amount of funds to withdraw, example: 
 
-** "1"**
+**"1"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="currency" type="string" %}
@@ -384,9 +384,9 @@ Currency ISO to be withdrawn, example: "
 {% swagger-parameter in="body" name="convert_to" type="string" %}
 If you want to auto convert for example EUR to BTC, specify this param as 
 
-**BTC **
+**BTC**
 
-or any other currency supported (see list of exchangeable pairs API method).
+ or any other currency supported (see list of exchangeable pairs API method).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="address" type="string" %}
@@ -443,9 +443,9 @@ Get info about exchange rates.
 \
 
 
-Please note, this endpoint has limitation
+Please note, this endpoint has limitation 
 
-** up to 30 requests per minute**
+**up to 30 requests per minute**
 
  from one IP address, in case this amount is exceeded a new successful response can only be obtained after one minute break.
 {% endswagger-description %}
@@ -453,9 +453,9 @@ Please note, this endpoint has limitation
 {% swagger-parameter in="body" name="receiver_amount" type="string" %}
 Amount you want to calculate for getting, example: 
 
-**"10". **
+**"10".**
 
-The parameter is required when the "sender_amount" parameter is absent
+ The parameter is required when the "sender_amount" parameter is absent
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_currency" type="string" %}
@@ -473,9 +473,9 @@ Currency ISO to be exchanged, example:
 {% swagger-parameter in="body" name="sender_amount" type="string" %}
 Amount you want to calculate, example: 
 
-**"3". **
+**"3".**
 
-The parameter is required when the "receiver_amount" parameter is absent
+ The parameter is required when the "receiver_amount" parameter is absent
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Example of success response" %}
@@ -539,6 +539,18 @@ Currency ISO to be exchanged, example:
 Amount you want to exchange, example: 
 
 **"6.5"**
+
+\
+
+
+**Please note:**
+
+\
+
+
+****
+
+That this value shall be the same as the value specified in the exchange/calculate request
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
