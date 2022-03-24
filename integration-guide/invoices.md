@@ -38,7 +38,7 @@ If the user sends an amount of funds that is more or less than specified one we 
 
 ## Invoice Type
 
-### **1st Type **
+### **1st Type**&#x20;
 
 #### Invoice without restriction of payment time
 
@@ -54,7 +54,7 @@ After confirming the currency and putting email, the rate will be fixed for 15 m
 
 ### **2nd Type**
 
-#### Invoice with time restriction 
+#### Invoice with time restriction&#x20;
 
 This invoice type allows the user to choose the payment currency themselves, but the time restriction will be 15 minutes starting from the invoice creation.
 
@@ -66,7 +66,7 @@ After confirming the currency and inputting the email, the user has to pay the i
 
 ![](<../.gitbook/assets/image (26).png>)
 
-###  **3rd Type** 
+### **3rd Type**&#x20;
 
 #### Invoice with time restriction and without the possibility to choose payment currency
 
@@ -88,4 +88,4 @@ Invoice fails upon the occurrence of any of the following:
 2. Transaction has processing status for more than 24 hours.
 3. The user paid an amount less than was requested. In this case the transaction will have a confirmed status but invoice will have a failed status.
 
-[Here](../api-documentation/callbacks.md#invoice-payment-callbacks) you can see successful and unsuccessful examples of invoice payment callbacks. 
+[Here](../api-documentation/callbacks.md#invoice-payment-callbacks) you can see successful and unsuccessful examples of invoice payment callbacks.&#x20;
