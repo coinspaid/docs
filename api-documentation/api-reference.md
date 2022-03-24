@@ -766,19 +766,58 @@ Amount you want to receive
 Create invoice for the client for a specified amount.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="timer" type="boolean" %}
+{% swagger-parameter in="body" name="timer" type="boolean" required="true" %}
 Time on the rate is fixed for invoice payment (15 minutes). During this time the user has to pay an invoice.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="title" type="string" %}
+{% swagger-parameter in="body" name="title" type="string" required="true" %}
 Invoice title that will be displayed to the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="type" type="string" %}
+There's a couple of sub-types of invoices:
+
+\
+
+
+
+
+\
+
+
+1\. General
+
+\
+
+
+2\. With partial pay
+
+\
+
+
+
+
+\
+
+
+In order to create an invoice with partial pay a value of the "type" parameter shall be set to “good_until_expired“
+
+\
+
+
+
+
+\
+
+
+For standard invoices, the value would be either “fill_or_kill“ or you can avoid using the "type" parameter at all.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="description" type="string" %}
 Invoice description that will be displayed to the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="currency" type="string" %}
+{% swagger-parameter in="body" name="currency" type="string" required="true" %}
 ISO invoice currency that you want to receive from the user, for example: 
 
 **“EUR”**
@@ -790,13 +829,13 @@ Currency of user invoice payment (3rd type invoice will be externalized at the t
 **“BTC“**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="amount" type="string" %}
+{% swagger-parameter in="body" name="amount" type="string" required="true" %}
 Invoice amount that you want to receive from the user, example: 
 
 **“106.75“**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="foreign_id" type="string" %}
+{% swagger-parameter in="body" name="foreign_id" type="string" required="true" %}
 Unique foreign ID in your system, example: "
 
 **164**
@@ -804,19 +843,19 @@ Unique foreign ID in your system, example: "
 "
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="url_success" type="string" %}
+{% swagger-parameter in="body" name="url_success" type="string" required="true" %}
 URL on which we redirect the user in case of a successful invoice payment, example: 
 
 **“https://merchant.name.com/url_success“**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="url_failed" type="string" %}
+{% swagger-parameter in="body" name="url_failed" type="string" required="true" %}
 URL on which we redirect the user in case of an unsuccessful invoice payment, example: 
 
 **“https://merchant.name.com/url_failed“**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="email_user" type="string" %}
+{% swagger-parameter in="body" name="email_user" type="string" required="true" %}
 In case the payment amount does not match the amount stated above, we will send an email to the stated address with instructions on funds recovery. In case of underpayment, the whole amount will be refunded. In case of overpayment, user will be able to recover the difference by following the instructions
 {% endswagger-parameter %}
 
