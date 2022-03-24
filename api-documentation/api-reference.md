@@ -785,7 +785,7 @@ There's a couple of sub-types of invoices:
 \
 
 
-1\. General
+1\. Standard
 
 \
 
