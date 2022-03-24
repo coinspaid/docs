@@ -775,7 +775,7 @@ Invoice title that will be displayed to the user
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="type" type="string" %}
-There's a couple of sub-types of invoices:
+There're a couple of sub-types of invoices:
 
 \
 
