@@ -14,7 +14,8 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | LTC           | 6              | 0.01        | 0.01           | [explorer](https://live.blockcypher.com/ltc/)   |
 | DOGE          | 6              | 1           | 1              | [explorer](https://live.blockcypher.com/doge/)  |
 | ETH           | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io)                 |
-| XRP           | 3              | 0.001       | 0.001          | [explorer](https://xrpcharts.ripple.com/#/)     |
+| XRP           | 3              | 0.001       | 0.001          | [explorer](https://xrpscan.com)                 |
+| CSC           | 1              | 1           | 1000           | [explorer](https://xrpscan.com)                 |
 | NEO           | 10             | 1           | 1              | [explorer](https://neotracker.io)               |
 | USDT (OMNI)   | 2              | 0.0001      | 0.001          | [explorer](https://omniexplorer.info)           |
 | USDTE (ERC20) | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io)                 |
@@ -22,6 +23,8 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | ERC20         | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io)                 |
 | XIN           | 9              | 10          | 10             | [explorer](https://explorer.optimusway.io)      |
 | BNB           | almost instant | 0.01        | 0.01           | [explorer](https://explorer.binance.org)        |
+| BNB-BSC       | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com)                 |
+| BUSD          | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com)                 |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org)                |
 
 {% hint style="info" %}
