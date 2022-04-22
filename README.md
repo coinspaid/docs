@@ -19,6 +19,14 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 
 ### Supported crypto currencies
 
+{% hint style="info" %}
+Note:\
+ERC-20 means that a token is based on the Ethereum network;\
+TRC-20 means that a token is based on the Tron network;\
+BEP-20 means that a token is based on Binance Smart Chain network;\
+BEP-2 means that a coin or token is based on Binance Chain network.
+{% endhint %}
+
 * BTC - Bitcoin
 * LTC - Litecoin
 * BCH - Bitcoin cash
@@ -29,20 +37,22 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * XRP - Ripple
 * CSC - CasinoCoin (based on XRP network)
 * USDT - Tether\* USD Omni layer token (based on BTC network)&#x20;
-* USDTE - Tether USD ERC-20 token (based on Ethereum network)
-* USDTT - Tether USD TRC-20 token (based on Tron network)
+* USDTE - Tether USD ERC-20 token&#x20;
+* USDTT - Tether USD TRC-20 token&#x20;
 * _ERC20 token(s) can be added by request_
-* BNB - Binance BEP-2 coin  (based on Binance Chain)
-* BNB-BSC - Binance BEP-20 coin (based on Binance Smart Chain network)
-* BUSD - Binance USD BEP-20 token (based on Binance Smart Chain network)
+* BNB - Binance BEP-2 coin &#x20;
+* BNB-BSC - Binance BEP-20 coin&#x20;
+* BUSD - Binance USD BEP-20 token&#x20;
+* SNACK - Crypto Snack BEP-20 token&#x20;
 * EURS - STASIS EURS
 * USDC - USD Coin
 * TRX - TRON
-* XED - Exeedme ERC-20 token
+* XED - Exeedme ERC-20 token&#x20;
 * DAI - Dai ERC-20 Stablecoin
 * MRX - Metrix Coin
 * WBTC - Wrapped Bitcoin
-* CPD - CoinsPaid ERC-20 token\
+* CPD - CoinsPaid ERC-20 token&#x20;
+* BRZ - Brazilian Digital ERC-20 token \
   \
   _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
 

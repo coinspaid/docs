@@ -25,6 +25,7 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | BNB           | almost instant | 0.01        | 0.01           | [explorer](https://explorer.binance.org)        |
 | BNB-BSC       | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com)                 |
 | BUSD          | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com)                 |
+| SNACK         | 25             | 10          | 10             | [explorer](https://bscscan.com)                 |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org)                |
 
 {% hint style="info" %}
