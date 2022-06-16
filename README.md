@@ -45,7 +45,7 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 * BUSD - Binance USD BEP-20 token&#x20;
 * SNACK - Crypto Snack BEP-20 token&#x20;
 * EURS - STASIS EURS
-* USDC - USD Coin
+* USDC - USD Coin ERC-20 token&#x20;
 * TRX - TRON
 * XED - Exeedme ERC-20 token&#x20;
 * DAI - Dai ERC-20 Stablecoin
