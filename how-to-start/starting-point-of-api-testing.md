@@ -4,13 +4,13 @@ Now, which first steps should you take to test our system?
 
 At this point you should have familiarized yourself with [the previous sections](../api-documentation/api-reference.md) of our API documentation.
 
-A good place to start is to generate new addresses. You can do this by using this request request - 
+A good place to start is to generate new addresses. You can do this by using this request request -&#x20;
 
 ```
 https://app.cryptoprocessing.com/api/v2/addresses/take
 ```
 
-In order to test the depositing function, you can send some currency to these addresses. You can transfer some test currency from any testnet faucet, for example - a BTC [testnet faucet](https://testnet-faucet.mempool.co) or ETH from a[ Ropsten Ethereum Faucet](https://faucet.ropsten.be). Once the test funds are obtained you can send a part of it back to an address specified on the faucet's page using [API request](../api-documentation/api-reference.md#withdraw-cryptocurrency) in order to test a withdrawal flow to an external address.
+In order to test the depositing function, you can send some currency to these addresses. You can transfer some test currency from any testnet faucet, for example - a BTC [testnet faucet](https://coinfaucet.eu/en/btc-testnet/). Once the test funds are obtained you can send a part of it back to an address specified on the faucet's page using [API request](../api-documentation/api-reference.md#withdraw-cryptocurrency) in order to test a withdrawal flow to an external address.
 
 Please note, you will be able to test the exchange function with testnet currency only in our Sandbox environment, you won’t be able to do that with your account in the production environment. Please make sure to test the feature at this stage. You will still be able to use the exchange feature in the production environment, but only with real funds.
 
