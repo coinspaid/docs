@@ -39,42 +39,42 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 * USDT - Tether\* USD Omni layer token (based on BTC network)&#x20;
 * USDTE - Tether USD ERC-20 token&#x20;
 * USDTT - Tether USD TRC-20 token&#x20;
-* _ERC20 token(s) can be added by request_
 * BNB - Binance BEP-2 coin &#x20;
 * BNB-BSC - Binance BEP-20 coin&#x20;
 * BUSD - Binance USD BEP-20 token&#x20;
 * SNACK - Crypto Snack BEP-20 token&#x20;
 * EURS - STASIS EURS
-* USDC - USD Coin ERC-20 token&#x20;
+* USDC - USD Coin ERC-20\* token&#x20;
 * TRX - TRON
 * XED - Exeedme ERC-20 token&#x20;
-* DAI - Dai ERC-20 Stablecoin
+* DAI - DAI ERC-20 Stablecoin
 * MRX - Metrix Coin
 * WBTC - Wrapped Bitcoin
 * CPD - CoinsPaid ERC-20 token&#x20;
 * BRZ - Brazilian Digital ERC-20 token \
   \
   _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
+  _\*_ ERC20 token(s) can be added by request.\
 
 
 ### Supported Fiat currencies
 
-|     | **Supported fiat currencies** |     |
-| --: | :---------------------------: | --- |
-| EUR |              BRL              | TJS |
-| USD |              VND              | AZN |
-| GBP |              IDR              | KGS |
-| CAD |              INR              | NGN |
-| SEK |              KRW              | MDL |
-| AUD |              THB              | BYN |
-| NOK |              MYR              | TRY |
-| CHF |              PEN              | ILS |
-| RUB |              CLP              | GEL |
-| CNY |              KZT              | HUF |
-| JPY |              UAH              | BDT |
-| NZD |              CZK              | NPR |
-| MXN |              PLN              | LKR |
-| ARS |              ZAR              |     |
+|     | **Supported fiat currencies** |     |   |
+| --: | :---------------------------: | --- | - |
+| EUR |              BRL              | TJS |   |
+| USD |              VND              | AZN |   |
+| GBP |              IDR              | KGS |   |
+| CAD |              INR              | NGN |   |
+| SEK |              KRW              | MDL |   |
+| AUD |              THB              | BYN |   |
+| NOK |              MYR              | TRY |   |
+| CHF |              PEN              | ILS |   |
+| RUB |              CLP              | GEL |   |
+| CNY |              KZT              | HUF |   |
+| JPY |              UAH              | BDT |   |
+| NZD |              CZK              | NPR |   |
+| MXN |              PLN              | LKR |   |
+| ARS |              ZAR              | DAI |   |
 
 ### Available trading Pairs
 
@@ -96,5 +96,6 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 |      BNB-BSC     |                                      <p>BTC<br>ETH<br>USDTE<br>USDTT<br>BUSD<br>BCH<br>USDC<br>LTC<br>BUSD</p>                                     |       <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>       |
 |       BUSD       |                   <p>BTC <br><strong></strong>USDTE<br>USDTT<br>ETH<br>BNB-BSC<br>BNB<br>LTC<br>DOGE<br>BCH<br>BNB<br>BNB-BSC</p>                  |       <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>       |
 |        CPD       |                                                              <p>USDTE</p><p>USDTT</p>                                                              |                                                                                                                          |
+|        DAI       |                                                                                                                                                    |                                                     <p>EUR<br>USD</p>                                                    |
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
