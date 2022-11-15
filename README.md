@@ -36,7 +36,6 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 * NEO - Neo
 * XRP - Ripple
 * CSC - CasinoCoin (based on XRP network)
-* USDT - Tether\* USD Omni layer token (based on BTC network)&#x20;
 * USDTE - Tether USD ERC-20 token&#x20;
 * USDTT - Tether USD TRC-20 token&#x20;
 * BNB - Binance BEP-2 coin &#x20;
@@ -86,7 +85,6 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 |       USDTT      |                              <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB <br>BNB-BSC<br>BUSD</p><p>CPD<br>USDC</p>                              |                                  <p>all fiat currencies </p><p>except BDT, NPR, LKR</p>                                  |
 |       USDC       |                                    <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH<br>BNB<br>BNB-BSC<br>USDTE<br>USDTT</p>                                    |                                                       ARS, EUR, USD                                                      |
 |       DOGE       |                                                                 <p>BTC<br>BUSD</p>                                                                 | <p>all fiat currencies </p><p>except AZN, BRL, GEL, </p><p>ILS, KGS, MDL, </p><p>NGN, TJS, TRY, </p><p>BDT, NPR, LKR</p> |
-|       USDT       |                                                                         BTC                                                                        |                                                       ARS, EUR, HUF                                                      |
 |        BCH       |                                  <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT<br>BNB<br>BNB-BSC<br>BUSD</p>                                 |                                                    all fiat currencies                                                   |
 |        LTC       |                                  <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT<br>BNB<br>BNB-BSC<br>BUSD</p>                                 |                                                    all fiat currencies                                                   |
 |        ADA       |                                                                         BTC                                                                        |                                                    all fiat currencies                                                   |

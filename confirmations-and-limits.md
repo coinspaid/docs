@@ -16,7 +16,6 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | XRP           | 3              | 0.001  | 0.001  | [explorer](https://xrpscan.com/)                |
 | CSC           | 1              | 1      | 1000   | [explorer](https://xrpscan.com/)                |
 | NEO           | 10             | 1      | 1      | [explorer](https://neotracker.io/)              |
-| USDT (OMNI)   | 2              | 0.0001 | 0.001  | [explorer](https://omniexplorer.info/)          |
 | USDTE (ERC20) | 10             | 0.01   | 0.01   | [explorer](http://etherscan.io/)                |
 | USDTT (TRC20) | 19             | 1      | 1      | [explorer](https://tronscan.org/)               |
 | USDC          | 10             | 1      | 1      |                                                 |
