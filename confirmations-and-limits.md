@@ -29,5 +29,5 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | DAI           | 10             | 1           | 1              |                                                 |
 
 {% hint style="info" %}
-Number of confirmations can be more than value in table in cases when several blocks are released in a short period of time.
+The number of confirmations can be more than the value in the table in cases when several blocks are released in a short period of time.
 {% endhint %}

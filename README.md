@@ -2,7 +2,7 @@
 
 
 
-CoinsPaid is an organisation providing сryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
+CoinsPaid is an organisation providing сryptocurrency payment services, we enable businesses to operate worldwide, decrease costs, and reach new markets by empowering companies with reliable cryptocurrency processing methods. We support over 50 cryptocurrencies and counting.
 
 ### What makes us better than others?
 
@@ -93,7 +93,7 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 |        BNB       |                                   <p>BTC<br>ETH</p><p>USDTE</p><p>USDTT<br>BUSD<br>BCH<br>USDC<br>LTC<br>BUSD</p>                                  |       <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>       |
 |      BNB-BSC     |                                      <p>BTC<br>ETH<br>USDTE<br>USDTT<br>BUSD<br>BCH<br>USDC<br>LTC<br>BUSD</p>                                     |       <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>       |
 |       BUSD       |                   <p>BTC <br><strong></strong>USDTE<br>USDTT<br>ETH<br>BNB-BSC<br>BNB<br>LTC<br>DOGE<br>BCH<br>BNB<br>BNB-BSC</p>                  |       <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>       |
-|        CPD       |                                                              <p>USDTE</p><p>USDTT</p>                                                              |                                                                                                                          |
+|        CPD       |                                                              <p>USDTE</p><p>USDTT</p>                                                              |                                                            EUR                                                           |
 |        DAI       |                                                                                                                                                    |                                                     <p>EUR<br>USD</p>                                                    |
 
 You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
