@@ -17,16 +17,16 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | XRP           | 3              | 0.001       | 0.001          | [explorer](https://xrpscan.com/)                |
 | CSC           | 1              | 1           | 1000           | [explorer](https://xrpscan.com/)                |
 | NEO           | 10             | 1           | 1              | [explorer](https://neotracker.io/)              |
-| USDTE (ERC20) | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io/)                |
+| USDTE (ERC20) | 10             | 5           | 5              | [explorer](http://etherscan.io/)                |
 | USDTT (TRC20) | 19             | 1           | 1              | [explorer](https://tronscan.org/)               |
-| USDC          | 10             | 1           | 1              |                                                 |
+| USDC          | 10             | 5           | 5              |                                                 |
 | ERC20         | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io/)                |
 | BNB           | almost instant | 0.01        | 0.01           | [explorer](https://explorer.binance.org/)       |
 | BNB-BSC       | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com/)                |
 | BUSD          | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com/)                |
 | SNACK         | 25             | 10          | 10             | [explorer](https://bscscan.com/)                |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org/)               |
-| DAI           | 10             | 1           | 1              |                                                 |
+| DAI           | 10             | 5           | 5              |                                                 |
 
 {% hint style="info" %}
 The number of confirmations can be more than the value in the table in cases when several blocks are released in a short period of time.
