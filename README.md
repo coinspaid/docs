@@ -33,7 +33,6 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 * ADA - Cardano
 * ETH - Ethereum
 * DOGE - Dogecoin
-* NEO - Neo
 * XRP - Ripple
 * CSC - CasinoCoin (based on XRP network)
 * USDTE - Tether USD ERC-20 token&#x20;
