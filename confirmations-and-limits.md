@@ -21,8 +21,8 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | USDC          | 10             | 5           | 5              |                                                 |
 | ERC20         | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io/)                |
 | BNB           | almost instant | 0.01        | 0.01           | [explorer](https://explorer.binance.org/)       |
-| BNB-BSC       | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com/)                |
-| BUSD          | 25             | 0.0001      | 0.01           | [explorer](https://bscscan.com/)                |
+| BNB-BSC       | 25             | 0.01        | 0.01           | [explorer](https://bscscan.com/)                |
+| BUSD          | 25             | 5           | 5              | [explorer](https://bscscan.com/)                |
 | SNACK         | 25             | 10          | 10             | [explorer](https://bscscan.com/)                |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org/)               |
 | DAI           | 10             | 5           | 5              |                                                 |
