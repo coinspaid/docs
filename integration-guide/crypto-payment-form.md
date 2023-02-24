@@ -4,7 +4,7 @@ description: How to increase the payment form conversion rate and total turnover
 
 # What is crypto payment form?
 
-## Introduction <a href="qrcodeimplementation-introduction" id="qrcodeimplementation-introduction"></a>
+## Introduction <a href="#qrcodeimplementation-introduction" id="qrcodeimplementation-introduction"></a>
 
 Among the best practices of working with cryptocurrencies there are some recommendations on how to increase the payment form conversion rate and total turnover.
 
@@ -13,7 +13,7 @@ As you may know, a payment form for crypto payments differs from classic payment
 The most important features of using QR codes are:
 
 1. Quick access from mobile devices
-2. Predefined cryptocurrency 
+2. Predefined cryptocurrency&#x20;
 3. An integrated clickable link that opens the wallet application
 
 Optional features are:
@@ -23,7 +23,7 @@ Optional features are:
 
 In this section you will learn how to provide the user with all the necessary information, how to implement QR codes to your payment form and what best practices exist in order to make the payment form user friendly, to increase its conversion rate and to avoid user mistakes.
 
-## What is a crypto wallet URI format? <a href="qrcodeimplementation-whatisacryptowalleturiformat" id="qrcodeimplementation-whatisacryptowalleturiformat"></a>
+## What is a crypto wallet URI format? <a href="#qrcodeimplementation-whatisacryptowalleturiformat" id="qrcodeimplementation-whatisacryptowalleturiformat"></a>
 
 Almost every PC user uses email links on websites. Usually such links have the following format:
 
@@ -51,7 +51,7 @@ BTC URI has a special standard "BIP-0021" described here:
 [https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)
 {% endhint %}
 
-## Why should you present a crypto address as a clickable link instead of text string? <a href="qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring" id="qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring"></a>
+## Why should you present a crypto address as a clickable link instead of text string? <a href="#qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring" id="qrcodeimplementation-whyshouldipresentacryptoaddressasaclickablelinkinsteadoftextstring"></a>
 
 The most common way to provide a crypto address for a user is to show their the address as a text string:
 
@@ -68,10 +68,10 @@ If the user has the crypto wallet application on the same device, they should:
 5. Click a "Send" button to transfer their funds
 
 {% hint style="danger" %}
-The more actions a user has to** **make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format (see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section).
+The more actions a user has to **** make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format (see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section).
 {% endhint %}
 
-## What is a QR code? <a href="qrcodeimplementation-whatisaqrcode" id="qrcodeimplementation-whatisaqrcode"></a>
+## What is a QR code? <a href="#qrcodeimplementation-whatisaqrcode" id="qrcodeimplementation-whatisaqrcode"></a>
 
 A QR code (Quick Response code) is a special visual method of data encoding and transferring that is usually used for simple and fast semi-automatic interaction with users' mobile devices. It can contain any text data, including URL links. When the user uses their phone to scan the QR code, the data inside the QR code will be decoded. If it is a link associated with a special application, the user's smartphone will react in a predefined way. For example, it can suggest to the user to follow the URL using a web browser or to send the funds using their crypto wallet application.
 
@@ -79,7 +79,7 @@ An example of QR code:
 
 ![](../.gitbook/assets/image.png)
 
-## Why should I use QR codes on my payment form? <a href="qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform" id="qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform"></a>
+## Why should I use QR codes on my payment form? <a href="#qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform" id="qrcodeimplementation-whyshouldiuseqrcodesonmypaymentform"></a>
 
 As it was described above, the user has to follow the 5 steps in order to make a deposit if they use a web browser and a crypto wallet on the same device. That is why the address should be presented as a link instead of a text string.
 
@@ -89,7 +89,7 @@ But imagine now that a user gets to a page with the payment form using their lap
 At worst, the only way for the user to pay is to type every symbol from the address manually; the most likely outcome is that the user will leave the form without the deposit. **That is why the QR code with the crypto address should be used at the same time as a link.**
 {% endhint %}
 
-## How to create QR code <a href="qrcodeimplementation-howtocreateqrcode" id="qrcodeimplementation-howtocreateqrcode"></a>
+## How to create QR code <a href="#qrcodeimplementation-howtocreateqrcode" id="qrcodeimplementation-howtocreateqrcode"></a>
 
 In order to provide the best user experience you only need to encode into the QR code a simple URI with the crypto address inside.
 
@@ -103,7 +103,7 @@ A minimum set of parameters is:\
 
 {% hint style="info" %}
 Detailed description can be found here:\
-[https://developers.google.com/chart/infographics/docs/qr_codes](https://developers.google.com/chart/infographics/docs/qr_codes)
+[https://developers.google.com/chart/infographics/docs/qr\_codes](https://developers.google.com/chart/infographics/docs/qr\_codes)
 {% endhint %}
 
 In order to create the QR code you can use Google Chart Service and encode the URI described in [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section.
@@ -126,7 +126,7 @@ You can use this link directly inside the \<img> tag:
 
 When the user scans this QR code they will be able to open the wallet application and to make the deposit in one click.
 
-## Best practice as a result <a href="qrcodeimplementation-bestpracticeasaresult" id="qrcodeimplementation-bestpracticeasaresult"></a>
+## Best practice as a result <a href="#qrcodeimplementation-bestpracticeasaresult" id="qrcodeimplementation-bestpracticeasaresult"></a>
 
 This article described how to increase the conversion rate and as a result total turnover of the payment form for two scenarios. To be sure that the users will have a good experience in both cases all you need is to combine these two methods and use them on the payment form at the same time.
 

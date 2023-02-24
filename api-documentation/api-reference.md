@@ -52,19 +52,6 @@ You wish to send Cryptocurrency from your Fiat currency balance. For example you
 2. Your request is validated on our side. If signature is correct, address is valid and you have enough balance - CoinsPaid responds you with the transaction object.
 3. You will receive a callback when transaction status is updated.
 
-**Futures flow**
-
-In order to guarantee receiving amount, rates should be fixed.&#x20;
-
-1. You send address for exchange (If it is not necessary to receive exchange rates you can skip this step)
-2. You receive rates and their fixation time&#x20;
-3. To confirm futures You have to send exchange pair and amount due.&#x20;
-4. When new deposit is arriving, CoinsPaid converts all arriving funds to destination funds, and sends notifications as in regular deposit.
-
-In case if received and sent amounts don't equal, CP converts it like normal deposit with exchange.
-
-Limit for this operation is 10 000 EUR**.**
-
 #### **Invoice flow**
 
 Invoices allow to conduct deposits with a fixed rate within a limited period of time disregarding the exchange rate fluctuations. In case it’s necessary to convert funds in fiat currency or convert it to another crypto currency this option will allow to visualize the exact amount of a sender’s currency required to receive the exact amount in a receiver’s currency. When a deposit is processed through this flow, a user is being redirected to the respective Invoice page via the preset link and just needs to follow instructions specified on it. It also allows to conduct refunds in case a user fails to manage to deposit within an established timeframe or discovers non-sufficient balance. All is required in that case is to follow the link with the respective instructions sent to an e-mail of a customer. \
@@ -646,121 +633,6 @@ Unique foreign ID in your system, example:
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/futures/rates" method="post" summary="Calculate rates for futures" %}
-{% swagger-description %}
-Get info about rates for futures.
-{% endswagger-description %}
-
-{% swagger-parameter in="body" name="address" type="string" %}
-Exchange address for which you want to calculate futures' rates
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Example of success response" %}
-```
-{
-    "data": {
-        "addresses": [
-            {
-                "id": 384620,
-                "currency": "BTC",
-                "convert_to": "USD",
-                "address": "3GQwSBQErsQ863RcuvCkub6SZBPHKuwSV7",
-                "tag": null,
-                "foreign_id": "ds23fgk"
-            }
-        ],
-        "ts_fixed": 1581507311,
-        "ts_release": 1581513311,
-        "rates": {
-            "BTCUSD": {
-                "5.00000000": "10312.67153000",
-                "10.00000000": "10312.67153000",
-                "20.00000000": "10312.67153000",
-                "50.00000000": "10312.67153000",
-                "100.00000000": "10312.67153000",
-                "200.00000000": "10312.67153000",
-                "300.00000000": "10312.67153000"
-            }
-        }
-    }
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="400" description="Example of response with errors" %}
-```
-{
-    "errors": {
-        "address": "Address is not found, incorrect or without exchange"
-    }
-}
-```
-{% endswagger-response %}
-{% endswagger %}
-
-{% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/futures/confirm" method="post" summary="Confirm futures transaction" %}
-{% swagger-description %}
-Confirm futures transaction.
-{% endswagger-description %}
-
-{% swagger-parameter in="body" name="address" type="string" %}
-Exchange address for which you want to confirm futures
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="sender_currency" type="string" %}
-Currency ISO which you want to exchange, example: 
-
-**"BTC"**
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receiver_currency" type="string" %}
-Currency ISO to be exchanged, example: 
-
-**"EUR"**
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receiver_amount" type="string" %}
-Amount you want to receive
-{% endswagger-parameter %}
-
-{% swagger-response status="200" description="Example of success response" %}
-```
-{
-    "data": {
-        "futures_id": 92,
-        "sender_currency": "BTC",
-        "receiver_currency": "USD",
-        "fee_currency": "USD",
-        "price": "10299.94946000",
-        "address": {
-            "id": 384620,
-            "currency": "BTC",
-            "convert_to": "USD",
-            "address": "3GQwSBQErsQ863RcuvCkub6SZBPHKuwSV7",
-            "tag": null,
-            "foreign_id": "ds23fgk"
-        },
-        "sender_amount": "0.00292",
-        "receiver_amount": "30.00000000",
-        "fee_amount": "1.50000000",
-        "ts_fixed": 1581506566,
-        "ts_release": 1581512566
-    }
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="400" description="Example of response with errors" %}
-```
-{
-    "errors": {
-        "address": "Address is not found, incorrect or without exchange. Error can be related to incorrect sender or receiver currencies."
-    }
-}
-```
-{% endswagger-response %}
-{% endswagger %}
-
 {% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/invoices/create" method="post" summary="Create Invoice" %}
 {% swagger-description %}
 Create invoice for the client for a specified amount.
@@ -921,11 +793,11 @@ A set of parameter included in URL that will allow to redirect a user to Payment
 
 ## "transaction\_type" parameter values
 
-| Type       | Description                                                                                                                                                                                                                                                                                                                  |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Blockchain | Type of transactions that are written into blockchain. Such transactions (deposits and withdrawals) can be tracked via according explorer for suitable blockchain. This is the most common type of transactions.                                                                                                             |
-| Internal   | Type of transactions between two addresses within our processing (between separate merchant accounts or different addresses of the single merchant). Such transactions are not written in blockchain, but still can be tracked via our internal explorer - [https://explorer.coinspaid.com/](https://explorer.coinspaid.com) |
-| Exchange   | Type of transactions that requires exchange between crypto-fiat or crypto-crypto pairs.                                                                                                                                                                                                                                      |
+| Type       | Description                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Blockchain | Type of transactions that are written into blockchain. Such transactions (deposits and withdrawals) can be tracked via according explorer for suitable blockchain. This is the most common type of transactions.                                                                                                              |
+| Internal   | Type of transactions between two addresses within our processing (between separate merchant accounts or different addresses of the single merchant). Such transactions are not written in blockchain, but still can be tracked via our internal explorer - [https://explorer.coinspaid.com/](https://explorer.coinspaid.com/) |
+| Exchange   | Type of transactions that requires exchange between crypto-fiat or crypto-crypto pairs.                                                                                                                                                                                                                                       |
 
 ## Transitions
 

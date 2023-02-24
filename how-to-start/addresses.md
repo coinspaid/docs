@@ -6,12 +6,12 @@ The first “My addresses” section contains the depository addresses provided 
 
 The functionality of this section is available to all merchant users.
 
-![](https://lh5.googleusercontent.com/2R8KBWC5D4pn3pO-gJbVvO71995Y3Qq_Z7t4zXerh6oNoeCiCZuJvaGsZltxw8Z7Lhhcbm63msf4rMZgL2h5uWy8icX2J0ywMt_FgUx6IUE0WXmOcAA27chzFi8-EcOcgpdT1lNB)
+![](https://lh5.googleusercontent.com/2R8KBWC5D4pn3pO-gJbVvO71995Y3Qq\_Z7t4zXerh6oNoeCiCZuJvaGsZltxw8Z7Lhhcbm63msf4rMZgL2h5uWy8icX2J0ywMt\_FgUx6IUE0WXmOcAA27chzFi8-EcOcgpdT1lNB)
 
 ****\
 ****Clicking on the address line will open the side tab with depositing details.
 
-![](https://lh4.googleusercontent.com/rEZLtqgRLspNdzvmXJOyZO4aOdlP3OO4fW0B7zjhPNl_hlpWtFf0pD4u9x202Uvxhfq5WP9Uz72tAtxU4K2nUo3iQWxXjWwyjkBn2hbQeZFzu0c5Za1Ygw4TkVmEIYT4fbrX5dtS)
+![](https://lh4.googleusercontent.com/rEZLtqgRLspNdzvmXJOyZO4aOdlP3OO4fW0B7zjhPNl\_hlpWtFf0pD4u9x202Uvxhfq5WP9Uz72tAtxU4K2nUo3iQWxXjWwyjkBn2hbQeZFzu0c5Za1Ygw4TkVmEIYT4fbrX5dtS)
 
 This tab allows to perform the following actions:\
 
@@ -28,7 +28,7 @@ To create the address, click the “Create address” button. In the window appe
 * The currency supported by the address;
 * The currency to be converted into in case a deposit with an exchange was selected.
 
-![](https://lh3.googleusercontent.com/Hp2RyLHfbfwlNktsJSbie_lb2PLealpbRpE5MFATvNnTl7Mi3ZFcsmh4KGmCdYC_uzTumA6NNseYIT92OZ2k9TGPjUdjG_URr1MyQJZ1KgccE-dto9cN2DbYd-wZM-t7KsJ1\_svw)
+![](https://lh3.googleusercontent.com/Hp2RyLHfbfwlNktsJSbie\_lb2PLealpbRpE5MFATvNnTl7Mi3ZFcsmh4KGmCdYC\_uzTumA6NNseYIT92OZ2k9TGPjUdjG\_URr1MyQJZ1KgccE-dto9cN2DbYd-wZM-t7KsJ1\_svw)
 
 ## **System addresses**
 
@@ -42,7 +42,7 @@ All the detailed information about the address can be viewed and copied by click
 \
 
 
-![](https://lh5.googleusercontent.com/DhiSfm3qEdpRzgbCnjl1GWTKjcD-85NVUeLhnBv_Qfsy5HwOdNLsEJSFEam5nNvCvOIojtnE\_-SihotvccBACWd5vDMNj2yMI-GfX3dAcRaAHiZMIRmTeRhKpdF169LpOQF4r964)
+![](https://lh5.googleusercontent.com/DhiSfm3qEdpRzgbCnjl1GWTKjcD-85NVUeLhnBv\_Qfsy5HwOdNLsEJSFEam5nNvCvOIojtnE\_-SihotvccBACWd5vDMNj2yMI-GfX3dAcRaAHiZMIRmTeRhKpdF169LpOQF4r964)
 
 ## **Contacts**
 
@@ -50,7 +50,7 @@ The third “Contacts” section contains the withdrawal addresses added by the 
 \
 ****
 
-![](https://lh5.googleusercontent.com/vMU9OMujfCIVKjO-UxYoDTroX0TIGXdMnpy_V4ddQbM_mCjNOb2hjGp5orLSWoVZ6ZD\_6JrWxHVYT_VjPGmfOxtSeOdwkKZO5K0jRprgzYImV1L5qf3f6uTfGFusy7Q-wovVVNKD)
+![](https://lh5.googleusercontent.com/vMU9OMujfCIVKjO-UxYoDTroX0TIGXdMnpy\_V4ddQbM\_mCjNOb2hjGp5orLSWoVZ6ZD\_6JrWxHVYT\_VjPGmfOxtSeOdwkKZO5K0jRprgzYImV1L5qf3f6uTfGFusy7Q-wovVVNKD)
 
 In order to add an address to which you withdraw funds on a constant basis, kindly click “Add Contact” button and fill in the required information in the following fields:\
 ****
@@ -60,9 +60,9 @@ In order to add an address to which you withdraw funds on a constant basis, kind
 * Address.
 
 The system checks if the format of the address corresponds to the network to which a withdrawal will be sent. \
-****This section allows to save addresses in order to have a quick access to them due to withdrawing funds. You will be able to get access to them later due to selecting  the currency of the withdrawal transaction in the “Balances” tab. In order to do that you need to click on the currency of the withdrawal and then click on the address book icon.** **
+****This section allows to save addresses in order to have a quick access to them due to withdrawing funds. You will be able to get access to them later due to selecting  the currency of the withdrawal transaction in the “Balances” tab. In order to do that you need to click on the currency of the withdrawal and then click on the address book icon. ****&#x20;
 
-** **
+&#x20;****&#x20;
 
 ![](<../.gitbook/assets/Снимок экрана 2021-05-10 в 17.40.55.png>)
 

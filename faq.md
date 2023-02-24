@@ -26,7 +26,7 @@ We can provide you with a trial account at CoinsPaid, where you can familiarise 
 
 ### **How do I get a merchant account with CoinsPaid?**
 
-Please apply by filling in the contact form on[ coinspaid.com](http://coinspaid.com) or send an email to get@coinspaid.com. Our sales managers will contact you as soon as possible.
+Please apply by filling in the contact form on[ coinspaid.com](http://coinspaid.com/) or send an email to get@coinspaid.com. Our sales managers will contact you as soon as possible.
 
 ### **Does CoinsPaid provide a personal account?**
 

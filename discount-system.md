@@ -10,18 +10,7 @@ Should you wish to benefit from our discounting system related to the staking an
 
 **Available Discount Levels:**
 
-| 30D Volume in USDT | Balance Staked in CPD | Discount for Staking | Discount If Fees are paid In CPD (20% + relevant Discount for Staking) |   |
-| ------------------ | --------------------- | -------------------- | ---------------------------------------------------------------------- | - |
-| <50K               | 0                     | 0%                   | 20%                                                                    |   |
-| ≥50K               | 50,000                | 5%                   | 25%                                                                    |   |
-| ≥500K              | 150,000               | 6%                   | 26%                                                                    |   |
-| ≥1,500K            | 250,000               | 8%                   | 28%                                                                    |   |
-| ≥2,500K            | 500,000               | 10%                  | 30%                                                                    |   |
-| ≥5,000K            | 1,000,000             | 12%                  | 32%                                                                    |   |
-| ≥10,000K           | 2,500,000             | 14%                  | 34%                                                                    |   |
-| ≥20,000K           | 5,000,000             | 16%                  | 36%                                                                    |   |
-| ≥35,000K           | 10,000,000            | 18%                  | 38%                                                                    |   |
-| ≥50,000K           | 20,000,000            | 20%                  | 40%                                                                    |   |
+<table><thead><tr><th>30D Volume in USDT</th><th>Balance Staked in CPD</th><th>Discount for Staking</th><th>Discount If Fees are paid In CPD (20% + relevant Discount for Staking)</th><th data-hidden></th></tr></thead><tbody><tr><td>&#x3C;50K</td><td>0</td><td>0%</td><td>20%</td><td></td></tr><tr><td>≥50K</td><td>50,000</td><td>5%</td><td>25%</td><td></td></tr><tr><td>≥500K</td><td>150,000</td><td>6%</td><td>26%</td><td></td></tr><tr><td>≥1,500K</td><td>250,000</td><td>8%</td><td>28%</td><td></td></tr><tr><td>≥2,500K</td><td>500,000</td><td>10%</td><td>30%</td><td></td></tr><tr><td>≥5,000K</td><td>1,000,000</td><td>12%</td><td>32%</td><td></td></tr><tr><td>≥10,000K</td><td>2,500,000</td><td>14%</td><td>34%</td><td></td></tr><tr><td>≥20,000K</td><td>5,000,000</td><td>16%</td><td>36%</td><td></td></tr><tr><td>≥35,000K</td><td>10,000,000</td><td>18%</td><td>38%</td><td></td></tr><tr><td>≥50,000K</td><td>20,000,000</td><td>20%</td><td>40%</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 Read more about the Discount Program [here](https://cryptoprocessing.com/docs/cpd-tokenomics.pdf).

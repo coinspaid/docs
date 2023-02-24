@@ -4,7 +4,7 @@ description: Contains deposits description and provides common workflow for that
 
 # Deposits
 
-Crypto deposits are similar to bank transfers. If the recipient’s bank account number is known then the funds can be directly sent at any time. This approach differs from classic payment methods because the transaction cannot be created before the funds have appeared in the bank account. The same way web-services cannot expect that crypto deposit transactions will be initiated from the "payment form" every time because, in general, there is no such term for cryptocurrencies. Unlike the classical approach, web-services should handle callbacks from payment providers with information about received deposits. When web-services receive the first callback they then** **create the transaction. After the transaction will be confirmed by the payment provider the second callback will inform the web-services about the status of the transaction. Then, web-services can provide the user with a specific service.
+Crypto deposits are similar to bank transfers. If the recipient’s bank account number is known then the funds can be directly sent at any time. This approach differs from classic payment methods because the transaction cannot be created before the funds have appeared in the bank account. The same way web-services cannot expect that crypto deposit transactions will be initiated from the "payment form" every time because, in general, there is no such term for cryptocurrencies. Unlike the classical approach, web-services should handle callbacks from payment providers with information about received deposits. When web-services receive the first callback they then **** create the transaction. After the transaction will be confirmed by the payment provider the second callback will inform the web-services about the status of the transaction. Then, web-services can provide the user with a specific service.
 
 {% hint style="warning" %}
 #### Attention!
@@ -15,12 +15,12 @@ As cryptocurrencies are based on the blockchain technology, you cannot delete th
 
 If the user knows this address they can always send the funds there, because it is not necessary for the user to interact with the payment form when they would like to send the funds.
 
-Even if you show the users new addresses every time, they can always make the deposit to the older one, and they expect that they will be able to see their funds on your website. 
+Even if you show the users new addresses every time, they can always make the deposit to the older one, and they expect that they will be able to see their funds on your website.&#x20;
 {% endhint %}
 
 ### Common deposit workflow
 
-The most common** **scenario for receiving cryptocurrency is "deposit with exchange". Coinspaid provides web-services with on-the-fly exchange solution. It means that all funds that were received from the users can be automatically converted into fiat currencies in order to avoid cryptocurrency fluctuations and exchange rate inconsistencies.
+The most common **** scenario for receiving cryptocurrency is "deposit with exchange". Coinspaid provides web-services with on-the-fly exchange solution. It means that all funds that were received from the users can be automatically converted into fiat currencies in order to avoid cryptocurrency fluctuations and exchange rate inconsistencies.
 
 In case of regular deposits without exchange the workflow there will be the same but the conversion option will be skipped.
 
@@ -36,7 +36,7 @@ In case of regular deposits without exchange the workflow there will be the same
 > 6. You add the amount from the callback to user’s EUR balance
 
 {% hint style="danger" %}
-When you show a deposit address to a user, it is important to notify** **the user about exchange rates, deposit limits and the chosen cryptocurrency. Besides this you may want to warn the user that:
+When you show a deposit address to a user, it is important to notify **** the user about exchange rates, deposit limits and the chosen cryptocurrency. Besides this you may want to warn the user that:
 
 * all deposits below the limits or sent to incorrect addresses will be lost
 
@@ -46,7 +46,7 @@ Here you can find information about deposit and withdrawal limits:
 
 Sometimes users make mistakes and send the funds using a specific cryptocurrency to the address from a different blockchain. These funds will be lost in most cases. The funds could be particularly restored according to the "Crosschain recovery policy":
 
-* [Crosschain recovery policy](../crosschain-recovery-policy.md)
+* [Crosschain recovery policy](broken-reference)
 {% endhint %}
 
 In order to increase the conversion rate for crypto payments we have a special guide for how you can develop your payment form and provide the user with the best experience of crypto payments. There are good recommendations on how to build friendly and comfortable interactions with your interface for the user. Here you can find out how it can be implemented:
@@ -58,10 +58,10 @@ In order to increase the conversion rate for crypto payments we have a special g
 {% hint style="info" %}
 #### Hint 1
 
-Usually our merchants generate all the needed crypto addresses at the time** **when a new user is created. In order to do this you should use the **"/v2/addresses/take"** method from our API.\
+Usually our merchants generate all the needed crypto addresses at the time **** when a new user is created. In order to do this you should use the **"/v2/addresses/take"** method from our API.\
 You can define what currency should be used for receiving the funds from the user and, if necessary, into what fiat currency received funds should be converted.
 
-In most cases it is useful to send us your user's ID as a **"foreign_id"** parameter. We will link it to the address and send it in the callbacks. Using such a method you will be able to understand which user made the deposit.
+In most cases it is useful to send us your user's ID as a **"foreign\_id"** parameter. We will link it to the address and send it in the callbacks. Using such a method you will be able to understand which user made the deposit.
 {% endhint %}
 
 {% hint style="warning" %}
