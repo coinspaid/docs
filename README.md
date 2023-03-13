@@ -35,21 +35,22 @@ BEP-2 means that a coin or token is based on Binance Chain network.
 * DOGE - Dogecoin
 * XRP - Ripple
 * CSC - CasinoCoin (based on XRP network)
-* USDTE - Tether USD ERC-20 token&#x20;
+* USDTE - Tether USD ERC-20\* token&#x20;
 * USDTT - Tether USD TRC-20 token&#x20;
 * BNB - Binance BEP-2 coin &#x20;
 * BNB-BSC - Binance BEP-20 coin&#x20;
 * BUSD - Binance USD BEP-20 token&#x20;
 * SNACK - Crypto Snack BEP-20 token&#x20;
 * EURS - STASIS EURS
-* USDC - USD Coin ERC-20\* token&#x20;
+* USDC - USD Coin ERC-20 token&#x20;
 * TRX - TRON
 * XED - Exeedme ERC-20 token&#x20;
 * DAI - DAI ERC-20 Stablecoin
 * MRX - Metrix Coin
 * WBTC - Wrapped Bitcoin
 * CPD - CoinsPaid ERC-20 token&#x20;
-* BRZ - Brazilian Digital ERC-20 token \
+* BRZ - Brazilian Digital ERC-20 token
+* VERSE - Verse, ERC-20 token\
   \
   _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
   _\*_ ERC20 token(s) can be added by request.\
