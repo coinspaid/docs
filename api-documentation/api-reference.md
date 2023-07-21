@@ -39,14 +39,14 @@ Please note that the final status and all calculations on your side shall be app
 
 **Deposit with exchange flow**
 
-You don't want to touch or store cryptocurrency, but only use it as a payment method. Your customer deposits **BTC**, **** Coinspaid instantly converts it to **EUR** so that **you would receive EUR on your CoinsPaid account.**
+You don't want to touch or store cryptocurrency, but only use it as a payment method. Your customer deposits **BTC**, Coinspaid instantly converts it to **EUR** so that **you would receive EUR on your CoinsPaid account.**
 
 1. You obtain new address from CoinsPaid API same as in deposit flow, but additionally pass another parameter "convert\_to" in your request specifying resulting currency.
 2. When new deposit is arriving, CoinsPaid converts all arriving funds to destination funds, and sends notifications as in regular deposit
 
 **Withdrawal with exchange flow**
 
-You wish to send Cryptocurrency from your Fiat currency balance. For example you want to **send EUR amount** but your customer **** receives **** money **in BTC.**
+You wish to send Cryptocurrency from your Fiat currency balance. For example you want to **send EUR amount** but your customer receives money **in BTC.**
 
 1. You do exactly same as in withdrawals, but you specify 2 currencies. One is a currency of your **sending balance** and Second is a **cryptocurrency your Customer wishes to receive**.
 2. Your request is validated on our side. If signature is correct, address is valid and you have enough balance - CoinsPaid responds you with the transaction object.
@@ -381,12 +381,7 @@ Cryptocurrency address where you want to send funds.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="tag" type="string" %}
-Tag (if it's Ripple or BNB) or memo (if it's Bitshares or 
-
-\
-
-
-EOS)
+Destination tag/memo (if it’s Ripple or BNB).
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response of withdraw without conversion" %}
@@ -534,8 +529,6 @@ Amount you want to exchange, example:
 
 \
 
-
-****
 
 That this value shall be the same as the value specified in the exchange/calculate request
 {% endswagger-parameter %}
