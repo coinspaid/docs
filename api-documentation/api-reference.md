@@ -381,7 +381,7 @@ Cryptocurrency address where you want to send funds.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="tag" type="string" %}
-Destination tag/memo (if it’s Ripple or BNB).
+Destination tag/memo (if it’s XRP or BNB).
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response of withdraw without conversion" %}
