@@ -381,7 +381,7 @@ Cryptocurrency address where you want to send funds.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="tag" type="string" %}
-Destination tag/memo (if it’s XRP or BNB).
+If it’s XRP or BNB, both an address and a tag/memo are required to send cryptocurrency. If you send funds without a tag/memo or with an incorrect Tag/Memo, your funds may be lost.
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response of withdraw without conversion" %}
