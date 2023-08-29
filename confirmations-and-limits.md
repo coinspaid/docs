@@ -3,14 +3,14 @@
 Here you can find confirmation times for crypto deposits and min/max limits.
 
 {% hint style="danger" %}
-Please note that **min limits** for exchange operations must be **obtained via API** (see [this API call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs)) because they may vary dynamically. Limits for min deposits [can be obtained via API](api-documentation/api-reference.md#get-list-of-supported-currencies) too, though they do not change often.
+Please note that **min. limits** for exchange operations must be **obtained via API** (see [this API call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs)) because they may vary dynamically. Limits for min. deposits [can be obtained via API](api-documentation/api-reference.md#get-list-of-supported-currencies) too, though they do not change often.
 {% endhint %}
 
 | Currency      | Confirmations  | Min deposit | Min withdrawal | Notes                                                                             |
 | ------------- | -------------- | ----------- | -------------- | --------------------------------------------------------------------------------- |
 | ADA           | 15             | 2           | 2              | [explorer](https://cardanoexplorer.com/)                                          |
-| BTC           | 0/1            | 0.0001      | 0.0002         | [explorer](https://www.blockchain.com/explorer)                                   |
-| BCH           | 0/6            | 0.001       | 0.001          | [explorer](https://explorer.bitcoin.com/bch)                                      |
+| BTC           | 0/1\*          | 0.0001      | 0.0002         | [explorer](https://www.blockchain.com/explorer)                                   |
+| BCH           | 0/6\*          | 0.001       | 0.001          | [explorer](https://explorer.bitcoin.com/bch)                                      |
 | LTC           | 6              | 0.01        | 0.01           | [explorer](https://live.blockcypher.com/ltc/)                                     |
 | DOGE          | 6              | 1           | 1              | [explorer](https://live.blockcypher.com/doge/)                                    |
 | ETH           | 10             | 0.01        | 0.01           | [explorer](http://etherscan.io/)                                                  |
@@ -25,8 +25,17 @@ Please note that **min limits** for exchange operations must be **obtained via A
 | BUSD          | 25             | 5           | 5              | [explorer](https://bscscan.com/)                                                  |
 | SNACK         | 25             | 10          | 10             | [explorer](https://bscscan.com/)                                                  |
 | TRX           | 19             | 10          | 10             | [explorer](https://tronscan.org/)                                                 |
-| DAI           | 10             | 5           | 5              |                                                                                   |
+| DAI           | 10             | 5           | 5              | [explorer](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | VERSE         | 10             | 10000       | 10000          | [explorer](https://etherscan.io/token/0x249cA82617eC3DfB2589c4c17ab7EC9765350a18) |
+
+{% hint style="info" %}
+_**\***We use an external service to speed up the process of deposit crediting for slow blockchains:_
+
+* _If the transaction is approved by the service, no confirmations are required and the deposit will be credited immediately._ Usually, this happens in 85% of cases.
+* _If not, the cryptoprocessing will require the number of confirmations shown after the \[/] symbol in the table._
+
+_It is defined automatically and does not require any action from the user._
+{% endhint %}
 
 {% hint style="info" %}
 The number of confirmations can be more than the value in the table in cases when several blocks are released in a short period of time.
