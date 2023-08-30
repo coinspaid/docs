@@ -40,7 +40,7 @@ In this form, you can do the following:
 
 * select the option “All interface withdrawals will be passed through manual moderation”(all interface withdrawals are manually moderated);
 * for each type of operation (one operation, per hour, per day):
-  * leave Unlimited **** value (all interface withdrawals for the type of operation are unlimited);
+  * leave Unlimited value (all interface withdrawals for the type of operation are unlimited);
   * select Custom and add a value (all interface withdrawals for the type of operation with a value higher than this one are manually moderated).
 
 After setting the limit, enter your 2FA code to confirm.
@@ -57,7 +57,7 @@ To add a limit on withdrawals for the cryptocurrency, click “Add limit.”
 
 In the window that appears, select the currency from the drop-down list. The next steps are similar to the Default settings.
 
-When specifying your amount, you cannot set the value **** to "0" since it will be considered that you want to send all transactions for manual moderation. In case you want a similar setting, check the box “All interface/API withdrawals will be passed through manual moderation.”
+When specifying your amount, you cannot set the value to "0" since it will be considered that you want to send all transactions for manual moderation. In case you want a similar setting, check the box “All interface/API withdrawals will be passed through manual moderation.”
 
 {% hint style="danger" %}
 **Custom withdrawal limits have higher priority than the Default withdrawal limits. For example: 1 BTC = 10,000 EUR. The user sets a “per day” default withdrawal limit to 9000 EUR and a single operation custom withdrawal limit in BTC to 2 BTC. When you withdraw 1 BTC, the transaction will NOT obtain the “Pending” because it will be less than the set custom withdrawal limit.**

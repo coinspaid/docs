@@ -16,7 +16,6 @@
   * [Callback Examples](api-documentation/callbacks.md)
 * [Confirmations and limits](confirmations-and-limits.md)
 * [Dynamic BTC min deposit fee](dynamic-btc-min-deposit-fee.md)
-* [Discount system](discount-system.md)
 * [FAQ](faq.md)
 * [Mining fees concept](mining-fees-concept.md)
 * [How to start](how-to-start/README.md)

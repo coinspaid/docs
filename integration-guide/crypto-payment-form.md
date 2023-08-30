@@ -27,7 +27,7 @@ In this section you will learn how to provide the user with all the necessary in
 
 Almost every PC user uses email links on websites. Usually such links have the following format:
 
-[address@email.com](mailto:address@email.com)****
+[address@email.com](mailto:address@email.com)
 
 {% hint style="info" %}
 **mailto**:address@email.com
@@ -68,7 +68,7 @@ If the user has the crypto wallet application on the same device, they should:
 5. Click a "Send" button to transfer their funds
 
 {% hint style="danger" %}
-The more actions a user has to **** make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format (see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section).
+The more actions a user has to make the more probable it is that they will not pay. That is why **the crypto address has to be presented at least as a clickable link** using a specific URI format (see the [What is a crypto wallet URI format?](https://docs.coinspaid.com/docs/faq/qr-codes-implementation#QRcodeimplementation-WhatisacryptowalletURIformat?) section).
 {% endhint %}
 
 ## What is a QR code? <a href="#qrcodeimplementation-whatisaqrcode" id="qrcodeimplementation-whatisaqrcode"></a>
