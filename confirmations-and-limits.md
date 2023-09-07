@@ -28,14 +28,12 @@ Please note that **min. limits** for exchange operations must be **obtained via 
 | DAI           | 10             | 5           | 5              | [explorer](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | VERSE         | 10             | 10000       | 10000          | [explorer](https://etherscan.io/token/0x249cA82617eC3DfB2589c4c17ab7EC9765350a18) |
 
-{% hint style="info" %}
 _**\***We use an external service to speed up the process of deposit crediting for slow blockchains:_
 
 * _If the transaction is approved by the service, no confirmations are required and the deposit will be credited immediately._ Usually, this happens in 85% of cases.
 * _If not, the cryptoprocessing will require the number of confirmations shown after the \[/] symbol in the table._
 
 _It is defined automatically and does not require any action from the user._
-{% endhint %}
 
 {% hint style="info" %}
 The number of confirmations can be more than the value in the table in cases when several blocks are released in a short period of time.
