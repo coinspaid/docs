@@ -8,7 +8,7 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 
 * Simple and quick API for all operations&#x20;
 * Competitive pricing&#x20;
-* Yearly security audits from independent third party&#x20;
+* Yearly security audits from independent third-party&#x20;
 * Turnkey business solutions 24/7 technical support&#x20;
 * Comprehensive financial reporting for ease of reconciliation&#x20;
 * Tiered access levels for your employees&#x20;
@@ -17,68 +17,86 @@ CoinsPaid is an organisation providing сryptocurrency payment services, we enab
 * Loyalty program&#x20;
 * Blockchain-based risk score
 
-### Supported crypto currencies
+### Supported cryptocurrencies
+
+| Cryptocurrency | Name                    | Network                            |
+| -------------- | ----------------------- | ---------------------------------- |
+| ADA            | Cardano                 | Cardano                            |
+| BCH            | Bitcoin Cash            | Bitcoin Cash                       |
+| BNB            | Binance Coin            | Beacon                             |
+| BNB-BSC        | BNB                     | Binance Smart Chain                |
+| BRZ            | Brazilian Digital Token | Ethereum (ERC-20 token)            |
+| BTC            | Bitcoin                 | Bitcoin                            |
+| BUSD           | BUSD                    | Binance Smart Chain (BEP-20 token) |
+| CPD            | CoinsPaid               | Ethereum (ERC-20 token)            |
+| CSC            | CasinoCoin              | Ripple (RTXP token)                |
+| DAI            | Dai Stablecoin          | Ethereum (ERC-20 token)            |
+| DOGE           | Dogecoin                | Dogecoin                           |
+| ETH            | Ethereum                | Ethereum                           |
+| EURS           | STASIS EURS             | Ethereum (ERC-20 token)            |
+| LTC            | Litecoin                | Litecoin                           |
+| SNACK          | Crypto Snack            | Binance Smart Chain (BEP-20 token) |
+| TRX            | Tron                    | Tron                               |
+| USDC           | USD Coin                | Ethereum (ERC-20 token)            |
+| USDTE          | Tether USD              | Ethereum (ERC-20 token)            |
+| USDTT          | Tether USD              | Tron (TRC-20 token)                |
+| VERSE          | Verse                   | Ethereum (ERC-20 token)            |
+| WBTC           | Wrapped BTC             | Ethereum (ERC-20 token)            |
+| XED            | Exeedme                 | Ethereum (ERC-20 token)            |
+| XRP            | Ripple                  | Ripple                             |
 
 {% hint style="info" %}
-Note:\
-ERC-20 means that a token is based on the Ethereum network;\
-TRC-20 means that a token is based on the Tron network;\
-BEP-20 means that a token is based on Binance Smart Chain network;\
-BEP-2 means that a coin or token is based on Binance Chain network.
+Note:
+
+* **ERC-20** means that a token is based on the Ethereum network;
+* **TRC-20** means that a token is based on the Tron network;
+* **BEP-20** means that a token is based on the Binance Smart Chain network;
+* **BEP-2** means that a token is based on the Binance Chain (Beacon) network;
+* **RTXP** means that a token is based on the Ripple network.
 {% endhint %}
 
-* BTC - Bitcoin
-* LTC - Litecoin
-* BCH - Bitcoin cash
-* ADA - Cardano
-* ETH - Ethereum
-* DOGE - Dogecoin
-* XRP - Ripple
-* CSC - CasinoCoin (based on XRP network)
-* USDTE - Tether USD ERC-20\* token&#x20;
-* USDTT - Tether USD TRC-20 token&#x20;
-* BNB - Binance BEP-2 coin &#x20;
-* BNB-BSC - Binance BEP-20 coin&#x20;
-* BUSD - Binance USD BEP-20 token&#x20;
-* SNACK - Crypto Snack BEP-20 token&#x20;
-* EURS - STASIS EURS
-* USDC - USD Coin ERC-20 token&#x20;
-* TRX - TRON
-* XED - Exeedme ERC-20 token&#x20;
-* DAI - DAI ERC-20 Stablecoin
-* MRX - Metrix Coin
-* WBTC - Wrapped Bitcoin
-* CPD - CoinsPaid ERC-20 token&#x20;
-* BRZ - Brazilian Digital ERC-20 token
-* VERSE - Verse, ERC-20 token\
-  \
-  _\* Tether token is the most popular "stablecoin", price of the token is fluctuating around 1 USD._\
-  _\*_ ERC20 token(s) can be added by request.\
+\
+_\* USDTE (Tether) token is the most popular "stablecoin". The price of the token fluctuates around 1 USD._\
+_\*_ New token(s) based on supported networks can be added by request.\
 
 
 ### Supported Fiat currencies
 
-<table data-header-hidden><thead><tr><th align="right"></th><th align="center">Supported fiat currencies</th><th width="121"></th><th></th></tr></thead><tbody><tr><td align="right"></td><td align="center"><strong>Supported fiat currencies</strong></td><td></td><td></td></tr><tr><td align="right">EUR</td><td align="center">BRL</td><td>TJS</td><td></td></tr><tr><td align="right">USD</td><td align="center">VND</td><td>AZN</td><td></td></tr><tr><td align="right">GBP</td><td align="center">IDR</td><td>KGS</td><td></td></tr><tr><td align="right">CAD</td><td align="center">INR</td><td>NGN</td><td></td></tr><tr><td align="right">SEK</td><td align="center">KRW</td><td>MDL</td><td></td></tr><tr><td align="right">AUD</td><td align="center">THB</td><td>BYN</td><td></td></tr><tr><td align="right">NOK</td><td align="center">MYR</td><td>TRY</td><td></td></tr><tr><td align="right">CHF</td><td align="center">PEN</td><td>ILS</td><td></td></tr><tr><td align="right">RUB</td><td align="center">CLP</td><td>GEL</td><td></td></tr><tr><td align="right">CNY</td><td align="center">KZT</td><td>HUF</td><td></td></tr><tr><td align="right">JPY</td><td align="center">UAH</td><td>BDT</td><td></td></tr><tr><td align="right">NZD</td><td align="center">CZK</td><td>NPR</td><td></td></tr><tr><td align="right">MXN</td><td align="center">PLN</td><td>LKR</td><td></td></tr><tr><td align="right">ARS</td><td align="center">ZAR</td><td>PHP</td><td></td></tr></tbody></table>
+| EUR | USD  | GBP |
+| --- | ---- | --- |
+| ARS | IDR  | NPR |
+| AUD | ILS  | NZD |
+| AZN | INR  | PEN |
+| BDT | JPY  | PHP |
+| BRL | KGS  | PLN |
+| BYN | KRW  | RUB |
+| CAD | KZT  | SEK |
+| CHF | LKR  | THB |
+| CLP | MDL  | TJS |
+| CNY | MXN  | TRY |
+| CZK | MYR  | UAH |
+| GEL | NGN  | VND |
+| HUF | NOK  | ZAR |
 
 ### Available trading Pairs
 
-| **Convert from** |                                                                **Convert to Crypto**                                                               |                                                      **Convert to Fiat**                                                      |
-| :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-|        BTC       | <p>USDTE</p><p>ETH</p><p>LTC</p><p>BCH</p><p>DOGE</p><p>USDT</p><p>USDTT</p><p>USDC</p><p>ADA</p><p>TRX</p><p>XRP</p><p>BNB<br>BNB-BSC<br>BUSD</p> |                                        <p>all fiat currencies</p><p>except IDR, VND</p>                                       |
-|        ETH       |                        <p>BTC</p><p>LTC</p><p>BCH</p><p>LTC</p><p>USDTT</p><p>USDTE</p><p>USDC<br>BNB<br>BNB-BSC<br>BUSD</p>                       |                                                      all fiat currencies                                                      |
-|       USDTE      |                               <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB<br>BNB-BSC</p><p>CPD<br>BUSD<br>USDC</p>                              |                                   <p>all fiat currencies </p><p>except BDT, NPR, LKR<br></p>                                  |
-|       USDTT      |                              <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH</p><p>BNB <br>BNB-BSC<br>BUSD</p><p>CPD<br>USDC</p>                              |                                  <p>all fiat currencies </p><p>except BDT, NPR, LKR, PHP</p>                                  |
-|       USDC       |                                    <p>BTC</p><p>BCH</p><p>LTC</p><p>ETH<br>BNB<br>BNB-BSC<br>USDTE<br>USDTT</p>                                    |                                                         ARS, EUR, USD                                                         |
-|       DOGE       |                                                                 <p>BTC<br>BUSD</p>                                                                 | <p>all fiat currencies </p><p>except AZN, BRL, GEL, </p><p>ILS, KGS, MDL, </p><p>NGN, TJS, TRY, </p><p>BDT, NPR, LKR, PHP</p> |
-|        BCH       |                                  <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT<br>BNB<br>BNB-BSC<br>BUSD</p>                                 |                                                 all fiat currencies except PHP                                                |
-|        LTC       |                                  <p>BTC</p><p>USDTE</p><p>ETH</p><p>USDC</p><p>USDTT<br>BNB<br>BNB-BSC<br>BUSD</p>                                 |                                                      all fiat currencies                                                      |
-|        ADA       |                                                                         BTC                                                                        |                                                 all fiat currencies except PHP                                                |
-|        TRX       |                                                                 <p>BTC<br>USDTE</p>                                                                |                                                 all fiat currencies except PHP                                                |
-|        XRP       |                                                                         BTC                                                                        |                               <p>all fiat currencies<br> except BDT, HUF,<br> NPR, LKR, PHP</p>                               |
-|        BNB       |                                   <p>BTC<br>ETH</p><p>USDTE</p><p>USDTT<br>BUSD<br>BCH<br>USDC<br>LTC<br>BUSD</p>                                  |          <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>         |
-|      BNB-BSC     |                                      <p>BTC<br>ETH<br>USDTE<br>USDTT<br>BUSD<br>BCH<br>USDC<br>LTC<br>BUSD</p>                                     |          <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>         |
-|       BUSD       |                           <p>BTC <br>USDTE<br>USDTT<br>ETH<br>BNB-BSC<br>BNB<br>LTC<br>DOGE<br>BCH<br>BNB<br>BNB-BSC</p>                           |          <p>EUR<br>USD<br>UAH<br>RUB<br>AUD<br>NOK<br>CAD<br>GBP<br>NZD<br>INR<br>HUF<br>PLN<br>CHF<br>KZT<br>TRY</p>         |
-|        CPD       |                                                              <p>USDTE</p><p>USDTT</p>                                                              |                                                              EUR                                                              |
-|        DAI       |                                                                                                                                                    |                                                       <p>EUR<br>USD</p>                                                       |
+| Convert from | Convert to Crypto                                              | Convert to Fiat                                                                                                                                                             |
+| ------------ | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ADA          | BTC                                                            | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PLN RUB SEK THB TJS TRY UAH USD VND ZAR         |
+| BCH          | BNB BNB-BSC BTC BUSD ETH USDC USDTE USDTT                      | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PLN RUB SEK THB TJS TRY UAH USD VND ZAR         |
+| BNB          | BCH BTC BUSD ETH LTC USDC USDTE USDTT                          | AUD CAD CHF EUR GBP HUF INR KZT NOK NZD PLN RUB TRY UAH USD                                                                                                                 |
+| BNB-BSC      | BCH BTC BUSD ETH LTC USDC USDTE USDTT                          | AUD CAD CHF EUR GBP HUF INR KZT NOK NZD PLN RUB TRY UAH USD                                                                                                                 |
+| BTC          | ADA BCH BNB BNB-BSC BUSD DOGE ETH LTC TRX USDC USDTE USDTT XRP | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR EUR EUR GBP GEL HUF ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PHP PLN RUB SEK THB TJS TRY UAH USD VND ZAR |
+| BUSD         | BCH BNB BNB-BSC BTC DOGE ETH LTC USDTE USDTT                   | AUD CAD CHF EUR GBP HUF INR KZT NOK NZD PLN RUB TRY UAH USD                                                                                                                 |
+| CPD          | USDTE USDTT                                                    | EUR                                                                                                                                                                         |
+| DAI          | -                                                              | EUR USD                                                                                                                                                                     |
+| DOGE         | BTC BUSD                                                       | ARS AUD BRL CAD CHF CLP CNY CZK EUR GBP HUF IDR INR JPY KRW KZT MXN MYR NOK NZD PEN PLN RUB SEK THB UAH USD VND ZAR                                                         |
+| ETH          | BCH BNB BNB-BSC BTC BUSD LTC USDC USDTE USDTT XRP              | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PHP PLN RUB SEK THB TJS TRY UAH USD VND ZAR     |
+| LTC          | BNB BNB-BSC BTC BUSD ETH USDC USDTE USDTT                      | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PHP PLN RUB SEK THB TJS TRY UAH USD VND ZAR     |
+| TRX          | BTC USDTE                                                      | ARS AUD AZN BDT BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT LKR MDL MXN MYR NGN NOK NPR NZD PEN PLN RUB SEK THB TJS TRY UAH USD VND ZAR         |
+| USDC         | BCH BNB BNB-BSC BTC ETH LTC USDTE USDTT                        | ARS EUR USD                                                                                                                                                                 |
+| USDTE        | BCH BNB BNB-BSC BTC BUSD CPD ETH LTC TRX USDC                  | ARS AUD AZN BRL BYN CAD CHF CLP CNY CZK EUR EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT MDL MXN MYR NGN NOK NZD PEN PHP PLN RUB SEK THB TJS TRY UAH USD VND ZAR             |
+| USDTT        | BCH BNB BNB-BSC BTC BUSD CPD ETH LTC USDC                      | ARS AUD AZN BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL HUF IDR ILS INR JPY KGS KRW KZT MDL MXN MYR NGN NOK NZD PEN PLN RUB SEK THB TJS TRY UAH USD VND ZAR                     |
+| XRP          | BTC ETH                                                        | ARS AUD AZN BRL BYN CAD CHF CLP CNY CZK EUR GBP GEL IDR ILS INR JPY KGS KRW KZT MDL MXN MYR NGN NOK NZD PEN PLN RUB SEK THB TJS TRY UAH USD VND ZAR                         |
 
-You can obtain all supported currency pairs via [api call](api-documentation/api-reference.md#get-list-of-exchangeable-currency-pairs).
+The complete list of all supported currencies and exchange pairs can be received via [API calls](api-documentation/api-reference.md#api-endpoints).
