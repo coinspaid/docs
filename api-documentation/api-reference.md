@@ -81,7 +81,7 @@ Get a list of all supported currencies
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="visible" type="boolean" %}
-Allows to get a list of currently enabled/disabled currencies 
+Allows to get a list of currently enabled/disabled currencies&#x20;
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
@@ -109,15 +109,11 @@ Get list of currency exchange pairs.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="currency_from" type="string" %}
-Filter by currency ISO that exchanges from, example: 
-
-**BTC**
+Filter by currency ISO that exchanges from, example: **BTC**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="currency_to" type="string" %}
-Filter by currency ISO that can be converted to, example: 
-
-**EUR**
+Filter by currency ISO that can be converted to, example: **EUR**
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Example of success response" %}
@@ -203,20 +199,12 @@ Get a particular pair and its price.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="currency_from" type="string" %}
-Filter by currency ISO that exchanges from,
-
-\
-
-
-example: 
-
-**BTC**
+Filter by currency ISO that exchanges from,\
+example: **BTC**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="currency_to" type="string" %}
-Filter by currency ISO that can be converted to, example: 
-
-**EUR**
+Filter by currency ISO that can be converted to, example: **EUR**
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
@@ -284,23 +272,15 @@ Take address for depositing crypto and (it depends on specified params) exchange
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
-Your info for this address, will returned as reference in Address responses, example: 
-
-**user-id:2048**
+Your info for this address, will returned as reference in Address responses, example: **user-id:2048**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="currency" type="string" %}
-ISO of currency to receive funds in, example: 
-
-**BTC**
+ISO of currency to receive funds in, example: **BTC**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="convert_to" type="string" %}
-If you need auto exchange all incoming funds for example to 
-
-**EUR**
-
-, specify this param as EUR or any other supported currency ISO, to see list of pairs see previous method.
+If you need auto exchange all incoming funds for example to **EUR**, specify this param as EUR or any other supported currency ISO, to see list of pairs see previous method.
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response" %}
@@ -343,37 +323,23 @@ You are willing to let your customer fund his EUR balance on your platform or we
 
 {% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/withdrawal/crypto" method="post" summary="Withdraw cryptocurrency" %}
 {% swagger-description %}
-Withdraw in crypto to any specified address. You can send Cryptocurrency from your Fiat currency balance by using "convert_to" parameter. 
+Withdraw in crypto to any specified address. You can send Cryptocurrency from your Fiat currency balance by using "convert\_to" parameter.&#x20;
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
-Unique foreign ID in your system, example: "
-
-**122929**
-
-"
+Unique foreign ID in your system, example: "**122929**"
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="amount" type="string" %}
-Amount of funds to withdraw, example: 
-
-**"1"**
+Amount of funds to withdraw, example: **"1"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="currency" type="string" %}
-Currency ISO to be withdrawn, example: "
-
-**BTC**
-
-"
+Currency ISO to be withdrawn, example: "**BTC**"
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="convert_to" type="string" %}
-If you want to auto convert for example EUR to BTC, specify this param as 
-
-**BTC**
-
- or any other currency supported (see list of exchangeable pairs API method).
+If you want to auto convert for example EUR to BTC, specify this param as **BTC** or any other currency supported (see list of exchangeable pairs API method).
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="address" type="string" %}
@@ -381,7 +347,7 @@ Cryptocurrency address where you want to send funds.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="tag" type="string" %}
-If it’s XRP or BNB, both an address and a tag/memo are required to send cryptocurrency. If you send funds without a tag/memo or with an incorrect Tag/Memo, your funds may be lost.
+If it’s XRP or BNB, both an address and a tag/memo are required to send cryptocurrency. If you send funds without a tag/memo or with an incorrect Tag/Memo, your funds may be lost (for more info go to FAQ).
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response of withdraw without conversion" %}
@@ -415,49 +381,25 @@ If it’s XRP or BNB, both an address and a tag/memo are required to send crypto
 
 {% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/exchange/calculate" method="post" summary="Calculate exchange rates" %}
 {% swagger-description %}
-Get info about exchange rates.
-
+Get info about exchange rates.\
 \
-
-
-
-
-\
-
-
-Please note, this endpoint has limitation 
-
-**up to 30 requests per minute**
-
- from one IP address, in case this amount is exceeded a new successful response can only be obtained after one minute break.
+Please note, this endpoint has limitation **up to 30 requests per minute** from one IP address, in case this amount is exceeded a new successful response can only be obtained after one minute break.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="receiver_amount" type="string" %}
-Amount you want to calculate for getting, example: 
-
-**"10".**
-
- The parameter is required when the "sender_amount" parameter is absent
+Amount you want to calculate for getting, example: **"10".** The parameter is required when the "sender\_amount" parameter is absent
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_currency" type="string" %}
-Currency ISO for which you want to calculate the exchange rate, example: 
-
-**"BTC"**
+Currency ISO for which you want to calculate the exchange rate, example: **"BTC"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="receiver_currency" type="string" %}
-Currency ISO to be exchanged, example: 
-
-**"EUR"**
+Currency ISO to be exchanged, example: **"EUR"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_amount" type="string" %}
-Amount you want to calculate, example: 
-
-**"3".**
-
- The parameter is required when the "receiver_amount" parameter is absent
+Amount you want to calculate, example: **"3".** The parameter is required when the "receiver\_amount" parameter is absent
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Example of success response" %}
@@ -506,43 +448,25 @@ Make exchange on a given fixed exchange rate.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="sender_currency" type="string" %}
-Currency ISO which you want to exchange, example: 
-
-**"LTC"**
+Currency ISO which you want to exchange, example: **"LTC"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="receiver_currency" type="string" %}
-Currency ISO to be exchanged, example: 
-
-**"USD"**
+Currency ISO to be exchanged, example: **"USD"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_amount" type="string" %}
-Amount you want to exchange, example: 
-
-**"6.5"**
-
-\
-
-
-**Please note:**
-
-\
-
-
+Amount you want to exchange, example: **"6.5"**\
+**Please note:**\
 That this value shall be the same as the value specified in the exchange/calculate request
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
-Unique foreign ID in your system, example: 
-
-**"134453"**
+Unique foreign ID in your system, example: **"134453"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="price" type="string" %}
-Exchange rate price on which exchange will be placed, example: 
-
-**"89.75202000"**
+Exchange rate price on which exchange will be placed, example: **"89.75202000"**
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response" %}
@@ -572,27 +496,19 @@ Make exchange without mentioning the price.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="sender_currency" type="string" %}
-Currency ISO which you want to exchange, example: 
-
-**"EUR"**
+Currency ISO which you want to exchange, example: **"EUR"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="receiver_currency" type="string" %}
-Currency ISO to be exchanged, example: 
-
-**"BTC"**
+Currency ISO to be exchanged, example: **"BTC"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_amount" type="string" %}
-Amount you want to exchange, example: 
-
-**"2"**
+Amount you want to exchange, example: **"2"**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
-Unique foreign ID in your system, example: 
-
-**"124876"**
+Unique foreign ID in your system, example: **"124876"**
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response" %}
@@ -640,42 +556,14 @@ Invoice title that will be displayed to the user
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="type" type="string" %}
-There're a couple of sub-types of invoices:
-
+There're a couple of sub-types of invoices:\
 \
-
-
-
-
+1\. Standard\
+2\. With partial pay\
 \
-
-
-1\. Standard
-
+In order to create an invoice with partial pay a value of the "type" parameter shall be set to “good\_until\_expired“\
 \
-
-
-2\. With partial pay
-
-\
-
-
-
-
-\
-
-
-In order to create an invoice with partial pay a value of the "type" parameter shall be set to “good_until_expired“
-
-\
-
-
-
-
-\
-
-
-For standard invoices, the value would be either “fill_or_kill“ or you can avoid using the "type" parameter at all.
+For standard invoices, the value would be either “fill\_or\_kill“ or you can avoid using the "type" parameter at all.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="description" type="string" %}
@@ -683,41 +571,27 @@ Invoice description that will be displayed to the user
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="currency" type="string" required="true" %}
-ISO invoice currency that you want to receive from the user, for example: 
-
-**“EUR”**
+ISO invoice currency that you want to receive from the user, for example: **“EUR”**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="sender_currency" type="string" %}
-Currency of user invoice payment (3rd type invoice will be externalized at the time of sending this parameter with timer= true), example: 
-
-**“BTC“**
+Currency of user invoice payment (3rd type invoice will be externalized at the time of sending this parameter with timer= true), example: **“BTC“**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="amount" type="string" required="true" %}
-Invoice amount that you want to receive from the user, example: 
-
-**“106.75“**
+Invoice amount that you want to receive from the user, example: **“106.75“**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" required="true" %}
-Unique foreign ID in your system, example: "
-
-**164**
-
-"
+Unique foreign ID in your system, example: "**164**"
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="url_success" type="string" required="true" %}
-URL on which we redirect the user in case of a successful invoice payment, example: 
-
-**“https://merchant.name.com/url_success“**
+URL on which we redirect the user in case of a successful invoice payment, example: **“https://merchant.name.com/url\_success“**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="url_failed" type="string" required="true" %}
-URL on which we redirect the user in case of an unsuccessful invoice payment, example: 
-
-**“https://merchant.name.com/url_failed“**
+URL on which we redirect the user in case of an unsuccessful invoice payment, example: **“https://merchant.name.com/url\_failed“**
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="email_user" type="string" required="true" %}

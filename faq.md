@@ -65,3 +65,16 @@ Absolutely. Customer funds are stored in an offline cold wallet, which is protec
 Operational, or “hot” wallet, holds funds required for automated operations, such as multiple payments to your clients. This wallet holds the CoinsPaid operational funds. So we have you covered.
 
 Prior to integration, the operator decides how much money he wants to keep in our system, thereby setting storage limits. All funds exceeding these limits (bankroll) will be automatically transferred to the operator's external address.
+
+### What is a Destination Tag/Memo?
+
+A Destination Tag/Memo is an additional address feature necessary for identifying a transaction recipient beyond a wallet address.&#x20;
+
+**Why is this needed?**
+
+For cryptocurrencies that use destination tag/memo technology, one wallet address is used for several users. The tag/memo is used to determine the individual account a transaction should be credited to. For example**:** Wallet address + unique destination tag/memo = correct recipient.
+
+**What if I do not have a tag for an address?**
+
+The only exception to the requirement to include a destination tag/memo is when sending to a privately controlled (non-custodial) cryptocurrency wallet. In all other cases it is obligatory to include tag for XRP, BNB.
+
