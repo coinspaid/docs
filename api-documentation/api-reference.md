@@ -319,7 +319,7 @@ You are willing to let your customer fund his EUR balance on your platform or we
 
 * Make sure to use Bitcoin URI format bitcoin: in QR. Works the same way as "mailto:".
 * We do recommend making this QR clickable as customers may have a wallet set up on their computer or mobile phone.
-* We recommend specifying approximate current exchange rate.
+* We recommend specifying the approximate current exchange rate.
 
 {% swagger baseUrl="https://app.cryptoprocessing.com/api" path="/v2/withdrawal/crypto" method="post" summary="Withdraw cryptocurrency" %}
 {% swagger-description %}
@@ -461,6 +461,12 @@ Amount you want to exchange, example: **"6.5"**\
 That this value shall be the same as the value specified in the exchange/calculate request
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="receiver_amount" type="string" %}
+Amount you want to receive, example: **"10.5"**\
+**Please note:**\
+The parameter is required when the "sender\_amount" parameter is absent
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
 Unique foreign ID in your system, example: **"134453"**
 {% endswagger-parameter %}
@@ -505,6 +511,12 @@ Currency ISO to be exchanged, example: **"BTC"**
 
 {% swagger-parameter in="body" name="sender_amount" type="string" %}
 Amount you want to exchange, example: **"2"**
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" type="string" name="receiver_amount" %}
+Amount you want to receive, example: **"10.5"**\
+**Please note:**\
+The parameter is required when the "sender\_amount" parameter is absent
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
