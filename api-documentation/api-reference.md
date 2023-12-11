@@ -330,7 +330,7 @@ Withdraw in crypto to any specified address. You can send Cryptocurrency from yo
 Unique foreign ID in your system, example: "**122929**"
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="amount" type="string" %}
+{% swagger-parameter in="body" name="amount" type="numeric" %}
 Amount of funds to withdraw, example: **"1"**
 {% endswagger-parameter %}
 
@@ -348,6 +348,10 @@ Cryptocurrency address where you want to send funds.
 
 {% swagger-parameter in="body" name="tag" type="string" %}
 If it’s XRP or BNB, both an address and a tag/memo are required to send cryptocurrency. If you send funds without a tag/memo or with an incorrect Tag/Memo, your funds may be lost (for more info go to FAQ).
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="amount_to" type="numeric" %}
+Amount of funds to send in the transaction in the convert\_to currency, for example: **0.01**
 {% endswagger-parameter %}
 
 {% swagger-response status="201" description="Example of success response of withdraw without conversion" %}
@@ -386,7 +390,7 @@ Get info about exchange rates.\
 Please note, this endpoint has limitation **up to 30 requests per minute** from one IP address, in case this amount is exceeded a new successful response can only be obtained after one minute break.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="receiver_amount" type="string" %}
+{% swagger-parameter in="body" name="receiver_amount" type="numeric" %}
 Amount you want to calculate for getting, example: **"10".** The parameter is required when the "sender\_amount" parameter is absent
 {% endswagger-parameter %}
 
@@ -398,7 +402,7 @@ Currency ISO for which you want to calculate the exchange rate, example: **"BTC"
 Currency ISO to be exchanged, example: **"EUR"**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sender_amount" type="string" %}
+{% swagger-parameter in="body" name="sender_amount" type="numeric" %}
 Amount you want to calculate, example: **"3".** The parameter is required when the "receiver\_amount" parameter is absent
 {% endswagger-parameter %}
 
@@ -455,23 +459,23 @@ Currency ISO which you want to exchange, example: **"LTC"**
 Currency ISO to be exchanged, example: **"USD"**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sender_amount" type="string" %}
-Amount you want to exchange, example: **"6.5"**\
+{% swagger-parameter in="body" name="sender_amount" type="numeric" %}
+Amount you want to exchange, example: **"6.5"**. This parameter is required when the `receiver_amount` parameter is absent.
+
+\
 **Please note:**\
 That this value shall be the same as the value specified in the exchange/calculate request
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="receiver_amount" type="string" %}
-Amount you want to receive, example: **"10.5"**\
-**Please note:**\
-The parameter is required when the "sender\_amount" parameter is absent
+{% swagger-parameter in="body" name="receiver_amount" type="numeric" %}
+Amount you want to exchange, example: **"6.5"**. This parameter is required when the `sender_amount` parameter is absent.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
 Unique foreign ID in your system, example: **"134453"**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="price" type="string" %}
+{% swagger-parameter in="body" name="price" type="numeric" %}
 Exchange rate price on which exchange will be placed, example: **"89.75202000"**
 {% endswagger-parameter %}
 
@@ -509,14 +513,12 @@ Currency ISO which you want to exchange, example: **"EUR"**
 Currency ISO to be exchanged, example: **"BTC"**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sender_amount" type="string" %}
-Amount you want to exchange, example: **"2"**
+{% swagger-parameter in="body" name="sender_amount" type="numeric" %}
+Amount you want to exchange, example: **"2"**.  This parameter is required when the `receiver_amount` parameter is absent.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="string" name="receiver_amount" %}
-Amount you want to receive, example: **"10.5"**\
-**Please note:**\
-The parameter is required when the "sender\_amount" parameter is absent
+{% swagger-parameter in="body" name="receiver_amount" type="numeric" %}
+Amount you want to exchange, example: **"2"**. This parameter is required when the `sender_amount` parameter is absent.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="foreign_id" type="string" %}
@@ -590,7 +592,7 @@ ISO invoice currency that you want to receive from the user, for example: **“E
 Currency of user invoice payment (3rd type invoice will be externalized at the time of sending this parameter with timer= true), example: **“BTC“**
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="amount" type="string" required="true" %}
+{% swagger-parameter in="body" name="amount" type="numeric" required="true" %}
 Invoice amount that you want to receive from the user, example: **“106.75“**
 {% endswagger-parameter %}
 
