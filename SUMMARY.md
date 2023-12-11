@@ -7,7 +7,6 @@
   * [Withdrawals](integration-guide/withdrawals.md)
   * [Exchanges](integration-guide/exchanges.md)
   * [Callbacks](integration-guide/callbacks.md)
-  * [Payment Terminal](integration-guide/payment-terminal.md)
   * [Invoices](integration-guide/invoices.md)
 * [API Documentation](api-documentation/README.md)
   * [Obtaining API Keys](api-documentation/obtaining-api-keys.md)

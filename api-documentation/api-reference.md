@@ -649,20 +649,6 @@ In case the payment amount does not match the amount stated above, we will send 
 {% endswagger-response %}
 {% endswagger %}
 
-## Payment terminal JSON parameters
-
-A set of parameter included in URL that will allow to redirect a user to Payment Terminal. For more info navigate through [this section of documentation](../integration-guide/payment-terminal.md).
-
-| **Name**    | **Description**                                                                                                                                                                                       | **Optionality** | **Type** |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | -------- |
-| client\_id  | This is a unique ID that’s generated on the side of CoinsPaid                                                                                                                                         | Required        | int      |
-| currency    | ISO of a currency to receive funds in, example: **BTC**                                                                                                                                               | Required        | string   |
-| amount      | Amount of funds to withdraw, example: "**3500**"                                                                                                                                                      | Optional        | numeric  |
-| convert\_to | In case you need on-the-fly exchange of all incoming funds (e.g. to EUR) specify this parameter as EUR or any other supported currency ISO, to see the list of available pairs check the method above | Optional        | string   |
-| is\_iframe  | The parameter that allows you to get an iframe-link (false by default).                                                                                                                               | Optional        | boolean  |
-| foreign\_id | Unique foreign ID in your system, example: "**164**"                                                                                                                                                  | Required        | string   |
-| url\_back   | A link that allows you to get a user back to your system                                                                                                                                              | Optional        | url      |
-
 ## Transaction statuses
 
 | Status         | Meaning                                                                                                                                                                           |
