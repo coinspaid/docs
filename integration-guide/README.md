@@ -26,14 +26,6 @@ In this section we would like to share our knowledge of how to work with cryptoc
 [callbacks.md](callbacks.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="invoices.md" %}
 [invoices.md](invoices.md)
 {% endcontent-ref %}
